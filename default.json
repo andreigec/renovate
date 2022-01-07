@@ -26,7 +26,11 @@
     },
     {
       "groupName": "exclude",
-      "matchPackageNames": ["gatsby-plugin-ts-config", "react-scripts"],
+      "matchPackageNames": [
+        "gatsby-plugin-ts-config",
+        "react-scripts",
+        "openapi-request-validator"
+      ],
       "enabled": false
     }
   ],
