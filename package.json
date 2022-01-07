@@ -1,6 +1,19 @@
 {
-    "name": "renovate",
-    "version": "1.0.0",
-    "description": "",
-    "license": "ISC"
+  "name": "renovate",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "devDependencies": {
+    "renovate": "25.36.0",
+    "cross-env": "*",
+    "prettier": "2.3.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "cross-env RENOVATE_CONFIG_FILE=default renovate-config-validator"
+  }
 }

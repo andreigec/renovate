@@ -11,44 +11,27 @@
   "packageRules": [
     {
       "groupName": "other (major)",
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ]
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"]
     },
     {
       "groupName": "other",
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },
     {
       "groupName": "internal",
-      "matchPackageNames": [
-        "ag-common",
-        "analytica.click"
-      ],
+      "matchPackageNames": ["ag-common", "analytica.click"],
       "automerge": true
     },
     {
       "groupName": "exclude",
-      "matchPackageNames": [
-        "gatsby-plugin-ts-config",
-        "react-scripts"
-      ],
+      "matchPackageNames": ["gatsby-plugin-ts-config", "react-scripts"],
       "enabled": false
     }
   ],
-  "postUpdateOptions": [
-    "yarnDedupeHighest"
-  ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "prConcurrentLimit": 3,
   "prNotPendingHours": 1,
   "rangeStrategy": "auto",
