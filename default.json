@@ -1,0 +1,41 @@
+{
+  "extends": [
+    ":timezone(Australia/Melbourne)",
+    ":dependencyDashboard",
+    ":rebaseStalePrs"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "groupName": "other (major)",
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"]
+    },
+    {
+      "groupName": "other",
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "groupName": "internal",
+      "matchPackageNames": ["ag-common", "analytica.click"],
+      "automerge": true
+    },
+    {
+      "groupName": "exclude",
+      "matchPackageNames": ["gatsby-plugin-ts-config", "react-scripts"],
+      "enabled": false
+    }
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "prConcurrentLimit": 3,
+  "prNotPendingHours": 1,
+  "rangeStrategy": "auto",
+  "semanticCommitType": "deps",
+  "schedule": "before 7am",
+  "recreateClosed": true,
+  "automergeType": "branch"
+}
