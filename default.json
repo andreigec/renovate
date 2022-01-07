@@ -29,7 +29,8 @@
       "matchPackageNames": [
         "gatsby-plugin-ts-config",
         "react-scripts",
-        "openapi-request-validator"
+        "openapi-request-validator",
+        "rewire"
       ],
       "enabled": false
     }
