@@ -14,6 +14,6 @@
   },
   "scripts": {
     "format": "prettier --write .",
-    "test": "cross-env RENOVATE_CONFIG_FILE=default renovate-config-validator"
+    "test": "cross-env RENOVATE_CONFIG_FILE=renovate renovate-config-validator"
   }
 }
