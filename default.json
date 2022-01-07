@@ -42,5 +42,6 @@
   "semanticCommitType": "deps",
   "schedule": "before 7am",
   "recreateClosed": true,
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "assignees":["andreigec@hotmail.com"]
 }
