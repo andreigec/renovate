@@ -40,7 +40,8 @@
         "@typescript-eslint/eslint-plugin",
         "@typescript-eslint/parser"
       ],
-      "allowedVersions": "!/5.9.0$/"
+      "allowedVersions": "/5.9.0$/",
+      "enabled": false
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
