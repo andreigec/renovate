@@ -35,13 +35,8 @@
       "enabled": false
     },
     {
-      "groupName": "bad1",
-      "matchPackageNames": [
-        "@typescript-eslint/eslint-plugin",
-        "@typescript-eslint/parser"
-      ],
-      "allowedVersions": "/5.9.0$/",
-      "enabled": false
+      "groupName": "gatsby",
+      "matchPackagePatterns": ["gatsby", "gatsby-*"]
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
