@@ -11,7 +11,8 @@
     {
       "groupName": "other (major)",
       "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": ["major"],
+      "automerge": true
     },
     {
       "groupName": "other",
@@ -26,18 +27,30 @@
     },
     {
       "groupName": "gatsby",
-      "matchPackagePatterns": ["gatsby", "gatsby-*"]
+      "matchPackagePatterns": ["gatsby", "gatsby-*"],
+      "automerge": true
     },
     {
       "groupName": "eslint",
-      "matchPackagePatterns": ["eslint", "eslint-*"]
+      "matchPackagePatterns": ["eslint", "eslint-*"],
+      "automerge": true
     },
     {
       "groupName": "ts-eslint",
       "matchPackageNames": [
         "@typescript-eslint/eslint-plugin",
         "@typescript-eslint/parser"
-      ]
+      ],
+      "automerge": true
+    },
+    {
+      "groupName": "cdk",
+      "matchPackageNames": [
+        "aws-cdk",
+        "aws-cdk-lib",
+        "constructs"
+      ],
+      "automerge": true
     },
     {
       "groupName": "exclude",
