@@ -25,16 +25,6 @@
       "automerge": true
     },
     {
-      "groupName": "exclude",
-      "matchPackageNames": [
-        "gatsby-plugin-ts-config",
-        "react-scripts",
-        "openapi-request-validator",
-        "rewire"
-      ],
-      "enabled": false
-    },
-    {
       "groupName": "gatsby",
       "matchPackagePatterns": ["gatsby", "gatsby-*"]
     },
@@ -48,6 +38,14 @@
         "@typescript-eslint/eslint-plugin",
         "@typescript-eslint/parser"
       ]
+    },
+    {
+      "groupName": "exclude",
+      "matchPackageNames": [
+        "react-scripts",
+        "openapi-request-validator"
+      ],
+      "enabled": false
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
