@@ -1,3 +1,9 @@
 {
-  "extends": ["config:base"]
+  "labels": [
+    "renovate"
+  ],
+  "extends": [
+    "github>andreigec/renovate"
+  ],
+  "schedule": "before 7am"
 }
