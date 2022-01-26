@@ -36,14 +36,6 @@
       "automerge": true
     },
     {
-      "groupName": "ts-eslint",
-      "matchPackageNames": [
-        "@typescript-eslint/eslint-plugin",
-        "@typescript-eslint/parser"
-      ],
-      "automerge": true
-    },
-    {
       "groupName": "cdk",
       "matchPackageNames": [
         "aws-cdk",
