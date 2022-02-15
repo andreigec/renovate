@@ -1,9 +1,5 @@
 {
-  "labels": [
-    "renovate"
-  ],
-  "extends": [
-    "github>andreigec/renovate"
-  ],
+  "labels": ["renovate"],
+  "extends": ["github>andreigec/renovate"],
   "schedule": "before 7am"
 }

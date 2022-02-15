@@ -37,24 +37,18 @@
     },
     {
       "groupName": "cdk",
-      "matchPackageNames": [
-        "aws-cdk",
-        "aws-cdk-lib",
-        "constructs"
-      ],
+      "matchPackageNames": ["aws-cdk", "aws-cdk-lib", "constructs"],
       "automerge": true
     },
     {
       "groupName": "exclude",
-      "matchPackageNames": [
-        "react-scripts",
-        "openapi-request-validator"
-      ],
+      "matchPackageNames": ["react-scripts", "openapi-request-validator"],
       "enabled": false
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
-  "prConcurrentLimit": 3,
+  "prConcurrentLimit": 1,
+  "prHourlyLimit": 1,
   "prNotPendingHours": 1,
   "rangeStrategy": "auto",
   "semanticCommitType": "deps",
