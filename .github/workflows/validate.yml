@@ -1,7 +1,9 @@
 name: Validate
+concurrency:
+  group: 'main'
+  cancel-in-progress: true
 
 on: push
-
 jobs:
   validate:
     name: Lint & Test
