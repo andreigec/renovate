@@ -1,0 +1,60 @@
+{
+  "extends": [
+    ":timezone(Australia/Melbourne)",
+    ":dependencyDashboard",
+    ":rebaseStalePrs"
+  ],
+  // "lockFileMaintenance": {
+  //   "enabled": true
+  // },
+  "packageRules": [
+    // {
+    //   "groupName": "other (major)",
+    //   "matchPackagePatterns": ["*"],
+    //   "matchUpdateTypes": ["major"],
+    //   "automerge": true
+    // },
+    // {
+    //   "groupName": "other",
+    //   "matchPackagePatterns": ["*"],
+    //   "matchUpdateTypes": ["minor", "patch"],
+    //   "automerge": true
+    // },
+    // {
+    //   "groupName": "internal",
+    //   "matchPackageNames": ["ag-common", "analytica.click"],
+    //   "automerge": true
+    // },
+    // {
+    //   "groupName": "gatsby",
+    //   "matchPackagePatterns": ["gatsby", "gatsby-*"],
+    //   "automerge": true
+    // },
+    // {
+    //   "groupName": "eslint",
+    //   "matchPackagePatterns": ["eslint", "eslint-*"],
+    //   "automerge": true
+    // },
+    // {
+    //   "groupName": "cdk",
+    //   "matchPackageNames": ["aws-cdk", "aws-cdk-lib", "constructs"],
+    //   "automerge": true
+    // },
+    {
+      "groupName": "exclude",
+      "matchPackageNames": ["react-scripts", "openapi-request-validator"],
+      "enabled": false
+    }
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "prConcurrentLimit": 1,
+  "prHourlyLimit": 1,
+  "prNotPendingHours": 1,
+  "rangeStrategy": "auto",
+  "semanticCommitType": "deps",
+  "schedule": "before 7am",
+  "recreateClosed": true,
+  "automergeType": "branch",
+  "automerge": true,
+  "assignees": ["andreigec@hotmail.com"]
+}
