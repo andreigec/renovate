@@ -1,0 +1,25 @@
+{
+  "extends": [
+    ":timezone(Australia/Melbourne)",
+    ":dependencyDashboard",
+    ":rebaseStalePrs"
+  ],
+  "packageRules": [
+    {
+      "groupName": "exclude",
+      "matchPackageNames": ["react-scripts", "openapi-request-validator"],
+      "enabled": false
+    }
+  ],
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "prConcurrentLimit": 1,
+  "prHourlyLimit": 1,
+  "prNotPendingHours": 1,
+  "rangeStrategy": "auto",
+  "semanticCommitType": "deps",
+  "schedule": "before 7am",
+  "recreateClosed": true,
+  "automergeType": "branch",
+  "automerge": true,
+  "assignees": ["andreigec@hotmail.com"]
+}
