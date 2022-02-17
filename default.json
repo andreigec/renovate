@@ -6,6 +6,11 @@
   ],
   "packageRules": [
     {
+      "groupName": "all",
+      "matchPackagePatterns": ["*"],
+      "automerge": true
+    },
+    {
       "groupName": "exclude",
       "matchPackageNames": ["react-scripts", "openapi-request-validator"],
       "enabled": false
