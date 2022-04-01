@@ -14,12 +14,6 @@
       "groupName": "exclude",
       "matchPackageNames": ["openapi-request-validator"],
       "enabled": false
-    },
-    {
-      "groupName": "react",
-      "matchPackageNames": ["react", "react-dom"],
-      "matchUpdateTypes": ["major"],
-      "enabled": false
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
