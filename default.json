@@ -9,11 +9,6 @@
       "groupName": "all",
       "matchPackagePatterns": ["*"],
       "automerge": true
-    },
-    {
-      "groupName": "exclude",
-      "matchPackageNames": ["openapi-request-validator"],
-      "enabled": false
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
