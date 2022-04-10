@@ -9,6 +9,11 @@
       "groupName": "all",
       "matchPackagePatterns": ["*"],
       "automerge": true
+    },
+	{
+      "groupName": "react types",
+      "matchPackagePatterns": ["@types/react"],
+      "automerge": true
     }
   ],
   "postUpdateOptions": ["yarnDedupeHighest"],
