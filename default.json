@@ -10,9 +10,15 @@
       "matchPackagePatterns": ["*"],
       "automerge": true
     },
-	{
+    {
       "groupName": "react types",
       "matchPackagePatterns": ["@types/react"],
+      "enabled": false
+    },
+    {
+      "groupName": "node fetch",
+      "matchPackagePatterns": ["@types/node-fetch", "node-fetch"],
+      "matchUpdateTypes": ["major"],
       "enabled": false
     }
   ],
