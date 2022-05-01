@@ -3853,10 +3853,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.35.1:
-  version "32.35.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.35.1.tgz#27764147f7a5e3e6e074dbd65b2cb67e9b8f966b"
-  integrity sha512-P+3OZhvkURN5TvN41DXjoy2FOVDbupgK4uj5YERYqTe/ka8rS9uZlIOGiHyIACkoGrGl57LjhfyX0WkCUkEfwg==
+renovate@32.36.0:
+  version "32.36.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.36.0.tgz#6ab78261a26d15e81828418c3dea985ec7addfc0"
+  integrity sha512-gPBn+0fG7Kh/YSBPToi9uaLxgG7l84KOHfV1lvJOPeQrjCgjVWPVYmkYIjXBszGfYtNpIlNufXVAIrPlA7CrDg==
   dependencies:
     "@aws-sdk/client-ec2" "3.72.0"
     "@aws-sdk/client-ecr" "3.72.0"
@@ -3927,7 +3927,7 @@ renovate@32.35.1:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.0"
-    simple-git "3.7.0"
+    simple-git "3.7.1"
     slugify "1.6.5"
     traverse "0.6.6"
     tslib "2.4.0"
@@ -4119,10 +4119,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.7.0.tgz#b0aac4c2e6e8118c115460ed93d072cda966dd42"
-  integrity sha512-O9HlI83ywqkYqnr7Wh3CqKNNrMkfjzpKQSGtJAhk7+H5P+lAxHBTIPgu/eO/0D9pMciepgs433p0d5S+NYv5Jg==
+simple-git@3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.7.1.tgz#cb85c59da4da3d69792d206dd28cfbd803941fac"
+  integrity sha512-+Osjtsumbtew2y9to0pOYjNzSIr4NkKGBg7Po5SUtjQhaJf2QBmiTX/9E9cv9rmc7oUiSGFIB9e7ys5ibnT9+A==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
