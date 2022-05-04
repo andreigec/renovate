@@ -4,7 +4,7 @@
   "description": "",
   "license": "ISC",
   "devDependencies": {
-    "renovate": "32.38.0",
+    "renovate": "32.41.2",
     "cross-env": "*",
     "prettier": "2.6.2"
   },
