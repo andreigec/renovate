@@ -1714,10 +1714,10 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-azure-devops-node-api@11.1.1:
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.1.1.tgz#dd1356031fa4e334e016732594e8fee0f68268c4"
-  integrity sha512-XDG91XzLZ15reP12s3jFkKS8oiagSICjnLwxEYieme4+4h3ZveFOFRA4iYIG40RyHXsiI0mefFYYMFIJbMpWcg==
+azure-devops-node-api@11.2.0:
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-11.2.0.tgz#bf04edbef60313117a0507415eed4790a420ad6b"
+  integrity sha512-XdiGPhrpaT5J8wdERRKs5g8E0Zy1pvOYTli7z9E8nmOn3YGp4FhtjhrOyFmX/8veWCwdI69mCHKJw6l+4J/bHA==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
@@ -4082,10 +4082,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.111.2:
-  version "32.111.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.111.2.tgz#144581e5d29136b3d40c6c6f49617dbf6e8f0f44"
-  integrity sha512-wywl5CaH4kQA4IwVG+EURT7nu1zRXSInhK2RfjQQC2och8BXxilsb91nIN8c7R/tHvRkn3BxIp8U2mPWuG9vOQ==
+renovate@32.117.2:
+  version "32.117.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.117.2.tgz#b02b2d97c17a82d5371fb9a6682018fb2eccb479"
+  integrity sha512-2cdP98VdsDVo4c87VGdsLDcpQWB8NjMEYyGL5eP9HhCPZKG/m4hDfD+uX/JXU9Dw26j67MptdnA9hzRLrZU82Q==
   dependencies:
     "@aws-sdk/client-ec2" "3.112.0"
     "@aws-sdk/client-ecr" "3.112.0"
@@ -4101,7 +4101,7 @@ renovate@32.111.2:
     "@yarnpkg/core" "3.1.0"
     "@yarnpkg/parsers" "2.5.1"
     auth-header "1.0.0"
-    azure-devops-node-api "11.1.1"
+    azure-devops-node-api "11.2.0"
     bunyan "1.8.15"
     cacache "16.1.1"
     chalk "4.1.2"
@@ -4151,6 +4151,7 @@ renovate@32.111.2:
     p-map "4.0.0"
     p-queue "6.6.2"
     parse-link-header "2.0.0"
+    prettier "2.7.1"
     redis "4.2.0"
     remark "13.0.0"
     remark-github "10.1.0"
