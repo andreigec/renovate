@@ -2095,7 +2095,7 @@ core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
 
-cross-env@*:
+cross-env@7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
   integrity sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==
@@ -4143,10 +4143,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.240.4:
-  version "32.240.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.240.4.tgz#8765fc20f0f5341ea7b70536567873e6fe6abcf2"
-  integrity sha512-pLxZAWZTNryzZYbd0OGGDoaOcjxoYa0yRiCQ/qXYWjxrYPupCcoCbJ/4kzfwDqjJrFTnRATA8cdYbdK7gD/T/A==
+renovate@32.240.5:
+  version "32.240.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.240.5.tgz#b46ccccd8feeae9b4af8cfde337765e94cbdc318"
+  integrity sha512-1vvLW2d820lB7rTkd7jZ1EG0YvIPaEtZPPV1pNAYxHuaNXyJOmfpFdK5o7vb5lRbTnEc1NI17kK/OwGyjZAg4g==
   dependencies:
     "@aws-sdk/client-ec2" "3.155.0"
     "@aws-sdk/client-ecr" "3.154.0"
