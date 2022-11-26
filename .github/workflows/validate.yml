@@ -12,21 +12,40 @@ jobs:
       CI: true
       SKU_TELEMETRY: false
     steps:
-      - name: Check out repo
-        uses: actions/checkout@master
-        with:
-          lfs: true
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Set up Node.js 16.x
-        uses: actions/setup-node@master
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 16
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 6
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       - name: format
-        run: yarn format
+        run: pnpm format
 
       - name: test
-        run: yarn test
+        run: pnpm test
