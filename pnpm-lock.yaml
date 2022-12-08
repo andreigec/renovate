@@ -5,12 +5,12 @@ importers:
   .:
     specifiers:
       cross-env: 7.0.3
-      prettier: 2.8.0
-      renovate: 34.50.1
+      prettier: 2.8.1
+      renovate: 34.52.0
     devDependencies:
       cross-env: 7.0.3
-      prettier: 2.8.0
-      renovate: 34.50.1
+      prettier: 2.8.1
+      renovate: 34.52.0
 
 packages:
 
@@ -2921,7 +2921,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.1.0
+      minimatch: 5.1.1
       once: 1.4.0
     dev: true
 
@@ -3675,6 +3675,13 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
+  /minimatch/5.1.1:
+    resolution: {integrity: sha512-362NP+zlprccbEt/SkxKfRMHnNY85V74mVnpUpNyr3F35covl09Kec7/sEFLt3RA4oXmewtoaanoIf67SE5Y5g==}
+    engines: {node: '>=10'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: true
+
   /minimist-options/4.1.0:
     resolution: {integrity: sha512-Q4r8ghd80yhO/0j1O3B2BjweX3fiHg9cdOwjJd2J76Q135c+NDxGCqdYKQ1SKBuFfgWbAUzBfvYjPUEeNgqN1A==}
     engines: {node: '>= 6'}
@@ -4126,6 +4133,12 @@ packages:
     hasBin: true
     dev: true
 
+  /prettier/2.8.1:
+    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
   /pretty-bytes/5.6.0:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
@@ -4322,8 +4335,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.50.1:
-    resolution: {integrity: sha512-Fqk7ebg+G6iBLQxdG4iLURzE33qb37VdroOSH8kmWd75ymXY5ws78y3kcPvp2m1MWtwiXVVx4ItOkwqi5nV1uQ==}
+  /renovate/34.52.0:
+    resolution: {integrity: sha512-OFKbYr0uUlRqCp9MbOu9gP5Iqm1zYWpt4hr3ExIDOeCJdgP//0b0O3x+AFrjDkTYxwau/YOhz9Zz23laVWmlSA==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4398,7 +4411,7 @@ packages:
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
-      minimatch: 5.1.0
+      minimatch: 5.1.1
       moo: 0.5.2
       nanoid: 3.3.4
       node-html-parser: 6.1.4
@@ -4418,7 +4431,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.15.0
+      simple-git: 3.15.1
       slugify: 1.6.5
       traverse: 0.6.7
       tslib: 2.4.1
@@ -4621,8 +4634,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-git/3.15.0:
-    resolution: {integrity: sha512-FiWoMPlcYHQ+ApRihUsGjC/ZmIlWj62S6MBCwOunczvXcLQt+9ZdrysDrR6QVepkRQfEAaBXrN2QtJKrN6zbtg==}
+  /simple-git/3.15.1:
+    resolution: {integrity: sha512-73MVa5984t/JP4JcQt0oZlKGr42ROYWC3BcUZfuHtT3IHKPspIvL0cZBnvPXF7LL3S/qVeVHVdYYmJ3LOTw4Rg==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
