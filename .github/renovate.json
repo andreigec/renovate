@@ -1,0 +1,8 @@
+{
+  "labels": [
+    "renovate"
+  ],
+  "extends": [
+    "github>andreigec/renovate"
+  ]
+}
