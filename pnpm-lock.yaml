@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.57.0
+      renovate: 34.60.0
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.57.0
+      renovate: 34.60.0
 
 packages:
 
@@ -1683,14 +1683,14 @@ packages:
       '@seald-io/nedb': 3.1.0
     dev: true
 
-  /@renovatebot/osv-offline/1.0.7:
-    resolution: {integrity: sha512-f84i96ECTwn7l+q+GAiJkVmr+bq34BqLmSiTz0nhZMwDhIDioJthmRpkwe9101E3ui1tRivkpRLFprMfly1sGQ==}
+  /@renovatebot/osv-offline/1.0.8:
+    resolution: {integrity: sha512-oYryh9uttikbaYhcoiJn8DBMjgxbneu9NvVF5PnG7qrUDYr7KIrlxdOlo8vQ2iytT1qd8+VzOLDoJReu1EL1Ag==}
     dependencies:
       '@octokit/rest': 19.0.5
       '@renovatebot/osv-offline-db': 1.0.1
       adm-zip: 0.5.9
       fs-extra: 10.1.0
-      got: 11.8.5
+      got: 11.8.6
       luxon: 3.1.1
     transitivePeerDependencies:
       - encoding
@@ -1897,7 +1897,7 @@ packages:
       cross-spawn: 7.0.3
       diff: 5.1.0
       globby: 11.1.0
-      got: 11.8.5
+      got: 11.8.6
       json-file-plus: 3.3.1
       lodash: 4.17.21
       micromatch: 4.0.5
@@ -2971,8 +2971,8 @@ packages:
       get-intrinsic: 1.1.3
     dev: true
 
-  /got/11.8.5:
-    resolution: {integrity: sha512-o0Je4NvQObAuZPHLFoRSkdG2lTgtcynqymzg2Vupdx6PorhaT5MCbIyXG6d4D94kk8ZG57QeosgdiqfJWhEhlQ==}
+  /got/11.8.6:
+    resolution: {integrity: sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==}
     engines: {node: '>=10.19.0'}
     dependencies:
       '@sindresorhus/is': 4.6.0
@@ -4336,8 +4336,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.57.0:
-    resolution: {integrity: sha512-JuNBhfF2KWz6nD3iUJnSLCSTM9w2wUGjbEFvqLWrvkTAcovbzJyPghDZEryed+yRznkokJzkveesozqFKO3P2w==}
+  /renovate/34.60.0:
+    resolution: {integrity: sha512-iFw4benHTvA4cH7tBRFjdRggjhIwINUxsreXgkmWKgoPeufRhMCMNREcSLTTKB9Tm0m86AbNfsmHa/snfh3ycg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4360,7 +4360,7 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/sdk-trace-node': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/semantic-conventions': 1.8.0
-      '@renovatebot/osv-offline': 1.0.7
+      '@renovatebot/osv-offline': 1.0.8
       '@renovatebot/pep440': 2.1.5
       '@renovatebot/ruby-semver': 1.1.7
       '@sindresorhus/is': 4.6.0
@@ -4398,7 +4398,7 @@ packages:
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
       good-enough-parser: 1.1.21
-      got: 11.8.5
+      got: 11.8.6
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
       hasha: 5.2.2
