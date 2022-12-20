@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.64.0
+      renovate: 34.66.1
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.64.0
+      renovate: 34.66.1
 
 packages:
 
@@ -4411,8 +4411,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.64.0:
-    resolution: {integrity: sha512-7+IT3s7wt5xOzB4WFyA8RQUUr3zxrQiyB6Fgi+XVoIVA1KrJjtFoCfmdFBX8jGAqvQRyb8Uqts/xMrPmXyABqA==}
+  /renovate/34.66.1:
+    resolution: {integrity: sha512-k89XkPw34wTff32DyG55PLdHJvSiW2AGrVfhIqiZPp/zHZZmpKL8Hi5fcBhy/OEya5RPzp9J0bQ5rI3SeeTKxQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4515,7 +4515,7 @@ packages:
       url-join: 4.0.1
       validate-npm-package-name: 5.0.0
       xmldoc: 1.2.0
-      zod: 3.20.0
+      zod: 3.20.2
     optionalDependencies:
       re2: 1.18.0
     transitivePeerDependencies:
@@ -5284,8 +5284,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod/3.20.0:
-    resolution: {integrity: sha512-ZWxs7oM5ixoo1BMoxTNeDMYSih/F/FUnExsnRtHT04rG6q0Bd74TKS45RGXw07TOalOZyyzdKaYH38k8yTEv9A==}
+  /zod/3.20.2:
+    resolution: {integrity: sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==}
     dev: true
 
   /zwitch/1.0.5:
