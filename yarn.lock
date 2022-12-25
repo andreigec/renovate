@@ -4517,10 +4517,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@34.72.3:
-  version "34.72.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.72.3.tgz#733c43447bbddc231ea72bbabcab9abd16036292"
-  integrity sha512-p/hAd+BuVK5R83mWlg+a5bdYQkY3lobPB1W4f+3AkPVmVHD2tVL9U60zuPnc2F5nDZGpwFrD+SqZ85rNKAwJRQ==
+renovate@34.73.1:
+  version "34.73.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.73.1.tgz#f1b283a0ba6c64ef72e42c92258ad295a421e4e1"
+  integrity sha512-b29efxTGvQvfnZrowoPe9GFeDiIfYw/sOHV6X4imP5UKwHuUCbOZCucXgbjC0hp191N7ag5AZQ40PZr7bWXM3w==
   dependencies:
     "@aws-sdk/client-codecommit" "3.226.0"
     "@aws-sdk/client-ec2" "3.226.0"
