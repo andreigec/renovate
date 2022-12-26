@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.73.1
+      renovate: 34.73.3
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.73.1
+      renovate: 34.73.3
 
 packages:
 
@@ -3037,7 +3037,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.2.12
-      ignore: 5.2.1
+      ignore: 5.2.2
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -3217,8 +3217,8 @@ packages:
     dev: true
     optional: true
 
-  /ignore/5.2.1:
-    resolution: {integrity: sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==}
+  /ignore/5.2.2:
+    resolution: {integrity: sha512-m1MJSy4Z2NAcyhoYpxQeBsc1ZdNQwYjN0wGbLBlnVArdJ90Gtr8IhNSfZZcCoR0fM/0E0BJ0mf1KnLNDOCJP4w==}
     engines: {node: '>= 4'}
     dev: true
 
@@ -4422,8 +4422,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.73.1:
-    resolution: {integrity: sha512-b29efxTGvQvfnZrowoPe9GFeDiIfYw/sOHV6X4imP5UKwHuUCbOZCucXgbjC0hp191N7ag5AZQ40PZr7bWXM3w==}
+  /renovate/34.73.3:
+    resolution: {integrity: sha512-mTIiX3bLJ0feTjnwKv4t/i9LnJgwS6Sy6Za95AwXgZS+dUqey+AJ/Zd2A81NIiQl80Dx/scec0IWR0lz6VI+5Q==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4488,7 +4488,7 @@ packages:
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
       hasha: 5.2.2
-      ignore: 5.2.1
+      ignore: 5.2.2
       ini: 3.0.1
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
