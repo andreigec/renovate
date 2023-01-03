@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.78.0
+      renovate: 34.81.0
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.1
-      renovate: 34.78.0
+      renovate: 34.81.0
 
 packages:
 
@@ -1670,7 +1670,7 @@ packages:
       '@pnpm/write-project-manifest': 4.1.1
       fast-deep-equal: 3.1.3
       is-windows: 1.0.2
-      json5: 2.2.2
+      json5: 2.2.3
       parse-json: 5.2.0
       read-yaml-file: 2.1.0
       sort-keys: 4.2.0
@@ -1700,7 +1700,7 @@ packages:
     dependencies:
       '@pnpm/text.comments-parser': 1.0.0
       '@pnpm/types': 8.9.0
-      json5: 2.2.2
+      json5: 2.2.3
       write-file-atomic: 5.0.0
       write-yaml-file: 4.2.0
     dev: true
@@ -1760,12 +1760,12 @@ packages:
       '@seald-io/nedb': 3.1.0
     dev: true
 
-  /@renovatebot/osv-offline/1.0.8:
-    resolution: {integrity: sha512-oYryh9uttikbaYhcoiJn8DBMjgxbneu9NvVF5PnG7qrUDYr7KIrlxdOlo8vQ2iytT1qd8+VzOLDoJReu1EL1Ag==}
+  /@renovatebot/osv-offline/1.0.9:
+    resolution: {integrity: sha512-dZoKJT1QVpoN6F8v1S7mW0R1A+gDY5xA6xkdWpn6iuPxl1VazDdvrA/wNa5IYNUMH69ofI15f9oZwHSoiORaaw==}
     dependencies:
       '@octokit/rest': 19.0.5
       '@renovatebot/osv-offline-db': 1.0.1
-      adm-zip: 0.5.9
+      adm-zip: 0.5.10
       fs-extra: 10.1.0
       got: 11.8.6
       luxon: 3.1.1
@@ -2053,8 +2053,8 @@ packages:
     dev: true
     optional: true
 
-  /adm-zip/0.5.9:
-    resolution: {integrity: sha512-s+3fXLkeeLjZ2kLjCBwQufpI5fuN+kIGBxu6530nVQZGVol0d7Y/M88/xw9HGGUcJjKf8LutN3VPRUBq6N7Ajg==}
+  /adm-zip/0.5.10:
+    resolution: {integrity: sha512-x0HvcHqVJNTPk/Bw8JbLWlWoo6Wwnsug0fnYYro1HBrjxZ3G7/AZk7Ahv8JwDe1uIcz8eBqvu86FuF1POiG7vQ==}
     engines: {node: '>=6.0'}
     dev: true
 
@@ -3460,8 +3460,8 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: true
 
-  /json5/2.2.2:
-    resolution: {integrity: sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==}
+  /json5/2.2.3:
+    resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
     hasBin: true
     dev: true
@@ -4422,8 +4422,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.78.0:
-    resolution: {integrity: sha512-giM6YKUkkLblPgiXBnuXebSvg9O925jZvtAXLOedXSCcAKpKIKxCivTBVGKbzLWPvuqGXbnYzgEslTpzIQopaw==}
+  /renovate/34.81.0:
+    resolution: {integrity: sha512-7JMntROGxxLNROl6R6SX719Gk5/emHFG1rNeBJUwPAG0qhvjvPAp9HQAmB/bbcSMSTTMrNaorqgt+QnDjIQpYQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4446,7 +4446,7 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/sdk-trace-node': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/semantic-conventions': 1.8.0
-      '@renovatebot/osv-offline': 1.0.8
+      '@renovatebot/osv-offline': 1.0.9
       '@renovatebot/pep440': 2.1.6
       '@renovatebot/ruby-semver': 1.1.7
       '@sindresorhus/is': 4.6.0
@@ -4493,7 +4493,7 @@ packages:
       js-yaml: 4.1.0
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
-      json5: 2.2.2
+      json5: 2.2.3
       luxon: 3.1.1
       markdown-it: 13.0.1
       markdown-table: 2.0.0
