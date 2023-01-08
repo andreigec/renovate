@@ -5,12 +5,12 @@ importers:
   .:
     specifiers:
       cross-env: 7.0.3
-      prettier: 2.8.1
-      renovate: 34.81.0
+      prettier: 2.8.2
+      renovate: 34.94.0
     devDependencies:
       cross-env: 7.0.3
-      prettier: 2.8.1
-      renovate: 34.81.0
+      prettier: 2.8.2
+      renovate: 34.94.0
 
 packages:
 
@@ -1760,15 +1760,15 @@ packages:
       '@seald-io/nedb': 3.1.0
     dev: true
 
-  /@renovatebot/osv-offline/1.0.9:
-    resolution: {integrity: sha512-dZoKJT1QVpoN6F8v1S7mW0R1A+gDY5xA6xkdWpn6iuPxl1VazDdvrA/wNa5IYNUMH69ofI15f9oZwHSoiORaaw==}
+  /@renovatebot/osv-offline/1.0.10:
+    resolution: {integrity: sha512-xEn+c2a2SQV92JaFCTzV/zvXuFAXG6W0d05sR398qJGkEfhZLo6y9FvaWJirQi24vRXjpzdUmB9CXtzR36s1fg==}
     dependencies:
       '@octokit/rest': 19.0.5
       '@renovatebot/osv-offline-db': 1.0.1
       adm-zip: 0.5.10
       fs-extra: 10.1.0
       got: 11.8.6
-      luxon: 3.1.1
+      luxon: 3.2.0
     transitivePeerDependencies:
       - encoding
     dev: true
@@ -3042,8 +3042,8 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /good-enough-parser/1.1.21:
-    resolution: {integrity: sha512-XkTm6NC2z0AGkaTI3dgmNMgPoKC51Mu+TIXUyAWmp8xk5iC+6+JKBaQRwfr3/UNsU09VdPFdjMnjks/FWpU+Gw==}
+  /good-enough-parser/1.1.22:
+    resolution: {integrity: sha512-fI4qWIeyqjleGazMcXnqgtvG8qBJGUoj5CtraqaUpZmk94ztMab6irx3Yz+EsJKKgIrwkSBM69WHLngfhAe7hg==}
     dependencies:
       '@thi.ng/zipper': 1.0.3
       '@types/moo': 0.5.5
@@ -3555,8 +3555,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /luxon/3.1.1:
-    resolution: {integrity: sha512-Ah6DloGmvseB/pX1cAmjbFvyU/pKuwQMQqz7d0yvuDlVYLTs2WeDHQMpC8tGjm1da+BriHROW/OEIT/KfYg6xw==}
+  /luxon/3.2.0:
+    resolution: {integrity: sha512-Namj3XqoJjFekq/JHQEaaAv4zyE/fyyDBrMEBnIL2s/X54SC8W5Ea0uej1TRXUArWec8OojsAVsGBYhNRjpMVw==}
     engines: {node: '>=12'}
     dev: true
 
@@ -4226,6 +4226,12 @@ packages:
     hasBin: true
     dev: true
 
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
   /pretty-bytes/5.6.0:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
@@ -4422,8 +4428,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.81.0:
-    resolution: {integrity: sha512-7JMntROGxxLNROl6R6SX719Gk5/emHFG1rNeBJUwPAG0qhvjvPAp9HQAmB/bbcSMSTTMrNaorqgt+QnDjIQpYQ==}
+  /renovate/34.94.0:
+    resolution: {integrity: sha512-fD+ioYU4UB6QRRX1dL3OZx2EzR85WKvAjZnUyApehYGOwRvaJXmRCVu61pXzE5ivAaIi31fmji3Ehhkm9mYe6Q==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4446,7 +4452,7 @@ packages:
       '@opentelemetry/sdk-trace-base': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/sdk-trace-node': 1.8.0_@opentelemetry+api@1.3.0
       '@opentelemetry/semantic-conventions': 1.8.0
-      '@renovatebot/osv-offline': 1.0.9
+      '@renovatebot/osv-offline': 1.0.10
       '@renovatebot/pep440': 2.1.6
       '@renovatebot/ruby-semver': 1.1.7
       '@sindresorhus/is': 4.6.0
@@ -4483,7 +4489,7 @@ packages:
       git-url-parse: 13.1.0
       github-url-from-git: 1.5.0
       global-agent: 3.0.0
-      good-enough-parser: 1.1.21
+      good-enough-parser: 1.1.22
       got: 11.8.6
       graph-data-structure: 2.0.0
       handlebars: 4.7.7
@@ -4494,7 +4500,7 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
-      luxon: 3.1.1
+      luxon: 3.2.0
       markdown-it: 13.0.1
       markdown-table: 2.0.0
       marshal: 0.5.4
@@ -4513,7 +4519,7 @@ packages:
       redis: 4.5.1
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.1
+      safe-stable-stringify: 2.4.2
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -4632,8 +4638,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.4.1:
-    resolution: {integrity: sha512-dVHE6bMtS/bnL2mwualjc6IxEv1F+OCUpA46pKUj6F8uDbUM0jCCulPqRNPSnWwGNKx5etqMjZYdXtrm5KJZGA==}
+  /safe-stable-stringify/2.4.2:
+    resolution: {integrity: sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==}
     engines: {node: '>=10'}
     dev: true
 
