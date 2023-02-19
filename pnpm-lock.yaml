@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.4
-      renovate: 34.145.1
+      renovate: 34.146.0
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.4
-      renovate: 34.145.1
+      renovate: 34.146.0
 
 packages:
 
@@ -4465,8 +4465,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/34.145.1:
-    resolution: {integrity: sha512-elaZ9OTmtXPSKK40ktV1sQHJo62TmHjPxtDjDB2sD5EZFjQ+gLsdaRS8Z0hUOf5xryiDCcmWLmy2mY7K/Lf4pg==}
+  /renovate/34.146.0:
+    resolution: {integrity: sha512-/QwUxmxl3G6zaDXeNIIqUVcG6J+zJ+AFhXks/O+jMRd/8AgH8kdluMUJLI6QeSkW9JVLRtx48eRMyr4gSo6Cmg==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
