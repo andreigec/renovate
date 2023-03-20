@@ -4345,6 +4345,11 @@ prettier@2.8.4:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
   integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
+prettier@2.8.5:
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.5.tgz#3dd8ae1ebddc4f6aa419c9b64d8c8319a7e0d982"
+  integrity sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==
+
 pretty-bytes@^5.1.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
@@ -4545,10 +4550,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@35.13.0:
-  version "35.13.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.13.0.tgz#16091572ad5abc3b244bd6e39b0ee001807f8d27"
-  integrity sha512-cQHB4nXTxLscEKwhdL0xPes8fRs0zdmq++DGgJQXWDNVNOV1oNnGsx4ZxJCEnJUa71i8At7BPViG8LeijN17Tw==
+renovate@35.14.2:
+  version "35.14.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.14.2.tgz#873437d9c7163fe58e81f539d983dc160c0daecd"
+  integrity sha512-84fSVGjDi0dxJ3APv3LPn8avZJzrLaAjmJma5JURxTyPO1TE2d74YrvWyYNiQJWRhcjse86E8iyZEGGxb0wxzw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.290.0"
     "@aws-sdk/client-ec2" "3.291.0"

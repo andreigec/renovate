@@ -5,12 +5,12 @@ importers:
   .:
     specifiers:
       cross-env: 7.0.3
-      prettier: 2.8.4
-      renovate: 35.13.0
+      prettier: 2.8.5
+      renovate: 35.14.2
     devDependencies:
       cross-env: 7.0.3
-      prettier: 2.8.4
-      renovate: 35.13.0
+      prettier: 2.8.5
+      renovate: 35.14.2
 
 packages:
 
@@ -4247,6 +4247,12 @@ packages:
     hasBin: true
     dev: true
 
+  /prettier/2.8.5:
+    resolution: {integrity: sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
+
   /pretty-bytes/5.6.0:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
@@ -4447,8 +4453,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.13.0:
-    resolution: {integrity: sha512-cQHB4nXTxLscEKwhdL0xPes8fRs0zdmq++DGgJQXWDNVNOV1oNnGsx4ZxJCEnJUa71i8At7BPViG8LeijN17Tw==}
+  /renovate/35.14.2:
+    resolution: {integrity: sha512-84fSVGjDi0dxJ3APv3LPn8avZJzrLaAjmJma5JURxTyPO1TE2d74YrvWyYNiQJWRhcjse86E8iyZEGGxb0wxzw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
