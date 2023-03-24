@@ -5,12 +5,12 @@ importers:
   .:
     specifiers:
       cross-env: 7.0.3
-      prettier: 2.8.6
-      renovate: 35.19.0
+      prettier: 2.8.7
+      renovate: 35.20.0
     devDependencies:
       cross-env: 7.0.3
-      prettier: 2.8.6
-      renovate: 35.19.0
+      prettier: 2.8.7
+      renovate: 35.20.0
 
 packages:
 
@@ -2621,8 +2621,8 @@ packages:
       mimic-response: 3.1.0
     dev: true
 
-  /deepmerge/4.3.0:
-    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
+  /deepmerge/4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4261,8 +4261,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.8.6:
-    resolution: {integrity: sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -4467,8 +4467,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.19.0:
-    resolution: {integrity: sha512-rqruZPg3ayuwOJesI+zuufgHspGgHeYTj/7qlaQCzof/41oqTWY4QaR5CzwoxOXkEcX7px88gPE0zCusafvLgg==}
+  /renovate/35.20.0:
+    resolution: {integrity: sha512-nU0DfAAe37ebT9ONaO+/4sWhjmfuiC8xs/f/bqZQ+RSTvB+Q2SZjT119bajV8bPzJ4kYvxtriN8FsIAgCaAYJw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4514,7 +4514,7 @@ packages:
       commander: 10.0.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
