@@ -1734,10 +1734,10 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-2.1.13.tgz#d630989b6abf9dd001edc526cf3e821450e6e45d"
   integrity sha512-PFnG9X7on77Gp9FPdossWfvDL6QTg1MafZP3hdKafo3n6SP89wiyZmjFVaQwlRlE5cEmZQwh11dE8Oos9H2paw==
 
-"@renovatebot/ruby-semver@2.1.9":
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-2.1.9.tgz#6edb8232a50d833157b17c8914468d3e301163dd"
-  integrity sha512-44udvdctC5SCjlPYIcyf7vDARlXE3tVRTfZ6/OHcSNBt5WCfMljP5T7QLekCslHZjXgPoep33TURuOfeLrV3Ag==
+"@renovatebot/ruby-semver@2.1.10":
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-2.1.10.tgz#3465e3818239e21a980e9b8acd90ffc323d417a3"
+  integrity sha512-k9GE1cYAYWH5zJpePf4m6GEOZaT/5dh6ETTnV4TQthqufaKpIg9m6ZoxzKhKfuwPo5PlprWh8gyYXjYpN2TkhA==
   dependencies:
     tslib "^2.5.0"
 
@@ -4559,10 +4559,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@35.20.0:
-  version "35.20.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.20.0.tgz#1e4237e1ee10fd8f949c5794af94b074290c2869"
-  integrity sha512-nU0DfAAe37ebT9ONaO+/4sWhjmfuiC8xs/f/bqZQ+RSTvB+Q2SZjT119bajV8bPzJ4kYvxtriN8FsIAgCaAYJw==
+renovate@35.23.4:
+  version "35.23.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.23.4.tgz#f6b4f4d0fb029d2b4f7b99453dbbd49e4c4d8f08"
+  integrity sha512-RMsW6YHqpy8NrYYgE/BAXPKzdALhtueBLlYNyUW2wsrbHBgAgL2bXrbGTgGbDQ67G0ObP8kf7+9NfHshdX4dgA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.290.0"
     "@aws-sdk/client-ec2" "3.291.0"
@@ -4586,7 +4586,7 @@ renovate@35.20.0:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/osv-offline" "1.2.2"
     "@renovatebot/pep440" "2.1.13"
-    "@renovatebot/ruby-semver" "2.1.9"
+    "@renovatebot/ruby-semver" "2.1.10"
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.31"
     "@types/tmp" "0.2.3"
@@ -4653,7 +4653,7 @@ renovate@35.20.0:
     redis "4.6.5"
     remark "13.0.0"
     remark-github "10.1.0"
-    safe-stable-stringify "2.4.2"
+    safe-stable-stringify "2.4.3"
     semver "7.3.8"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
@@ -4774,10 +4774,10 @@ safe-json-stringify@~1:
   resolved "https://registry.yarnpkg.com/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz#356e44bc98f1f93ce45df14bcd7c01cda86e0afd"
   integrity sha512-gH8eh2nZudPQO6TytOvbxnuhYBOvDBBLW52tz5q6X58lJcd/tkmqFR+5Z9adS8aJtURSXWThWy/xJtJwixErvg==
 
-safe-stable-stringify@2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.4.2.tgz#ec7b037768098bf65310d1d64370de0dc02353aa"
-  integrity sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==
+safe-stable-stringify@2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.4.3.tgz#138c84b6f6edb3db5f8ef3ef7115b8f55ccbf886"
+  integrity sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==
 
 "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0:
   version "2.1.2"

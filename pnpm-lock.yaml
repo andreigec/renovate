@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.7
-      renovate: 35.20.0
+      renovate: 35.23.4
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.7
-      renovate: 35.20.0
+      renovate: 35.23.4
 
 packages:
 
@@ -1829,8 +1829,8 @@ packages:
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     dev: true
 
-  /@renovatebot/ruby-semver/2.1.9:
-    resolution: {integrity: sha512-44udvdctC5SCjlPYIcyf7vDARlXE3tVRTfZ6/OHcSNBt5WCfMljP5T7QLekCslHZjXgPoep33TURuOfeLrV3Ag==}
+  /@renovatebot/ruby-semver/2.1.10:
+    resolution: {integrity: sha512-k9GE1cYAYWH5zJpePf4m6GEOZaT/5dh6ETTnV4TQthqufaKpIg9m6ZoxzKhKfuwPo5PlprWh8gyYXjYpN2TkhA==}
     engines: {node: ^14.15.0 || ^16.13.0 || >= 18.12.0, yarn: ^1.22.0}
     dependencies:
       tslib: 2.5.0
@@ -4467,8 +4467,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.20.0:
-    resolution: {integrity: sha512-nU0DfAAe37ebT9ONaO+/4sWhjmfuiC8xs/f/bqZQ+RSTvB+Q2SZjT119bajV8bPzJ4kYvxtriN8FsIAgCaAYJw==}
+  /renovate/35.23.4:
+    resolution: {integrity: sha512-RMsW6YHqpy8NrYYgE/BAXPKzdALhtueBLlYNyUW2wsrbHBgAgL2bXrbGTgGbDQ67G0ObP8kf7+9NfHshdX4dgA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4494,7 +4494,7 @@ packages:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.2.2
       '@renovatebot/pep440': 2.1.13
-      '@renovatebot/ruby-semver': 2.1.9
+      '@renovatebot/ruby-semver': 2.1.10
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.31
       '@types/tmp': 0.2.3
@@ -4561,7 +4561,7 @@ packages:
       redis: 4.6.5
       remark: 13.0.0
       remark-github: 10.1.0
-      safe-stable-stringify: 2.4.2
+      safe-stable-stringify: 2.4.3
       semver: 7.3.8
       semver-stable: 3.0.0
       semver-utils: 1.1.4
@@ -4692,8 +4692,8 @@ packages:
     dev: true
     optional: true
 
-  /safe-stable-stringify/2.4.2:
-    resolution: {integrity: sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==}
+  /safe-stable-stringify/2.4.3:
+    resolution: {integrity: sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==}
     engines: {node: '>=10'}
     dev: true
 
