@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.7
-      renovate: 35.25.0
+      renovate: 35.25.1
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.7
-      renovate: 35.25.0
+      renovate: 35.25.1
 
 packages:
 
@@ -2346,7 +2346,7 @@ packages:
       fs-minipass: 3.0.0
       glob: 9.3.2
       lru-cache: 7.14.1
-      minipass: 4.0.0
+      minipass: 4.2.5
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
       minipass-pipeline: 1.2.4
@@ -2935,7 +2935,7 @@ packages:
     resolution: {integrity: sha512-EUojgQaSPy6sxcqcZgQv6TVF6jiKvurji3AxhAivs/Ep4O1UpS8TusaxpybfFHZ2skRhLqzk6WR8nqNYIMMDeA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      minipass: 4.0.0
+      minipass: 4.2.5
     dev: true
 
   /fs.realpath/1.0.0:
@@ -3883,13 +3883,6 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /minipass/4.0.0:
-    resolution: {integrity: sha512-g2Uuh2jEKoht+zvO6vJqXmYpflPqzRBT+Th2h01DKh5z7wbY/AZ2gCQ78cP70YoHPyFdY30YBV5WxgLOEwOykw==}
-    engines: {node: '>=8'}
-    dependencies:
-      yallist: 4.0.0
-    dev: true
-
   /minipass/4.2.5:
     resolution: {integrity: sha512-+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==}
     engines: {node: '>=8'}
@@ -4493,8 +4486,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.25.0:
-    resolution: {integrity: sha512-Ybirb+emqza3Ea61eccMGRb8KkUeI7uPkehT2Na8xzHwxHH/u80vQks5C4u23g9ieu46ypBMIyBz9o9NPK2u9w==}
+  /renovate/35.25.1:
+    resolution: {integrity: sha512-+YCZ43JM1NFNJ2AIt3oYdhf4EfH3PciScK+sA/d1U33/rLuEqwlUkQU5DHhbxzzIxsWkj8ZSh5DjGJTogSyv5w==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
