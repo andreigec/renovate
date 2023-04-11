@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.7
-      renovate: 35.40.0
+      renovate: 35.41.0
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.7
-      renovate: 35.40.0
+      renovate: 35.41.0
 
 packages:
 
@@ -3130,8 +3130,8 @@ packages:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: true
 
-  /graph-data-structure/3.2.0:
-    resolution: {integrity: sha512-GtMD5xvFX947d04IzH0dIPnncglFVQKZpLqLb0jy7OM+dMcm4gY9QNAUfHJryNc0Gd0cSvlMfwulUQ/CPyGczg==}
+  /graph-data-structure/3.3.0:
+    resolution: {integrity: sha512-p5z0GZ3tm85kuB0iXFjLpbL9gNSFeDPPOyINhLQm6mVfHbLaj62LF9uB1tymcsxkHqLWLQSqGA0f/4/OepCdxA==}
     dev: true
 
   /grapheme-splitter/1.0.4:
@@ -4487,8 +4487,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.40.0:
-    resolution: {integrity: sha512-ihzNYa+z1R7qeU7fCw9pxQkoOKzsTYPBPYfDIT4R05etyQEOA+NVLMm4aHGcVX6xWX6X0LCYRj5nP1hChWPLxw==}
+  /renovate/35.41.0:
+    resolution: {integrity: sha512-qCI16q0NNBdGMVEFzErXDY2qyC1vcu5lrf6V040s5foNybzV+G9EpREt+QNPI15BbPWUl3fxxJ5L1EU6KL7uhg==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4552,7 +4552,7 @@ packages:
       global-agent: 3.0.0
       good-enough-parser: 1.1.22
       got: 11.8.6
-      graph-data-structure: 3.2.0
+      graph-data-structure: 3.3.0
       handlebars: 4.7.7
       hasha: 5.2.2
       hcl2-parser: 1.0.3
