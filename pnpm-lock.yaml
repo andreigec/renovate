@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.98.0
+      renovate: 35.98.4
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.98.0
+      renovate: 35.98.4
 
 packages:
 
@@ -1381,7 +1381,7 @@ packages:
       '@octokit/graphql': 5.0.4
       '@octokit/request': 6.2.2
       '@octokit/request-error': 3.0.2
-      '@octokit/types': 9.0.0
+      '@octokit/types': 9.2.3
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -1410,10 +1410,6 @@ packages:
 
   /@octokit/openapi-types/14.0.0:
     resolution: {integrity: sha512-HNWisMYlR8VCnNurDU6os2ikx0s0VyEjDYHNS/h4cgb8DeOxQ0n72HyinUtdDVxJhFy3FWLGl0DJhfEWk3P5Iw==}
-    dev: true
-
-  /@octokit/openapi-types/16.0.0:
-    resolution: {integrity: sha512-JbFWOqTJVLHZSUUoF4FzAZKYtqdxWu9Z5m2QQnOyEa04fOFljvyh7D3GYKbfuaSWisqehImiVIMG4eyJeP5VEA==}
     dev: true
 
   /@octokit/openapi-types/17.2.0:
@@ -1493,12 +1489,6 @@ packages:
     resolution: {integrity: sha512-65/TPpOJP1i3K4lBJMnWqPUJ6zuOtzhtagDvydAWbEXpbFYA0oMKKyLb95NFZZP0lSh/4b6K+DQlzvYQJQQePg==}
     dependencies:
       '@octokit/openapi-types': 14.0.0
-    dev: true
-
-  /@octokit/types/9.0.0:
-    resolution: {integrity: sha512-LUewfj94xCMH2rbD5YJ+6AQ4AVjFYTgpp6rboWM5T7N3IsIF65SBEOVcYMGAEzO/kKNiNaW4LoWtoThOhH06gw==}
-    dependencies:
-      '@octokit/openapi-types': 16.0.0
     dev: true
 
   /@octokit/types/9.2.3:
@@ -4186,8 +4176,8 @@ packages:
       wrappy: 1.0.2
     dev: true
 
-  /openpgp/5.8.0:
-    resolution: {integrity: sha512-hq4+4s/vpjuwGgZSjplGp4j5FzSz+KwiFRiqMx+ZXr7VCK3CvTkktYilMTZMrf2vHsFH8aQ0596Lmn07HeKRmQ==}
+  /openpgp/5.9.0:
+    resolution: {integrity: sha512-wEI6TAinCAq8ZLZA4oZ3ZtJ2BhhHj+CiPCd8TzE7zCicr0V8tvG5UF76OtddLLOJcK63w3Aj3KiRd+VLMScirQ==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       asn1.js: 5.4.1
@@ -4575,8 +4565,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.98.0:
-    resolution: {integrity: sha512-iS4k+O/PNCeF+H5LDbqnyHpY7FLL3yvXx0c+ZqBquW1Oa03Zlge5EExc9qAf0yODLRV7kENIjdFlM5HRszpdFA==}
+  /renovate/35.98.4:
+    resolution: {integrity: sha512-dAL0G0wI0CNKjMqLQkf9nIE6Ji6RFnP45XJQMH5uU9P6C3G/TtMPR6qUGVhSg+M8B2045EnVbKptTTleggvL8Q==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4659,7 +4649,7 @@ packages:
       ms: 2.1.3
       nanoid: 3.3.6
       node-html-parser: 6.1.5
-      openpgp: 5.8.0
+      openpgp: 5.9.0
       p-all: 3.0.0
       p-map: 4.0.0
       p-queue: 6.6.2
