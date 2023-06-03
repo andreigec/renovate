@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.105.4
+      renovate: 35.110.1
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.105.4
+      renovate: 35.110.1
 
 packages:
 
@@ -3358,8 +3358,8 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /install-artifact-from-github/1.3.1:
-    resolution: {integrity: sha512-3l3Bymg2eKDsN5wQuMfgGEj2x6l5MCAv0zPL6rxHESufFVlEAKW/6oY9F1aGgvY/EgWm5+eWGRjINveL4X7Hgg==}
+  /install-artifact-from-github/1.3.3:
+    resolution: {integrity: sha512-x79SL0d8WOi1ZjXSTUqqs0GPQZ92YArJAN9O46wgU9wdH2U9ecyyhB9YGDbPe2OLV4ptmt6AZYRQZ2GydQZosQ==}
     hasBin: true
     dev: true
     optional: true
@@ -4045,9 +4045,9 @@ packages:
       whatwg-url: 5.0.0
     dev: true
 
-  /node-gyp/9.3.0:
-    resolution: {integrity: sha512-A6rJWfXFz7TQNjpldJ915WFb1LnhO4lIve3ANPbWreuEoLoKlFT3sxIepPBkLhM27crW8YmN+pjlgbasH6cH/Q==}
-    engines: {node: ^12.22 || ^14.13 || >=16}
+  /node-gyp/9.3.1:
+    resolution: {integrity: sha512-4Q16ZCqq3g8awk6UplT7AuxQ35XN4R/yf/+wSAwcBUAjg7l58RTactWaP8fIDTi0FzI7YcVLujwExakZlfWkXg==}
+    engines: {node: ^12.13 || ^14.13 || >=16}
     hasBin: true
     dependencies:
       env-paths: 2.2.1
@@ -4431,13 +4431,13 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /re2/1.18.0:
-    resolution: {integrity: sha512-MoCYZlJ9YUgksND9asyNF2/x532daXU/ARp1UeJbQ5flMY6ryKNEhrWt85aw3YluzOJlC3vXpGgK2a1jb0b4GA==}
+  /re2/1.19.0:
+    resolution: {integrity: sha512-y0LcLZgBF3L7mDtNfbghb7dCmChYQO2QsUGklNueAJUH+HAZO8UZUubgNsf6OxRTAQpeE4KMPR7vcpK3+Q+GiA==}
     requiresBuild: true
     dependencies:
-      install-artifact-from-github: 1.3.1
+      install-artifact-from-github: 1.3.3
       nan: 2.17.0
-      node-gyp: 9.3.0
+      node-gyp: 9.3.1
     transitivePeerDependencies:
       - bluebird
       - supports-color
@@ -4551,8 +4551,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.105.4:
-    resolution: {integrity: sha512-HqKSX4Z0cmD99Llb6ptNuuZiSGPjYdL2/nYCFHbnfB8u1VJlJi4bWaO87Fjv3w6eliSv8ekfQn5Rae+bxsiMiQ==}
+  /renovate/35.110.1:
+    resolution: {integrity: sha512-JI4TIcIxtMV/tcxQZBBSRy4rxFT38nXcqDyt+o4B3ImFu0ZkRpE2dQI8jwT/WFCAWKs3Nkhq08LuaQurlthJaA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4651,7 +4651,7 @@ packages:
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 2.1.2
-      simple-git: 3.18.0
+      simple-git: 3.19.0
       slugify: 1.6.6
       source-map-support: 0.5.21
       traverse: 0.6.7
@@ -4663,7 +4663,7 @@ packages:
       xmldoc: 1.3.0
       zod: 3.21.4
     optionalDependencies:
-      re2: 1.18.0
+      re2: 1.19.0
     transitivePeerDependencies:
       - '@aws-sdk/signature-v4-crt'
       - aws-crt
@@ -4861,8 +4861,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /simple-git/3.18.0:
-    resolution: {integrity: sha512-Yt0GJ5aYrpPci3JyrYcsPz8Xc05Hi4JPSOb+Sgn/BmPX35fn/6Fp9Mef8eMBCrL2siY5w4j49TA5Q+bxPpri1Q==}
+  /simple-git/3.19.0:
+    resolution: {integrity: sha512-hyH2p9Ptxjf/xPuL7HfXbpYt9gKhC1yWDh3KYIAYJJePAKV7AEjLN4xhp7lozOdNiaJ9jlVvAbBymVlcS2jRiA==}
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
