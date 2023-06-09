@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.115.0
+      renovate: 35.115.2
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.115.0
+      renovate: 35.115.2
 
 packages:
 
@@ -2058,8 +2058,8 @@ packages:
     dev: true
     optional: true
 
-  /@yarnpkg/core/3.5.1:
-    resolution: {integrity: sha512-BkbqhE7Ti/Kk2zl0MF2TPosUSh7yS9iaZWnmcXfzKPcPatY0NTg1wX+OuW/eXMFAHudXXmMMte9Ve2f6Kj7itQ==}
+  /@yarnpkg/core/3.5.2:
+    resolution: {integrity: sha512-IaKWHArtc0JAUXuDN2sSV57+yjemVsz//k8NjHT02AmUlCM7dOmIT/FeGfcVFZ6Zy8ZSwEwyzQLf3nxx5alzQg==}
     engines: {node: '>=12 <14 || 14.2 - 14.9 || >14.10.0'}
     dependencies:
       '@arcanis/slice-ansi': 1.1.1
@@ -2069,7 +2069,7 @@ packages:
       '@yarnpkg/json-proxy': 2.1.1
       '@yarnpkg/libzip': 2.3.0
       '@yarnpkg/parsers': 2.5.1
-      '@yarnpkg/pnp': 3.3.2
+      '@yarnpkg/pnp': 3.3.3
       '@yarnpkg/shell': 3.2.5
       camelcase: 5.3.1
       chalk: 3.0.0
@@ -2128,8 +2128,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@yarnpkg/pnp/3.3.2:
-    resolution: {integrity: sha512-3rJbY9/wB7fLrjZtgcYyqtWHK3ihmCbFFqnjghH3MnBYABeh5IgB83BjSfbIT5s/BtVIg583yBHok02OO4ighg==}
+  /@yarnpkg/pnp/3.3.3:
+    resolution: {integrity: sha512-pI1mQ4m5RwgUA/TW6Y4odqSOt4QV+FuWXi9M9WKfuD+gePgjsMgjRA2siK8DekVmPUUb6ffhWEcKuGjjjj69Iw==}
     engines: {node: '>=12 <14 || 14.2 - 14.9 || >14.10.0'}
     dependencies:
       '@types/node': 13.13.52
@@ -4576,8 +4576,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.115.0:
-    resolution: {integrity: sha512-VQzOgascNDkthCuzyW2YwMdvwhVe9C9qGxDbSzYSjQtyemZNWntmDn1u6PEZakRBQzO1v0aIHH/RcOGWYlFWXA==}
+  /renovate/35.115.2:
+    resolution: {integrity: sha512-LTOJcJlf1cyJ4LmSPVqcnuZCwy4gEpOeNzBCVWOZn62SB6Ix14mRc3K4t+W8Tq48RGQhnElc++4r+lvzKqwsdw==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4608,7 +4608,7 @@ packages:
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.31
       '@types/tmp': 0.2.3
-      '@yarnpkg/core': 3.5.1
+      '@yarnpkg/core': 3.5.2
       '@yarnpkg/parsers': 2.5.1
       agentkeepalive: 4.3.0
       aggregate-error: 3.1.0
