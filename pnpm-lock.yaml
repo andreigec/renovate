@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.140.3
+      renovate: 35.141.3
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.140.3
+      renovate: 35.141.3
 
 packages:
 
@@ -2334,7 +2334,7 @@ packages:
     dependencies:
       clone-response: 1.0.3
       get-stream: 5.2.0
-      http-cache-semantics: 4.1.0
+      http-cache-semantics: 4.1.1
       keyv: 4.5.2
       lowercase-keys: 2.0.0
       normalize-url: 6.1.0
@@ -3188,14 +3188,9 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /http-cache-semantics/4.1.0:
-    resolution: {integrity: sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==}
-    dev: true
-
   /http-cache-semantics/4.1.1:
     resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
     dev: true
-    optional: true
 
   /http-proxy-agent/5.0.0:
     resolution: {integrity: sha512-n2hY8YdoRE1i7r6M0w9DIw5GgZN0G25P8zLCRQ8rjXtTU3vsNFBI/vWK/UIeE6g5MUUz6avwAPXmL6Fy9D/90w==}
@@ -4456,8 +4451,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.140.3:
-    resolution: {integrity: sha512-ZAoTf30dg7H0SPTj4binm8xbEY7LS02BTDVPHZrpskazbgc1XWMG1RfsrQ4z45BsQ/SO7OuSrwwGCpZ9a8d2gQ==}
+  /renovate/35.141.3:
+    resolution: {integrity: sha512-IryksGnaZOq0eOWbmOC5b4boCblbcY93SjDmjMNgYbrfpHFIgrzqJ86sXteZ6WhW96S2E8ElmUO4Xl42cfsJaQ==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
