@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.141.3
+      renovate: 35.144.0
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.141.3
+      renovate: 35.144.0
 
 packages:
 
@@ -2220,8 +2220,8 @@ packages:
     resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
     dev: true
 
-  /azure-devops-node-api/12.0.0:
-    resolution: {integrity: sha512-S6Il++7dQeMlZDokBDWw7YVoPeb90tWF10pYxnoauRMnkuL91jq9M7SOYRVhtO3FUC5URPkB/qzGa7jTLft0Xw==}
+  /azure-devops-node-api/12.1.0:
+    resolution: {integrity: sha512-VY+G45eNKVJfMIO0uyZfbi4PzUR8JHEfsHQjEUAXUGRkYhhBbhGHjy8cpiyYFxLXc3a4PL5cqgqqV/YD1SaCXg==}
     dependencies:
       tunnel: 0.0.6
       typed-rest-client: 1.8.9
@@ -4451,8 +4451,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.141.3:
-    resolution: {integrity: sha512-IryksGnaZOq0eOWbmOC5b4boCblbcY93SjDmjMNgYbrfpHFIgrzqJ86sXteZ6WhW96S2E8ElmUO4Xl42cfsJaQ==}
+  /renovate/35.144.0:
+    resolution: {integrity: sha512-FS6kVMUr6qTYrOLNH0jbNu+DPAV813Ls0xjQDCK3+kNc8B2oDuP45X+KUWA1quL75ib8R3clNWeCo1qgLHVqwg==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4488,7 +4488,7 @@ packages:
       aggregate-error: 3.1.0
       auth-header: 1.0.0
       aws4: 1.12.0
-      azure-devops-node-api: 12.0.0
+      azure-devops-node-api: 12.1.0
       bunyan: 1.8.15
       cacache: 17.1.3
       cacheable-lookup: 5.0.4
@@ -4525,6 +4525,7 @@ packages:
       json-dup-key-validator: 1.0.3
       json-stringify-pretty-compact: 3.0.0
       json5: 2.2.3
+      klona: 2.0.6
       luxon: 3.3.0
       markdown-it: 13.0.1
       markdown-table: 2.0.0
