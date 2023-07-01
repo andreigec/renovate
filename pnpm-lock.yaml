@@ -6,11 +6,11 @@ importers:
     specifiers:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.146.1
+      renovate: 35.155.0
     devDependencies:
       cross-env: 7.0.3
       prettier: 2.8.8
-      renovate: 35.146.1
+      renovate: 35.155.0
 
 packages:
 
@@ -2479,6 +2479,11 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
+  /commander/11.0.0:
+    resolution: {integrity: sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==}
+    engines: {node: '>=16'}
+    dev: true
+
   /concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
@@ -2681,14 +2686,14 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /editorconfig/1.0.2:
-    resolution: {integrity: sha512-l8CnaNCz0dgCqJQ3hKqW2qtUavm1WLdJUvlxufaZ6JDkds3UFxgUKnKJz982yJPYko/78LkWAiwJadFnFtUBjw==}
+  /editorconfig/1.0.3:
+    resolution: {integrity: sha512-SLHUig+v3PpjlCGenNDSMVj5caWTJ+aDXaqR1ucZCbXcotV3D7+ycT1jwbICxiPC6gju/rS+iRw8SC7kQukSig==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@one-ini/wasm': 0.1.1
-      commander: 10.0.1
-      minimatch: 6.1.6
+      commander: 11.0.0
+      minimatch: 9.0.1
       semver: 7.5.3
     dev: true
 
@@ -3002,7 +3007,7 @@ packages:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.2.0
-      minimatch: 9.0.1
+      minimatch: 9.0.2
       minipass: 5.0.0
       path-scurry: 1.10.0
     dev: true
@@ -3778,15 +3783,15 @@ packages:
     dev: true
     optional: true
 
-  /minimatch/6.1.6:
-    resolution: {integrity: sha512-6bR3UIeh/DF8+p6A9Spyuy67ShOq42rOkHWi7eUe3Ua99Zo5lZfGC6lJJWkeoK4k9jQFT3Pl7czhTXimG2XheA==}
-    engines: {node: '>=10'}
+  /minimatch/9.0.1:
+    resolution: {integrity: sha512-0jWhJpD/MdhPXwPuiRkCbfYfSKp2qnn2eOc279qI7f+osl/l+prKSrvhg157zSYvx/1nmgn2NqdT6k2Z7zSH9w==}
+    engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       brace-expansion: 2.0.1
     dev: true
 
-  /minimatch/9.0.1:
-    resolution: {integrity: sha512-0jWhJpD/MdhPXwPuiRkCbfYfSKp2qnn2eOc279qI7f+osl/l+prKSrvhg157zSYvx/1nmgn2NqdT6k2Z7zSH9w==}
+  /minimatch/9.0.2:
+    resolution: {integrity: sha512-PZOT9g5v2ojiTL7r1xF6plNHLtOeTpSlDI007As2NlA2aYBMfVom17yqa6QzhmDP8QOhn7LjHTg7DFCVSSa6yg==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       brace-expansion: 2.0.1
@@ -4451,8 +4456,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate/35.146.1:
-    resolution: {integrity: sha512-tonL26NCKsrJeKkQs3x48mwiw+NFQy24IyXGUqcRSNpMwTbuxTBtfozvWarXy3Bc0k1Vq9PG6VGM6Qtc0EOx6Q==}
+  /renovate/35.155.0:
+    resolution: {integrity: sha512-eoMZ23zHoMfFCXC2Bk3Drx1qXfbXPa5ytYRB7V187S6xA29yT+QH3sVw/A1iLueqwyznpJcTuf7k2Bb6mxB+tA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4501,7 +4506,7 @@ packages:
       delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
-      editorconfig: 1.0.2
+      editorconfig: 1.0.3
       email-addresses: 5.0.0
       emoji-regex: 10.2.1
       emojibase: 6.1.0
@@ -4529,7 +4534,7 @@ packages:
       luxon: 3.3.0
       markdown-it: 13.0.1
       markdown-table: 2.0.0
-      minimatch: 9.0.1
+      minimatch: 9.0.2
       moo: 0.5.2
       ms: 2.1.3
       nanoid: 3.3.6
