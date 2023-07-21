@@ -15,8 +15,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       renovate:
-        specifier: 36.8.11
-        version: 36.8.11(typanion@3.12.1)
+        specifier: 36.18.2
+        version: 36.18.2(typanion@3.12.1)
 
 packages:
 
@@ -908,10 +908,6 @@ packages:
       fs-extra: 11.1.1
     dev: true
 
-  /@cheap-glitch/mi-cron@1.0.1:
-    resolution: {integrity: sha512-kxl7vhg+SUgyHRn22qVbR9MfSm5CzdlYZDJTbGemqFFi/Jmno/hdoQIvBIPoqFY9dcPyxzOUNRRFn6x88UQMpw==}
-    dev: true
-
   /@chevrotain/types@9.1.0:
     resolution: {integrity: sha512-3hbCD1CThkv9gnaSIPq0GUXwKni68e0ph6jIHwCvcWiQ4JB2xi8bFxBain0RF04qHUWuDjgnZLj4rLgimuGO+g==}
     dev: true
@@ -1165,15 +1161,16 @@ packages:
       tslib: 2.6.0
     dev: true
 
-  /@opentelemetry/instrumentation-bunyan@0.31.4(@opentelemetry/api@1.4.1):
-    resolution: {integrity: sha512-uwQPzNXq+f2/7odtYPsBlozm2bjDHLOB/r3pSO02BEnHG5L7RyzV7aPLH1xYTHrLnZAd8ew8Am5dGM4uRiO4sA==}
+  /@opentelemetry/instrumentation-bunyan@0.32.0(@opentelemetry/api@1.4.1):
+    resolution: {integrity: sha512-c2Fi12NMBPRNyzeMXjY3kmgJcu8T2TIR051S+EEnXP677+aJhUrzAPpIDEqJ3RITMemxS44NmDFnnG+p0zdUbg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
     dependencies:
       '@opentelemetry/api': 1.4.1
-      '@opentelemetry/instrumentation': 0.40.0(@opentelemetry/api@1.4.1)
+      '@opentelemetry/instrumentation': 0.41.0(@opentelemetry/api@1.4.1)
       '@types/bunyan': 1.8.7
+      tslib: 2.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1190,22 +1187,6 @@ packages:
       '@opentelemetry/semantic-conventions': 1.15.0
       semver: 7.5.4
       tslib: 2.6.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@opentelemetry/instrumentation@0.40.0(@opentelemetry/api@1.4.1):
-    resolution: {integrity: sha512-23TzBKPflUS1uEq5SXymnQKQDSda35KvHjnvxdcDQGE+wg6hwDHgScUCWiBmZW4sxAaPcANfs+Wc9B7yDuyT6Q==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      '@opentelemetry/api': ^1.3.0
-    dependencies:
-      '@opentelemetry/api': 1.4.1
-      '@types/shimmer': 1.0.2
-      import-in-the-middle: 1.3.5
-      require-in-the-middle: 7.2.0
-      semver: 7.5.4
-      shimmer: 1.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2605,6 +2586,13 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
+  /cron-parser@4.8.1:
+    resolution: {integrity: sha512-jbokKWGcyU4gl6jAfX97E1gDpY12DJ1cLJZmoDzaAln/shZ+S3KBFBuA2Q6WeUN4gJf/8klnV1EfvhA2lK5IRQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      luxon: 3.3.0
+    dev: true
+
   /cross-env@7.0.3:
     resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
     engines: {node: '>=10.14', npm: '>=6', yarn: '>=1'}
@@ -3335,12 +3323,6 @@ packages:
 
   /immediate@3.0.6:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
-    dev: true
-
-  /import-in-the-middle@1.3.5:
-    resolution: {integrity: sha512-yzHlBqi1EBFrkieAnSt8eTgO5oLSl+YJ7qaOpUH/PMqQOMZoQ/RmDlwnTLQrwYto+gHYjRG+i/IbsB1eDx32NQ==}
-    dependencies:
-      module-details-from-path: 1.0.3
     dev: true
 
   /import-in-the-middle@1.4.1:
@@ -4562,8 +4544,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.8.11(typanion@3.12.1):
-    resolution: {integrity: sha512-0QrrX0DllScYno7udKI9vH6EzemdGDZIEO4Rvu2aYQP9mI/s40e4iGc4iUYA8uRKICWkxT+IbA17JFKISahRpQ==}
+  /renovate@36.18.2(typanion@3.12.1):
+    resolution: {integrity: sha512-0LQZQ0dWFys/3pVBdu/QkRf7qYyAkr7mmaeL00CuKIo8YJXU0FA0NihM7F14y4wvlucyw8eh1MjwvgtZIE834w==}
     engines: {node: ^18.12.0 || >=20.0.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4574,13 +4556,12 @@ packages:
       '@aws-sdk/client-s3': 3.363.0
       '@breejs/later': 4.1.0
       '@cdktf/hcl2json': 0.17.1
-      '@cheap-glitch/mi-cron': 1.0.1
       '@iarna/toml': 3.0.0
       '@opentelemetry/api': 1.4.1
       '@opentelemetry/context-async-hooks': 1.15.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/exporter-trace-otlp-http': 0.41.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation': 0.41.0(@opentelemetry/api@1.4.1)
-      '@opentelemetry/instrumentation-bunyan': 0.31.4(@opentelemetry/api@1.4.1)
+      '@opentelemetry/instrumentation-bunyan': 0.32.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/instrumentation-http': 0.41.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/resources': 1.15.0(@opentelemetry/api@1.4.1)
       '@opentelemetry/sdk-trace-base': 1.15.0(@opentelemetry/api@1.4.1)
@@ -4608,6 +4589,7 @@ packages:
       clean-git-ref: 2.0.1
       commander: 11.0.0
       conventional-commits-detector: 1.0.3
+      cron-parser: 4.8.1
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0

@@ -870,11 +870,6 @@
   dependencies:
     fs-extra "^11.1.1"
 
-"@cheap-glitch/mi-cron@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@cheap-glitch/mi-cron/-/mi-cron-1.0.1.tgz#111f4ce746c269aedf74533ac806881763a68f99"
-  integrity sha512-kxl7vhg+SUgyHRn22qVbR9MfSm5CzdlYZDJTbGemqFFi/Jmno/hdoQIvBIPoqFY9dcPyxzOUNRRFn6x88UQMpw==
-
 "@chevrotain/types@^9.1.0":
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/@chevrotain/types/-/types-9.1.0.tgz#689f2952be5ad9459dae3c8e9209c0f4ec3c5ec4"
@@ -1111,13 +1106,14 @@
     "@opentelemetry/sdk-trace-base" "1.15.0"
     tslib "^2.3.1"
 
-"@opentelemetry/instrumentation-bunyan@0.31.4":
-  version "0.31.4"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.31.4.tgz#0d11b13e52eae20a8999282acfb451ab8bb950cb"
-  integrity sha512-uwQPzNXq+f2/7odtYPsBlozm2bjDHLOB/r3pSO02BEnHG5L7RyzV7aPLH1xYTHrLnZAd8ew8Am5dGM4uRiO4sA==
+"@opentelemetry/instrumentation-bunyan@0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.32.0.tgz#3a8938d9516823dc06a94fcefdcce7726c105839"
+  integrity sha512-c2Fi12NMBPRNyzeMXjY3kmgJcu8T2TIR051S+EEnXP677+aJhUrzAPpIDEqJ3RITMemxS44NmDFnnG+p0zdUbg==
   dependencies:
-    "@opentelemetry/instrumentation" "^0.40.0"
+    "@opentelemetry/instrumentation" "^0.41.0"
     "@types/bunyan" "1.8.7"
+    tslib "^2.3.1"
 
 "@opentelemetry/instrumentation-http@0.41.0":
   version "0.41.0"
@@ -1130,7 +1126,7 @@
     semver "^7.5.1"
     tslib "^2.3.1"
 
-"@opentelemetry/instrumentation@0.41.0":
+"@opentelemetry/instrumentation@0.41.0", "@opentelemetry/instrumentation@^0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.41.0.tgz#a67a7f6d215d8802c2e956907a913b793037e04d"
   integrity sha512-Ut9SnZfi7MexOk+GHCMjEtYHogIb6v1dfbnq+oTbQj0lOQUSNLtlO6bXwUdtmPhbvrx6bC0AGr1L6g3rNimv9w==
@@ -1141,17 +1137,6 @@
     semver "^7.5.1"
     shimmer "^1.2.1"
     tslib "^2.3.1"
-
-"@opentelemetry/instrumentation@^0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.40.0.tgz#13d5f2d60c3fafef124ab6961a32204f7ef8bb25"
-  integrity sha512-23TzBKPflUS1uEq5SXymnQKQDSda35KvHjnvxdcDQGE+wg6hwDHgScUCWiBmZW4sxAaPcANfs+Wc9B7yDuyT6Q==
-  dependencies:
-    "@types/shimmer" "^1.0.2"
-    import-in-the-middle "1.3.5"
-    require-in-the-middle "^7.1.0"
-    semver "^7.3.2"
-    shimmer "^1.2.1"
 
 "@opentelemetry/otlp-exporter-base@0.41.0":
   version "0.41.0"
@@ -2532,6 +2517,13 @@ core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
 
+cron-parser@4.8.1:
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/cron-parser/-/cron-parser-4.8.1.tgz#47062ea63d21d78c10ddedb08ea4c5b6fc2750fb"
+  integrity sha512-jbokKWGcyU4gl6jAfX97E1gDpY12DJ1cLJZmoDzaAln/shZ+S3KBFBuA2Q6WeUN4gJf/8klnV1EfvhA2lK5IRQ==
+  dependencies:
+    luxon "^3.2.1"
+
 cross-env@7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
@@ -3307,13 +3299,6 @@ immediate@~3.0.5:
   resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
   integrity sha1-nbHb0Pr43m++D13V5Wu2BigN5ps=
 
-import-in-the-middle@1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/import-in-the-middle/-/import-in-the-middle-1.3.5.tgz#78384fbcfc7c08faf2b1f61cb94e7dd25651df9c"
-  integrity sha512-yzHlBqi1EBFrkieAnSt8eTgO5oLSl+YJ7qaOpUH/PMqQOMZoQ/RmDlwnTLQrwYto+gHYjRG+i/IbsB1eDx32NQ==
-  dependencies:
-    module-details-from-path "^1.0.3"
-
 import-in-the-middle@1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/import-in-the-middle/-/import-in-the-middle-1.4.1.tgz#31b25123bc35d556986a172bb398a3e6c32af9be"
@@ -3771,7 +3756,7 @@ lru-cache@^7.7.1:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
   integrity sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==
 
-luxon@3.3.0, luxon@^3.3.0:
+luxon@3.3.0, luxon@^3.2.1, luxon@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.3.0.tgz#d73ab5b5d2b49a461c47cedbc7e73309b4805b48"
   integrity sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==
@@ -4644,10 +4629,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@36.8.11:
-  version "36.8.11"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.8.11.tgz#ff082883ddf6315ae291f7e7875c3dcb6591ea53"
-  integrity sha512-0QrrX0DllScYno7udKI9vH6EzemdGDZIEO4Rvu2aYQP9mI/s40e4iGc4iUYA8uRKICWkxT+IbA17JFKISahRpQ==
+renovate@36.18.2:
+  version "36.18.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.18.2.tgz#a539cf50fe00236622fc880560e80f29719298e0"
+  integrity sha512-0LQZQ0dWFys/3pVBdu/QkRf7qYyAkr7mmaeL00CuKIo8YJXU0FA0NihM7F14y4wvlucyw8eh1MjwvgtZIE834w==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4656,13 +4641,12 @@ renovate@36.8.11:
     "@aws-sdk/client-s3" "3.363.0"
     "@breejs/later" "4.1.0"
     "@cdktf/hcl2json" "0.17.1"
-    "@cheap-glitch/mi-cron" "1.0.1"
     "@iarna/toml" "3.0.0"
     "@opentelemetry/api" "1.4.1"
     "@opentelemetry/context-async-hooks" "1.15.0"
     "@opentelemetry/exporter-trace-otlp-http" "0.41.0"
     "@opentelemetry/instrumentation" "0.41.0"
-    "@opentelemetry/instrumentation-bunyan" "0.31.4"
+    "@opentelemetry/instrumentation-bunyan" "0.32.0"
     "@opentelemetry/instrumentation-http" "0.41.0"
     "@opentelemetry/resources" "1.15.0"
     "@opentelemetry/sdk-trace-base" "1.15.0"
@@ -4690,6 +4674,7 @@ renovate@36.8.11:
     clean-git-ref "2.0.1"
     commander "11.0.0"
     conventional-commits-detector "1.0.3"
+    cron-parser "4.8.1"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -4762,7 +4747,7 @@ repeat-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
-require-in-the-middle@^7.1.0, require-in-the-middle@^7.1.1:
+require-in-the-middle@^7.1.1:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/require-in-the-middle/-/require-in-the-middle-7.2.0.tgz#b539de8f00955444dc8aed95e17c69b0a4f10fcf"
   integrity sha512-3TLx5TGyAY6AOqLBoXmHkNql0HIf2RGbuMgCDT2WO/uGVAPJs6h7Kl+bN6TIZGd9bWhWPwnDnTHGtW8Iu77sdw==
