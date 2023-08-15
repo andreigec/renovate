@@ -18,15 +18,14 @@
       "enabled": false
     }
   ],
-  "postUpdateOptions": ["yarnDedupeHighest"],
+  "postUpdateOptions": ["pnpmDedupe"],
   "prConcurrentLimit": 1,
-  "prHourlyLimit": 1,
   "prNotPendingHours": 1,
-  "rangeStrategy": "auto",
+  "minimumReleaseAge": "0 days",
   "semanticCommitType": "deps",
   "schedule": "before 7am",
-  "recreateClosed": true,
-  "automergeType": "branch",
+  "recreateWhen": "always",
   "automerge": true,
+  "automergeType": "branch",  
   "assignees": ["andreigec@hotmail.com"]
 }
