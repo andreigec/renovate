@@ -4608,10 +4608,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@36.54.3:
-  version "36.54.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.54.3.tgz#a7c2f443fbb7ff1c8983454f447c73fb1fe57468"
-  integrity sha512-XOTztnIr34Lei/i85ztku36nUHT8+iAXrkWTVpIS/DuP/c2JBPXvDSMUjChA+d2r+8h4urXmUfNoaMjtTmarBg==
+renovate@36.57.2:
+  version "36.57.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.57.2.tgz#0dd7afcab82a1353766c6068e1cb36998fbaa0f8"
+  integrity sha512-eYXBfcPyxhG7vjkHj6eTkgAC+jY+HH97irsegUSWBDIVjPre6RF32sWIvigrPIkGl9QYVCk+jv3emYuBoP7WOA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4717,7 +4717,7 @@ renovate@36.54.3:
     validate-npm-package-name "5.0.0"
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
-    zod "3.22.0"
+    zod "3.22.2"
   optionalDependencies:
     re2 "1.20.1"
 
@@ -5589,10 +5589,10 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zod@3.22.0:
-  version "3.22.0"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.22.0.tgz#2478211a9bf477eb2d7d2ce031b5f8ff0d596407"
-  integrity sha512-y5KZY/ssf5n7hCGDGGtcJO/EBJEm5Pa+QQvFBeyMOtnFYOSflalxIFFvdaYevPhePcmcKC4aTbFkCcXN7D0O8Q==
+zod@3.22.2:
+  version "3.22.2"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.22.2.tgz#3add8c682b7077c05ac6f979fea6998b573e157b"
+  integrity sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==
 
 zwitch@^1.0.0:
   version "1.0.5"
