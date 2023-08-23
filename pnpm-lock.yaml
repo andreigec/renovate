@@ -15,8 +15,8 @@ importers:
         specifier: 3.0.2
         version: 3.0.2
       renovate:
-        specifier: 36.57.2
-        version: 36.57.2(typanion@3.12.1)
+        specifier: 36.57.3
+        version: 36.57.3(typanion@3.12.1)
 
 packages:
 
@@ -4554,8 +4554,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@36.57.2(typanion@3.12.1):
-    resolution: {integrity: sha512-eYXBfcPyxhG7vjkHj6eTkgAC+jY+HH97irsegUSWBDIVjPre6RF32sWIvigrPIkGl9QYVCk+jv3emYuBoP7WOA==}
+  /renovate@36.57.3(typanion@3.12.1):
+    resolution: {integrity: sha512-9kGlffHE/wqIGq44BkXhNxSFAeZLZJKB4T5GmTE/8CpNgNgKiGbOJWM1pZnyx24fO3sc3u5j+WAYsTT5jUo8jQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
