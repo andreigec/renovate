@@ -863,10 +863,10 @@
   resolved "https://registry.yarnpkg.com/@breejs/later/-/later-4.1.0.tgz#9246907f46cc9e9c9af37d791ab468d98921bcc1"
   integrity sha512-QgGnZ9b7o4k0Ai1ZbTJWwZpZcFK9d+Gb+DyNt4UT9x6IEIs5HVu0iIlmgzGqN+t9MoJSpSPo9S/Mm51UtHr3JA==
 
-"@cdktf/hcl2json@0.17.3":
-  version "0.17.3"
-  resolved "https://registry.yarnpkg.com/@cdktf/hcl2json/-/hcl2json-0.17.3.tgz#a20593c7f2b1c7ff9363e0abc78fd42cc19ce611"
-  integrity sha512-lczep0P2adwv08bf3mF1ScKyAD/Y502QVxGrYm8+E+3cl11qtFVblFJXRcAS288Opnqz1X0ekN4YCmkPawETbg==
+"@cdktf/hcl2json@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@cdktf/hcl2json/-/hcl2json-0.18.0.tgz#ad8a296d3b86b4aa0f4e12e27fe1625a46180fa9"
+  integrity sha512-wnnGTdXExmG+HCLsAsce3fOTDBpj8MpadMzKU7hxj+/xdGvACnU0JB7wcK0FRIKlbJFmxgwYzFmVrgd7z3Be/g==
   dependencies:
     fs-extra "^11.1.1"
 
@@ -1945,10 +1945,10 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@3.5.2":
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-3.5.2.tgz#a387f3cae7766c9f6801ad356e2f9bd9548485e6"
-  integrity sha512-IaKWHArtc0JAUXuDN2sSV57+yjemVsz//k8NjHT02AmUlCM7dOmIT/FeGfcVFZ6Zy8ZSwEwyzQLf3nxx5alzQg==
+"@yarnpkg/core@3.5.3":
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-3.5.3.tgz#71309debf13bac48f26f7b3e74c3f6ea266e054c"
+  integrity sha512-yyU/fA2aWQ53KD5vsthJRJKhNO4zFgaKLNM3X6JgfUPfLLNQJxHvFpB4+X+v9HxceokiDGx3hp0DaAUWjO2mEw==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
@@ -1957,7 +1957,7 @@
     "@yarnpkg/json-proxy" "^2.1.1"
     "@yarnpkg/libzip" "^2.3.0"
     "@yarnpkg/parsers" "^2.5.1"
-    "@yarnpkg/pnp" "^3.3.3"
+    "@yarnpkg/pnp" "^3.3.4"
     "@yarnpkg/shell" "^3.2.5"
     camelcase "^5.3.1"
     chalk "^3.0.0"
@@ -2015,10 +2015,10 @@
     js-yaml "^3.10.0"
     tslib "^1.13.0"
 
-"@yarnpkg/pnp@^3.3.3":
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/pnp/-/pnp-3.3.3.tgz#8e8151232959c4c9aaa42289c271794facbd70cf"
-  integrity sha512-pI1mQ4m5RwgUA/TW6Y4odqSOt4QV+FuWXi9M9WKfuD+gePgjsMgjRA2siK8DekVmPUUb6ffhWEcKuGjjjj69Iw==
+"@yarnpkg/pnp@^3.3.4":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/pnp/-/pnp-3.3.5.tgz#26daad693b8ca100969b5a2cd55042aeb15b0dbb"
+  integrity sha512-VKfOriFOKfclaL/f5+qEKyqBmWpYuRkgyutcf3tgysisw2G9MQkJWNoYpn/A6RHAZRTQJKFU3wtvBjSSjpu67A==
   dependencies:
     "@types/node" "^13.7.0"
     "@yarnpkg/fslib" "^2.10.3"
@@ -2276,7 +2276,25 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@17.1.3, cacache@^17.0.0:
+cacache@17.1.4:
+  version "17.1.4"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-17.1.4.tgz#b3ff381580b47e85c6e64f801101508e26604b35"
+  integrity sha512-/aJwG2l3ZMJ1xNAnqbMpA40of9dj/pIH3QfiuQSqjfPJF747VR0J/bHn+/KdNnHKc6XQcWt/AfRSBft82W1d2A==
+  dependencies:
+    "@npmcli/fs" "^3.1.0"
+    fs-minipass "^3.0.0"
+    glob "^10.2.2"
+    lru-cache "^7.7.1"
+    minipass "^7.0.3"
+    minipass-collect "^1.0.2"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    p-map "^4.0.0"
+    ssri "^10.0.0"
+    tar "^6.1.11"
+    unique-filename "^3.0.0"
+
+cacache@^17.0.0:
   version "17.1.3"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-17.1.3.tgz#c6ac23bec56516a7c0c52020fd48b4909d7c7044"
   integrity sha512-jAdjGxmPxZh0IipMdR7fK/4sDSrHMLUV0+GvVUsjwyGNKHsh79kW/otg+GkbXwl6Uzvy9wsvHOX4nUoWldeZMg==
@@ -4014,6 +4032,11 @@ minipass@^5.0.0:
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-7.0.2.tgz#58a82b7d81c7010da5bd4b2c0c85ac4b4ec5131e"
   integrity sha512-eL79dXrE1q9dBbDCLg7xfn/vl7MS4F1gvJAgjJrQli/jbQWdUttuVawphqpffoIYfRdq78LHx6GP4bU/EQ2ATA==
 
+minipass@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-7.0.3.tgz#05ea638da44e475037ed94d1c7efcc76a25e1974"
+  integrity sha512-LhbbwCfz3vsb12j/WkWQPZfKTsgqIe1Nf/ti1pKjYESGLHIVjWU96G9/ljLH4F9mWNVhlQOm0VySdAWzf05dpg==
+
 minizlib@^2.1.1, minizlib@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-2.1.2.tgz#e90d3466ba209b932451508a11ce3d3632145931"
@@ -4117,10 +4140,10 @@ node-gyp@^9.4.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-html-parser@6.1.5:
-  version "6.1.5"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.5.tgz#c819dceb13a10a7642ff92f94f870b4f77968097"
-  integrity sha512-fAaM511feX++/Chnhe475a0NHD8M7AxDInsqQpz6x63GRF7xYNdS8Vo5dKsIVPgsOvG7eioRRTZQnWBrhDHBSg==
+node-html-parser@6.1.6:
+  version "6.1.6"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.6.tgz#8369a11d629a92ab2db2344bb650261135ac8e13"
+  integrity sha512-C/MGDQ2NjdjzUq41bW9kW00MPZecAe/oo89vZEFLDfWoQVDk/DdML1yuxVVKLDMFIFax2VTq6Vpfzyn7z5yYgQ==
   dependencies:
     css-select "^5.1.0"
     he "1.2.0"
@@ -4608,10 +4631,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@36.57.3:
-  version "36.57.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.57.3.tgz#6c7a8edcc1f56202b61f5d34df37af849f9c13d6"
-  integrity sha512-9kGlffHE/wqIGq44BkXhNxSFAeZLZJKB4T5GmTE/8CpNgNgKiGbOJWM1pZnyx24fO3sc3u5j+WAYsTT5jUo8jQ==
+renovate@36.57.10:
+  version "36.57.10"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.57.10.tgz#5d483443ea8a4b41156e378a697f0a58a9fb0b0a"
+  integrity sha512-aIdeJoEEuw2gC2cSKULsVwmBpk2XnWvxyA96mxEuSF1WQH0mKI9YC3RSAI0S0s9aWbXanXzu2yPVu5gzaFFUCw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4619,7 +4642,7 @@ renovate@36.57.3:
     "@aws-sdk/client-rds" "3.363.0"
     "@aws-sdk/client-s3" "3.363.0"
     "@breejs/later" "4.1.0"
-    "@cdktf/hcl2json" "0.17.3"
+    "@cdktf/hcl2json" "0.18.0"
     "@iarna/toml" "3.0.0"
     "@opentelemetry/api" "1.4.1"
     "@opentelemetry/context-async-hooks" "1.15.2"
@@ -4638,7 +4661,7 @@ renovate@36.57.3:
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.31"
     "@types/tmp" "0.2.3"
-    "@yarnpkg/core" "3.5.2"
+    "@yarnpkg/core" "3.5.3"
     "@yarnpkg/parsers" "2.5.1"
     agentkeepalive "4.5.0"
     aggregate-error "3.1.0"
@@ -4646,7 +4669,7 @@ renovate@36.57.3:
     aws4 "1.12.0"
     azure-devops-node-api "12.1.0"
     bunyan "1.8.15"
-    cacache "17.1.3"
+    cacache "17.1.4"
     cacheable-lookup "5.0.4"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
@@ -4690,7 +4713,7 @@ renovate@36.57.3:
     moo "0.5.2"
     ms "2.1.3"
     nanoid "3.3.6"
-    node-html-parser "6.1.5"
+    node-html-parser "6.1.6"
     openpgp "5.9.0"
     p-all "3.0.0"
     p-map "4.0.0"
