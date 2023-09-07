@@ -3123,7 +3123,18 @@ glob-parent@^5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@10.3.3, glob@^10.2.2:
+glob@10.3.4:
+  version "10.3.4"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.3.4.tgz#c85c9c7ab98669102b6defda76d35c5b1ef9766f"
+  integrity sha512-6LFElP3A+i/Q8XQKEvZjkEWEOTgAIALR9AO2rwT8bgPhDd1anmqDJDZ6lLddI4ehxxxR1S5RIqKe1uapMQfYaQ==
+  dependencies:
+    foreground-child "^3.1.0"
+    jackspeak "^2.0.3"
+    minimatch "^9.0.1"
+    minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
+    path-scurry "^1.10.1"
+
+glob@^10.2.2:
   version "10.3.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-10.3.3.tgz#8360a4ffdd6ed90df84aa8d52f21f452e86a123b"
   integrity sha512-92vPiMb/iqpmEgsOoIDvTjc50wf9CCCvMzsi6W0JLPeUKE8TWP1a73PgqSrqy7iAZxaSD1YdzU7QZR5LF51MJw==
@@ -3822,15 +3833,20 @@ lru-cache@^7.7.1:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
   integrity sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==
 
-luxon@3.4.2, luxon@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.4.2.tgz#f5bcab779f3d6a943ee7c8621c2b416bc10abd24"
-  integrity sha512-uBoAVCVcajsrqy3pv7eo5jEUz1oeLmCcnMv8n4AJpT5hbpN9lUssAXibNElpbLce3Mhm9dyBzwYLs9zctM/0tA==
+luxon@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.4.3.tgz#8ddf0358a9492267ffec6a13675fbaab5551315d"
+  integrity sha512-tFWBiv3h7z+T/tDaoxA8rqTxy1CHV6gHS//QdaH4pulbq/JuBSGgQspQQqcgnwdAx6pNI7cmvz5Sv/addzHmUg==
 
 luxon@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.3.0.tgz#d73ab5b5d2b49a461c47cedbc7e73309b4805b48"
   integrity sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==
+
+luxon@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.4.2.tgz#f5bcab779f3d6a943ee7c8621c2b416bc10abd24"
+  integrity sha512-uBoAVCVcajsrqy3pv7eo5jEUz1oeLmCcnMv8n4AJpT5hbpN9lUssAXibNElpbLce3Mhm9dyBzwYLs9zctM/0tA==
 
 make-fetch-happen@^11.0.3:
   version "11.1.1"
@@ -4712,10 +4728,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@36.82.0:
-  version "36.82.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.82.0.tgz#727ad55e5d08bdc65c6869775dd5f1d6f39670ec"
-  integrity sha512-vL1z9jXC1ZVvRBRE/X5nmbcF5T6pnkBxuyGyLXau7xN9VUyMsuxSKSlk+d5+rsJPSxDXFzh+t4HROYh9BWgeRQ==
+renovate@36.87.6:
+  version "36.87.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.87.6.tgz#b2dfad6ae03b43e78d0619009897f9518a87aa1c"
+  integrity sha512-Tw1ypE+PDWC7DwSMhq3CYW78IZC4g0uwNXUHp6wPlEMehWPilLTDYxrbhJbSDvmNiogYRy+MaSu5/nqHh4QI/g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4773,7 +4789,7 @@ renovate@36.82.0:
     fs-extra "11.1.1"
     git-url-parse "13.1.0"
     github-url-from-git "1.5.0"
-    glob "10.3.3"
+    glob "10.3.4"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
     got "11.8.6"
@@ -4788,7 +4804,7 @@ renovate@36.82.0:
     json5 "2.2.3"
     jsonata "2.0.3"
     klona "2.0.6"
-    luxon "3.4.2"
+    luxon "3.4.3"
     markdown-it "13.0.1"
     markdown-table "2.0.0"
     minimatch "9.0.3"
