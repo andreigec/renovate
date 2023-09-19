@@ -2013,10 +2013,10 @@
   resolved "https://registry.yarnpkg.com/@types/shimmer/-/shimmer-1.0.2.tgz#93eb2c243c351f3f17d5c580c7467ae5d686b65f"
   integrity sha512-dKkr1bTxbEsFlh2ARpKzcaAmsYixqt9UyCdoEZk8rHyE4iQYcDCyvSjDSf7JUWJHlJiTtbIoQjxKh6ViywqDAg==
 
-"@types/tmp@0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.2.3.tgz#908bfb113419fd6a42273674c00994d40902c165"
-  integrity sha512-dDZH/tXzwjutnuk4UacGgFRwV+JSLaXL1ikvidfJprkb7L9Nx1njcRHHmi3Dsvt7pgqqTEeucQuOrWHPFgzVHA==
+"@types/tmp@0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.2.4.tgz#1e26f791b94a95474f1f3322a721dfb065b876fb"
+  integrity sha512-Vq3rwM+2KgiLacq68EjTJD9cuJ/ne5pXntWn8B8Rxj25SLkGAhCgooCZ1lhcIcV5OFveJ+s5Cqpi+XKfFM/xZA==
 
 "@types/treeify@^1.0.0":
   version "1.0.0"
@@ -4744,10 +4744,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@36.97.0:
-  version "36.97.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.97.0.tgz#453a70417ea315f0f6fe07c59ffe54c1f1967367"
-  integrity sha512-LnuiyEkQy0kEDB04Xne1J8+ISbqOO20Zv8HV51GcuLqb9bUtGw7+4EzXd11sgA3wkWYAgE4weOAjXH3jKtDH2A==
+renovate@36.97.3:
+  version "36.97.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.97.3.tgz#19b04f6b1fe23341180bf2e594c76c98fca3275d"
+  integrity sha512-U2zkls9X0EwhQaAU3Zz5r1TrPs5bBnUsICSGR0Y7BYz5l5ek411gPUSXmyyNZF2mljs+eVy/fpT0lJ6HZdwsRA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4774,7 +4774,7 @@ renovate@36.97.0:
     "@renovatebot/ruby-semver" "3.0.14"
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.31"
-    "@types/tmp" "0.2.3"
+    "@types/tmp" "0.2.4"
     "@yarnpkg/core" "3.5.3"
     "@yarnpkg/parsers" "2.5.1"
     agentkeepalive "4.5.0"
