@@ -15,8 +15,8 @@ importers:
         specifier: 3.0.3
         version: 3.0.3
       renovate:
-        specifier: 37.10.0
-        version: 37.10.0(typanion@3.12.1)
+        specifier: 37.13.0
+        version: 37.13.0(typanion@3.12.1)
 
 packages:
 
@@ -3307,8 +3307,8 @@ packages:
       moo: 0.5.2
     dev: true
 
-  /google-auth-library@9.0.0:
-    resolution: {integrity: sha512-IQGjgQoVUAfOk6khqTVMLvWx26R+yPw9uLyb1MNyMQpdKiKt0Fd9sp4NWoINjyGHR8S3iw12hMTYK7O8J07c6Q==}
+  /google-auth-library@9.1.0:
+    resolution: {integrity: sha512-1M9HdOcQNPV5BwSXqwwT238MTKodJFBxZ/V2JP397ieOLv4FjQdfYb9SooR7Mb+oUT2IJ92mLJQf804dyx0MJA==}
     engines: {node: '>=14'}
     dependencies:
       base64-js: 1.5.1
@@ -4788,8 +4788,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.10.0(typanion@3.12.1):
-    resolution: {integrity: sha512-EhE6C0hWdIzlCD0jMQhWc1cWiLlcy9PrQaM2CxfnV2SD7WXA3XuWLwK7GlvzXomjxJSu7WApcXkLaDXNYI/OQQ==}
+  /renovate@37.13.0(typanion@3.12.1):
+    resolution: {integrity: sha512-A+5xD/N3uM/G6ewbCUjIvGtSubEthT87IIWGiYjfyyobZPy7b9hKNEtq4y+V2O1AVbOyQh3h5w1Lwh1FXBKgpQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4852,7 +4852,7 @@ packages:
       glob: 10.3.10
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 9.0.0
+      google-auth-library: 9.1.0
       got: 11.8.6
       graph-data-structure: 3.3.0
       handlebars: 4.7.8
