@@ -2580,7 +2580,12 @@ color-support@^1.1.2:
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
   integrity sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
 
-commander@11.0.0, commander@^11.0.0:
+commander@11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-11.1.0.tgz#62fdce76006a68e5c1ab3314dc92e800eb83d906"
+  integrity sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==
+
+commander@^11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-11.0.0.tgz#43e19c25dbedc8256203538e8d7e9346877a6f67"
   integrity sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ==
@@ -3369,14 +3374,6 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
-
-hasha@5.2.2:
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/hasha/-/hasha-5.2.2.tgz#a48477989b3b327aea3c04f53096d816d97522a1"
-  integrity sha512-Hrp5vIK/xr5SkeN2onO32H0MgNZ0f17HRNH39WfL0SYUNOTZ5Lz1TJ8Pajo/87dYGEFlLMm7mIc/k/s6Bvz9HQ==
-  dependencies:
-    is-stream "^2.0.0"
-    type-fest "^0.8.0"
 
 he@1.2.0:
   version "1.2.0"
@@ -4842,10 +4839,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.27.1:
-  version "37.27.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.27.1.tgz#174cc7a7faea10dad123820cf6cfb4d27ebad463"
-  integrity sha512-XBxYXlLJPLJMbrWJ3ZCwUMHZiGtNpo1gVoI1GaGugnV5FldmJ6M7BNOT/4d0aKRImwVXW4GLVOK1yfOIFM2J8g==
+renovate@37.31.1:
+  version "37.31.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.31.1.tgz#d062929c4b7f4d54e723167efa0473f85f178d30"
+  integrity sha512-bu030qrl08gtT+nnxJr7yGmmJNazN73UFQ45QPBpjPqn80FAbd/ZqGbtJKU0oc62NK6Ns+eBmxU9Wa4kEq2qLw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4886,7 +4883,7 @@ renovate@37.27.1:
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
-    commander "11.0.0"
+    commander "11.1.0"
     conventional-commits-detector "1.0.3"
     cron-parser "4.9.0"
     deepmerge "4.3.1"
@@ -4910,7 +4907,6 @@ renovate@37.27.1:
     got "11.8.6"
     graph-data-structure "3.3.0"
     handlebars "4.7.8"
-    hasha "5.2.2"
     ignore "5.2.4"
     ini "4.1.1"
     js-yaml "4.1.0"
@@ -5502,7 +5498,7 @@ type-fest@^0.6.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.6.0.tgz#8d2a2370d3df886eb5c90ada1c5bf6188acf838b"
   integrity sha512-q+MB8nYR1KDLrgr4G5yemftpMC7/QLqVndBmEEdqzmNj5dcFOO4Oo8qlwZE3ULT3+Zim1F8Kq4cBnikNhlCMlg==
 
-type-fest@^0.8.0, type-fest@^0.8.1:
+type-fest@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
