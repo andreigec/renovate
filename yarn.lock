@@ -2002,10 +2002,10 @@
   resolved "https://registry.yarnpkg.com/@types/shimmer/-/shimmer-1.0.2.tgz#93eb2c243c351f3f17d5c580c7467ae5d686b65f"
   integrity sha512-dKkr1bTxbEsFlh2ARpKzcaAmsYixqt9UyCdoEZk8rHyE4iQYcDCyvSjDSf7JUWJHlJiTtbIoQjxKh6ViywqDAg==
 
-"@types/tmp@0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.2.4.tgz#1e26f791b94a95474f1f3322a721dfb065b876fb"
-  integrity sha512-Vq3rwM+2KgiLacq68EjTJD9cuJ/ne5pXntWn8B8Rxj25SLkGAhCgooCZ1lhcIcV5OFveJ+s5Cqpi+XKfFM/xZA==
+"@types/tmp@0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.2.5.tgz#0f3a71d0a94cbd5de45b0aa641575dd503e43ed4"
+  integrity sha512-KodRrjqWrk/3VyzfR4aeXkf2n5Ssg+bvVUhXlvHVffLiIHriLlrO3vYobB+Kvnr9DkNzMiyWHT3G6hT/xX0ryQ==
 
 "@types/treeify@^1.0.0":
   version "1.0.0"
@@ -3161,10 +3161,10 @@ git-up@^7.0.0:
     is-ssh "^1.4.0"
     parse-url "^8.1.0"
 
-git-url-parse@13.1.0:
-  version "13.1.0"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-13.1.0.tgz#07e136b5baa08d59fabdf0e33170de425adf07b4"
-  integrity sha512-5FvPJP/70WkIprlUZ33bm4UAaFdjcLkJLpWft1BeZKqwR0uhhNGoKwlUaPtVb4LxCSQ++erHapRak9kWGj+FCA==
+git-url-parse@13.1.1:
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-13.1.1.tgz#664bddf0857c6a75b3c1f0ae6239abb08a1486d4"
+  integrity sha512-PCFJyeSSdtnbfhSNRw9Wk96dDCNx+sogTe4YNXeXSJxt7xz5hvXekuRn9JX7m+Mf4OscCu8h+mtAl3+h5Fo8lQ==
   dependencies:
     git-up "^7.0.0"
 
@@ -4839,10 +4839,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.33.1:
-  version "37.33.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.33.1.tgz#2d028150596aeb73c0de3199eb4c41a73cafd70c"
-  integrity sha512-aVLvm8oUmuu5sjS+gf1OwUaK+O/x/0XFUuWAAkkoocho7AeCA8NVPGUK1uyrzcvIkD6LTIsrbWcR4UZ2cYseAA==
+renovate@37.33.6:
+  version "37.33.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.33.6.tgz#782c77e1a5535a92644f50ba07372d99efa8ce6b"
+  integrity sha512-ZyTOixDIMEcf+aZiKzNE9ryFTpjaa0DWyjQwxw7X78hBEzu9KMIAxxqOCURjauFFntRvJ+gHRiycT46z10FzMQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4869,7 +4869,7 @@ renovate@37.33.1:
     "@renovatebot/ruby-semver" "3.0.16"
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.33"
-    "@types/tmp" "0.2.4"
+    "@types/tmp" "0.2.5"
     "@yarnpkg/core" "3.5.4"
     "@yarnpkg/parsers" "2.5.1"
     agentkeepalive "4.5.0"
@@ -4898,7 +4898,7 @@ renovate@37.33.1:
     find-packages "10.0.4"
     find-up "5.0.0"
     fs-extra "11.1.1"
-    git-url-parse "13.1.0"
+    git-url-parse "13.1.1"
     github-url-from-git "1.5.0"
     glob "10.3.10"
     global-agent "3.0.0"

@@ -15,8 +15,8 @@ importers:
         specifier: 3.0.3
         version: 3.0.3
       renovate:
-        specifier: 37.33.1
-        version: 37.33.1(typanion@3.12.1)
+        specifier: 37.33.6
+        version: 37.33.6(typanion@3.12.1)
 
 packages:
 
@@ -2090,8 +2090,8 @@ packages:
     resolution: {integrity: sha512-dKkr1bTxbEsFlh2ARpKzcaAmsYixqt9UyCdoEZk8rHyE4iQYcDCyvSjDSf7JUWJHlJiTtbIoQjxKh6ViywqDAg==}
     dev: true
 
-  /@types/tmp@0.2.4:
-    resolution: {integrity: sha512-Vq3rwM+2KgiLacq68EjTJD9cuJ/ne5pXntWn8B8Rxj25SLkGAhCgooCZ1lhcIcV5OFveJ+s5Cqpi+XKfFM/xZA==}
+  /@types/tmp@0.2.5:
+    resolution: {integrity: sha512-KodRrjqWrk/3VyzfR4aeXkf2n5Ssg+bvVUhXlvHVffLiIHriLlrO3vYobB+Kvnr9DkNzMiyWHT3G6hT/xX0ryQ==}
     dev: true
 
   /@types/treeify@1.0.0:
@@ -3196,8 +3196,8 @@ packages:
       parse-url: 8.1.0
     dev: true
 
-  /git-url-parse@13.1.0:
-    resolution: {integrity: sha512-5FvPJP/70WkIprlUZ33bm4UAaFdjcLkJLpWft1BeZKqwR0uhhNGoKwlUaPtVb4LxCSQ++erHapRak9kWGj+FCA==}
+  /git-url-parse@13.1.1:
+    resolution: {integrity: sha512-PCFJyeSSdtnbfhSNRw9Wk96dDCNx+sogTe4YNXeXSJxt7xz5hvXekuRn9JX7m+Mf4OscCu8h+mtAl3+h5Fo8lQ==}
     dependencies:
       git-up: 7.0.0
     dev: true
@@ -4764,8 +4764,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.33.1(typanion@3.12.1):
-    resolution: {integrity: sha512-aVLvm8oUmuu5sjS+gf1OwUaK+O/x/0XFUuWAAkkoocho7AeCA8NVPGUK1uyrzcvIkD6LTIsrbWcR4UZ2cYseAA==}
+  /renovate@37.33.6(typanion@3.12.1):
+    resolution: {integrity: sha512-ZyTOixDIMEcf+aZiKzNE9ryFTpjaa0DWyjQwxw7X78hBEzu9KMIAxxqOCURjauFFntRvJ+gHRiycT46z10FzMQ==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4794,7 +4794,7 @@ packages:
       '@renovatebot/ruby-semver': 3.0.16
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.33
-      '@types/tmp': 0.2.4
+      '@types/tmp': 0.2.5
       '@yarnpkg/core': 3.5.4(typanion@3.12.1)
       '@yarnpkg/parsers': 2.5.1
       agentkeepalive: 4.5.0
@@ -4823,7 +4823,7 @@ packages:
       find-packages: 10.0.4
       find-up: 5.0.0
       fs-extra: 11.1.1
-      git-url-parse: 13.1.0
+      git-url-parse: 13.1.1
       github-url-from-git: 1.5.0
       glob: 10.3.10
       global-agent: 3.0.0
