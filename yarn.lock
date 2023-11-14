@@ -1939,10 +1939,10 @@
   resolved "https://registry.yarnpkg.com/@types/moo/-/moo-0.5.5.tgz#83220b7349c59fd4bb1bc14b1d4ea0041899dc15"
   integrity sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==
 
-"@types/ms@0.7.33":
-  version "0.7.33"
-  resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.33.tgz#80bf1da64b15f21fd8c1dc387c31929317d99ee9"
-  integrity sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==
+"@types/ms@0.7.34":
+  version "0.7.34"
+  resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.34.tgz#10964ba0dee6ac4cd462e2795b6bebd407303433"
+  integrity sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==
 
 "@types/node@*":
   version "17.0.17"
@@ -4669,10 +4669,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.57.1:
-  version "37.57.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.57.1.tgz#01191c068c6a33eab40e5793d807e8a6d3c72bfa"
-  integrity sha512-feBOKTw1Sd3/G7Glk+QuzZfrdTjiBrBQNbGPSAtYo18GJ1SyWUIwEuI+gH5E5Lkdswl57EOLx+hjKcZ+vQpMQw==
+renovate@37.59.2:
+  version "37.59.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.59.2.tgz#4729717942c0192a5a72dee5b3156ff4a6d8303d"
+  integrity sha512-ITvbPjWS7seygR31Thm9ysPFPu+0lSYzzBM1PBxqDwxXRtc2ou4vsZ53fGyDPiX/Vz5OnRC1tB6jkoQL8giazQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4697,7 +4697,7 @@ renovate@37.57.1:
     "@renovatebot/pep440" "3.0.11"
     "@renovatebot/ruby-semver" "3.0.18"
     "@sindresorhus/is" "4.6.0"
-    "@types/ms" "0.7.33"
+    "@types/ms" "0.7.34"
     "@types/tmp" "0.2.5"
     "@yarnpkg/core" "4.0.1"
     "@yarnpkg/parsers" "3.0.0"
@@ -4771,7 +4771,7 @@ renovate@37.57.1:
     simple-git "3.20.0"
     slugify "1.6.6"
     source-map-support "0.5.21"
-    toml-eslint-parser "0.6.0"
+    toml-eslint-parser "0.6.1"
     traverse "0.6.7"
     tslib "2.6.2"
     upath "2.0.1"
@@ -5235,10 +5235,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-toml-eslint-parser@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/toml-eslint-parser/-/toml-eslint-parser-0.6.0.tgz#aaf394f2efd94d84d881113479d57d7597dc5d47"
-  integrity sha512-aTmQa0RFb+2URe8IZOfo/oxt3b5rlXlpG9xE+6FmeI8immCGLnZYvKVxbnCYJx4bIKIaEwl0BnCDhwO70yeWSA==
+toml-eslint-parser@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/toml-eslint-parser/-/toml-eslint-parser-0.6.1.tgz#6e4760d8ee864cd95373935724ad9ec893e65a85"
+  integrity sha512-7xjjVOdu0c6GpaP2AmA48ZcjesBL7KB2qeMNz93gMG76yV/lHVzQiSlD6HqwAdMJiL9hM44fung0NzhjTfihtw==
   dependencies:
     eslint-visitor-keys "^3.0.0"
 
