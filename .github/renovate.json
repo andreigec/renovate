@@ -1,8 +1,4 @@
 {
-  "labels": [
-    "renovate"
-  ],
-  "extends": [
-    "github>andreigec/renovate"
-  ]
+  "labels": ["renovate"],
+  "extends": ["github>andreigec/renovate"]
 }
