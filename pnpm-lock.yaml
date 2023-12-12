@@ -15,8 +15,8 @@ importers:
         specifier: 3.1.1
         version: 3.1.1
       renovate:
-        specifier: 37.91.0
-        version: 37.91.0(typanion@3.12.1)
+        specifier: 37.91.3
+        version: 37.91.3(typanion@3.12.1)
 
 packages:
 
@@ -1519,13 +1519,13 @@ packages:
       - encoding
     dev: true
 
-  /@renovatebot/pep440@3.0.12:
-    resolution: {integrity: sha512-l5qdcpsS+tpOhPf/lChoCv+Fd52ajMeq7t7oXmmDwBG5Nfuv5P4QVs5v9mP/dxBta/uRCNFnKVJmbFpPHTBrrw==}
+  /@renovatebot/pep440@3.0.13:
+    resolution: {integrity: sha512-lweg1JT8Eu4rN/l3t8KxOFakwGHOA72MUrfaUBc8ErAWE379H1vbykGitHxkJ/jFQe999FoaYIz9sI17exUE1w==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
-  /@renovatebot/ruby-semver@3.0.19:
-    resolution: {integrity: sha512-VuTIcDyC6MDp7G8QCLVY28XlXZKXSe7eSfnweNxwqGrcMKONS5qFtvrj0ZxPo5mM685Z2P8S1f8p0dfdEiH+ow==}
+  /@renovatebot/ruby-semver@3.0.20:
+    resolution: {integrity: sha512-HOn6SWkSfbMNBPFa/Bqwb30LIoCwlxxYQihL2dqX2n+OPzSXT5ZmmTabFF6Gso65T3dc5g67Tdt57mICxmn3SQ==}
     engines: {node: ^18.12.0 || >= 20.0.0, pnpm: ^8.6.11}
     dev: true
 
@@ -4460,8 +4460,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.91.0(typanion@3.12.1):
-    resolution: {integrity: sha512-D02RnpXWJbuS5TWKjVfnEPz2TOSYv6KLKLBnK6zGMSIGTlfCngKK1c/OuVTACn0buvz2n87xZV3+YkfrD+IDEg==}
+  /renovate@37.91.3(typanion@3.12.1):
+    resolution: {integrity: sha512-YzNGXzpC/wHwu2dMTYRzn1FR66o6ddkZDOzsE8Kh0F+K1l7PXse2dV373lprAlhrv6ybIfoRzWFzIXhKMibTzg==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4485,8 +4485,8 @@ packages:
       '@opentelemetry/semantic-conventions': 1.18.1
       '@qnighy/marshal': 0.1.3
       '@renovatebot/osv-offline': 1.3.10
-      '@renovatebot/pep440': 3.0.12
-      '@renovatebot/ruby-semver': 3.0.19
+      '@renovatebot/pep440': 3.0.13
+      '@renovatebot/ruby-semver': 3.0.20
       '@sindresorhus/is': 4.6.0
       '@types/ms': 0.7.34
       '@types/tmp': 0.2.6
