@@ -1399,15 +1399,15 @@
     luxon "^3.4.4"
     node-fetch "^2.7.0"
 
-"@renovatebot/pep440@3.0.13":
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-3.0.13.tgz#7b92ea11be5748d859a1fd4dba029e505bba0e43"
-  integrity sha512-lweg1JT8Eu4rN/l3t8KxOFakwGHOA72MUrfaUBc8ErAWE379H1vbykGitHxkJ/jFQe999FoaYIz9sI17exUE1w==
+"@renovatebot/pep440@3.0.14":
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-3.0.14.tgz#427cefc2bb3c7e52d4213b87fb3bb4935a3ee5d2"
+  integrity sha512-ijhB6zyR20xUyhKR9zOy+9wBBAUD6D+LiBjbVMjMTF+8rEfPMA2mTGh+EJ0t44h8ysV41iKNzC0dQmYjxSw9BA==
 
-"@renovatebot/ruby-semver@3.0.20":
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.0.20.tgz#5365b0bcff90ab3d0cfa113647803a81fc1603ae"
-  integrity sha512-HOn6SWkSfbMNBPFa/Bqwb30LIoCwlxxYQihL2dqX2n+OPzSXT5ZmmTabFF6Gso65T3dc5g67Tdt57mICxmn3SQ==
+"@renovatebot/ruby-semver@3.0.21":
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-3.0.21.tgz#61a822865e26016491e591ea89394e22f71afc9b"
+  integrity sha512-Td3WoH5OE4CVyHuKM7c7aSrjPW49prHe6SLrshzdazEEPkjiPDB5/SznSFRImHzD1ox4LXCTi4hfFH1Necjjhg==
 
 "@seald-io/binary-search-tree@^1.0.3":
   version "1.0.3"
@@ -4594,10 +4594,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.91.4:
-  version "37.91.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.91.4.tgz#b795ca1eb6a28f71fb529d9b90cb03e1baf4d8f0"
-  integrity sha512-uL01AJhBndvr+doXxdRcbIhY63c4Tx8sZIGHZc4Ut9LGxaDCjI+JinzMxJwt/P25uG0yW7xADFKrrktfptr0vA==
+renovate@37.92.3:
+  version "37.92.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.92.3.tgz#a75b637ad153246a5b266d626ec0c26bf1def0bc"
+  integrity sha512-XO65euX+39uBwKZ6wmEtBy77NhIwLK+gM+8oyiTBEt9dvxBxES1sbDv6egRO48f11mZk4d78wyoJ8pMfZvQ9eg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4619,8 +4619,8 @@ renovate@37.91.4:
     "@opentelemetry/semantic-conventions" "1.18.1"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/osv-offline" "1.3.10"
-    "@renovatebot/pep440" "3.0.13"
-    "@renovatebot/ruby-semver" "3.0.20"
+    "@renovatebot/pep440" "3.0.14"
+    "@renovatebot/ruby-semver" "3.0.21"
     "@sindresorhus/is" "4.6.0"
     "@types/ms" "0.7.34"
     "@types/tmp" "0.2.6"
