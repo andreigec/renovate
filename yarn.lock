@@ -1114,7 +1114,7 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@opentelemetry/api-logs@0.45.1":
+"@opentelemetry/api-logs@0.45.1", "@opentelemetry/api-logs@^0.45.1":
   version "0.45.1"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.45.1.tgz#9e4f2c652dcce798c5627939b22304c2b5ce19c5"
   integrity sha512-zVGq/k70l+kB/Wuv3O/zhptP2hvDhEbhDu9EtHde1iWZJf3FedeYS/nWVcMBkkyPAjS/JKNk86WN4CBQLGUuOw==
@@ -1154,11 +1154,12 @@
     "@opentelemetry/resources" "1.18.1"
     "@opentelemetry/sdk-trace-base" "1.18.1"
 
-"@opentelemetry/instrumentation-bunyan@0.33.0":
-  version "0.33.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.33.0.tgz#6df62168a7cc6ff3f3fc323e6398ccfc8a51a176"
-  integrity sha512-i3xfmhajtOEuFO+9yMU/wJiH0tY4VtIlbJKGIKVHFOsoNqPQpG7iUQP01p0FRoje+UB+ZUvs4hU7fCZzwtnC1g==
+"@opentelemetry/instrumentation-bunyan@0.34.0":
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.34.0.tgz#9891fee8fc73d9eb4eeccb03f316972e00813404"
+  integrity sha512-UjuvggGrclyn6avTcMAdqLyrrTV26ufB73vPBPlEmA3a2dtYCS07zW82Kacxi5emZDpmHIk6zQE18DqCb/xfpA==
   dependencies:
+    "@opentelemetry/api-logs" "^0.45.1"
     "@opentelemetry/instrumentation" "^0.45.1"
     "@types/bunyan" "1.8.9"
 
@@ -3143,10 +3144,10 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
-graph-data-structure@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.3.0.tgz#93465f9f0aedcbcf357b187aa005214f30a8ca3b"
-  integrity sha512-p5z0GZ3tm85kuB0iXFjLpbL9gNSFeDPPOyINhLQm6mVfHbLaj62LF9uB1tymcsxkHqLWLQSqGA0f/4/OepCdxA==
+graph-data-structure@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-3.5.0.tgz#52f53046d3a509271ac813605cb6b481ed4998a5"
+  integrity sha512-AAgjRtBZC1acIExgK2otv2LDdcYeZdQFKiEStXRDTyaVs6sUUaGUif05pCczTqAU4ny82NQtM1p5PK7AQEYgRA==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -4594,10 +4595,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.92.3:
-  version "37.92.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.92.3.tgz#a75b637ad153246a5b266d626ec0c26bf1def0bc"
-  integrity sha512-XO65euX+39uBwKZ6wmEtBy77NhIwLK+gM+8oyiTBEt9dvxBxES1sbDv6egRO48f11mZk4d78wyoJ8pMfZvQ9eg==
+renovate@37.99.1:
+  version "37.99.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.99.1.tgz#82e3e78c4cd58aec7bc75e013be06191ed53df71"
+  integrity sha512-jNfDJDp6JuLp1zbMohmbCv7wUB8d9D872EmyR8MNqfoXFVgDVIq/V9idWAib6TUMn0AxiVFkE6DbdMk/XVJ1VQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4611,7 +4612,7 @@ renovate@37.92.3:
     "@opentelemetry/context-async-hooks" "1.18.1"
     "@opentelemetry/exporter-trace-otlp-http" "0.45.1"
     "@opentelemetry/instrumentation" "0.45.1"
-    "@opentelemetry/instrumentation-bunyan" "0.33.0"
+    "@opentelemetry/instrumentation-bunyan" "0.34.0"
     "@opentelemetry/instrumentation-http" "0.45.1"
     "@opentelemetry/resources" "1.18.1"
     "@opentelemetry/sdk-trace-base" "1.18.1"
@@ -4659,7 +4660,7 @@ renovate@37.92.3:
     good-enough-parser "1.1.23"
     google-auth-library "9.4.1"
     got "11.8.6"
-    graph-data-structure "3.3.0"
+    graph-data-structure "3.5.0"
     handlebars "4.7.8"
     ignore "5.3.0"
     ini "4.1.1"
