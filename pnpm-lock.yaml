@@ -12,11 +12,11 @@ importers:
         specifier: 7.0.3
         version: 7.0.3
       prettier:
-        specifier: 3.1.1
-        version: 3.1.1
+        specifier: 3.2.1
+        version: 3.2.1
       renovate:
-        specifier: 37.129.1
-        version: 37.129.1(typanion@3.12.1)
+        specifier: 37.130.0
+        version: 37.130.0(typanion@3.12.1)
 
 packages:
 
@@ -4293,6 +4293,12 @@ packages:
     hasBin: true
     dev: true
 
+  /prettier@3.2.1:
+    resolution: {integrity: sha512-qSUWshj1IobVbKc226Gw2pync27t0Kf0EdufZa9j7uBSJay1CC+B3K5lAAZoqgX3ASiKuWsk6OmzKRetXNObWg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /proc-log@3.0.0:
     resolution: {integrity: sha512-++Vn7NS4Xf9NacaU9Xq3URUuqZETPsf8L4j5/ckhaRYsfPeRyzGw+iDjFhV/Jr3uNmTvvddEJFWh5R1gRgUH8A==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
@@ -4461,8 +4467,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.129.1(typanion@3.12.1):
-    resolution: {integrity: sha512-5+V1LossS4HtotYdEB3EDZ8PEWFzd7EZgAEMai7bvM6NqQ/bgmp9YmhpC3sEd1jC81l8IqA/SjGuV/CzLF9NCA==}
+  /renovate@37.130.0(typanion@3.12.1):
+    resolution: {integrity: sha512-4U6rEqocNtRZVMqCZer+0ANQQWSMNl3+Pvff5jv27BQ1tWy/btKHA3pWUPC1Jfhis+n31EfaGPD2NdGweQ+eFw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
