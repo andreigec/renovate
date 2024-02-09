@@ -2186,10 +2186,10 @@ aws4@1.12.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.12.0.tgz#ce1c9d143389679e253b314241ea9aa5cec980d3"
   integrity sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==
 
-azure-devops-node-api@12.3.0:
-  version "12.3.0"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-12.3.0.tgz#bb2b31f8d4994a166dbd2bd38f9ddbf34c46bf4a"
-  integrity sha512-5HDhBFIXJxiFhcJ+A3hN87gwo92PrDNLJvcvRHjr+p7AsuUSF64yQU+M6wcBDczkIDVV7m+MrraKQ2tqUxSbCA==
+azure-devops-node-api@12.4.0:
+  version "12.4.0"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-12.4.0.tgz#c5c4b7d18fa7f960b812aaab2c635516ef5835a3"
+  integrity sha512-ZrJlnoAOjliBYvO1wV9oa5Saa3h5tfRbvCSpwjqryag7bIeeY5Zl/zGiZBVD+75EumhtY5mOXNBzHvLf6JmdNQ==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.4"
@@ -3350,10 +3350,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-ignore@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.0.tgz#67418ae40d34d6999c95ff56016759c718c82f78"
-  integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
+ignore@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.1.tgz#5073e554cd42c5b33b394375f538b8593e34d4ef"
+  integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -4741,10 +4741,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.175.0:
-  version "37.175.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.175.0.tgz#7ec00f7f7a715bdbf9dbbdb8195d1c138120451a"
-  integrity sha512-0jM5LKVVAEWoLOhk0msENjummphVhR8v+plmAqTwnsfrorK0pPWcrj03ae5sJSNSeg98cUZXriPpg5QTZAxaCw==
+renovate@37.180.0:
+  version "37.180.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.180.0.tgz#3371f08054924ff4c3bc45976e00bfd57a333933"
+  integrity sha512-PCnxc1bsq/jGvQe7ivYT7fRBSDRTO8KRACrSrDzqC6ug7JsN3PhkeD8djRP3spzYPih3EPJtUisIUSIuJ/n+aQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4778,7 +4778,7 @@ renovate@37.175.0:
     aggregate-error "3.1.0"
     auth-header "1.0.0"
     aws4 "1.12.0"
-    azure-devops-node-api "12.3.0"
+    azure-devops-node-api "12.4.0"
     better-sqlite3 "9.3.0"
     bunyan "1.8.15"
     cacache "18.0.2"
@@ -4810,7 +4810,7 @@ renovate@37.175.0:
     got "11.8.6"
     graph-data-structure "3.5.0"
     handlebars "4.7.8"
-    ignore "5.3.0"
+    ignore "5.3.1"
     ini "4.1.1"
     js-yaml "4.1.0"
     json-dup-key-validator "1.0.3"
