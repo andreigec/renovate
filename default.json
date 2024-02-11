@@ -16,12 +16,6 @@
       "matchPackagePatterns": ["@types/node-fetch", "node-fetch"],
       "matchUpdateTypes": ["major"],
       "enabled": false
-    },
-    {
-      "groupName": "next",
-      "matchPackagePatterns": ["next"],
-      "matchUpdateTypes": ["patch", "minor"],
-      "enabled": false
     }
   ],
   "postUpdateOptions": ["pnpmDedupe"],
