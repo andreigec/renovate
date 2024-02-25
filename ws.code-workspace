@@ -1,43 +1,43 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"eslint.autoFixOnSave": true,
-		"eslint.validate": [
-			{
-				"language": "javascript",
-				"autoFix": true
-			},
-			{
-				"language": "javascriptreact",
-				"autoFix": true
-			},
-			{
-				"language": "typescript",
-				"autoFix": true
-			},
-			{
-				"language": "typescriptreact",
-				"autoFix": true
-			}
-		],
-		"editor.codeActionsOnSave": {
-			"source.fixAll.eslint": "explicit"
-		},
-		"typescript.tsdk": "node_modules\\typescript\\lib",
-		"files.exclude": {
-			"**/.git": true, // this is a default value
-			"**/.DS_Store": true, // this is a default value
-			"**/node_modules": true, // this excludes all folders 
-			// named "node_modules" from 
-			// the explore tree
-			// alternative version
-			"node_modules": true // this excludes the folder 
-			// only from the root of
-			// your workspace 
-		}
-	}
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      {
+        "language": "javascript",
+        "autoFix": true,
+      },
+      {
+        "language": "javascriptreact",
+        "autoFix": true,
+      },
+      {
+        "language": "typescript",
+        "autoFix": true,
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true,
+      },
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "files.exclude": {
+      "**/.git": true, // this is a default value
+      "**/.DS_Store": true, // this is a default value
+      "**/node_modules": true, // this excludes all folders
+      // named "node_modules" from
+      // the explore tree
+      // alternative version
+      "node_modules": true, // this excludes the folder
+      // only from the root of
+      // your workspace
+    },
+  },
 }

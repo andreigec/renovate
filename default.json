@@ -16,6 +16,12 @@
       "matchPackagePatterns": ["@types/node-fetch", "node-fetch"],
       "matchUpdateTypes": ["major"],
       "enabled": false
+    },
+    {
+      "groupName": "in house",
+      "matchPackagePatterns": ["^ag-", "^analytica.click"],
+      "matchPackageNames": ["eslint-config-e7npm", "surveyfoundry.com"],
+      "schedule": "before 7am"
     }
   ],
   "postUpdateOptions": ["pnpmDedupe"],
@@ -23,7 +29,7 @@
   "prNotPendingHours": 1,
   "minimumReleaseAge": "0 days",
   "semanticCommitType": "deps",
-  "schedule": "before 7am",
+  "schedule": "before 7am on sunday",
   "recreateWhen": "always",
   "automerge": true,
   "automergeType": "branch",
