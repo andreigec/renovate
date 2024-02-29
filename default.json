@@ -18,6 +18,12 @@
       "enabled": false
     },
     {
+      "groupName": "emotion",
+      "matchPackagePatterns": ["@emotion/react"],
+      "matchCurrentVersion": "11.11.4",
+      "enabled": false
+    },
+    {
       "groupName": "in house",
       "matchPackagePatterns": ["^ag-", "^analytica.click"],
       "matchPackageNames": ["eslint-config-e7npm", "surveyfoundry.com"],
