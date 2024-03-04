@@ -25,7 +25,7 @@
     },
     {
       "groupName": "next",
-      "matchPackagePatterns": ["next"],
+      "matchPackagePatterns": ["next", "@next/eslint-plugin-next"],
       "matchCurrentVersion": "14.1.0",
       "enabled": false
     },
