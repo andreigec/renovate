@@ -24,12 +24,6 @@
       "enabled": false
     },
     {
-      "groupName": "next",
-      "matchPackagePatterns": ["next", "@next/eslint-plugin-next"],
-      "matchCurrentVersion": "14.1.0",
-      "enabled": false
-    },
-    {
       "groupName": "in house",
       "matchPackagePatterns": ["^ag-", "^analytica.click"],
       "matchPackageNames": ["eslint-config-e7npm", "surveyfoundry.com"],
