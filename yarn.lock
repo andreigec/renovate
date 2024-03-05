@@ -937,10 +937,10 @@
   resolved "https://registry.yarnpkg.com/@breejs/later/-/later-4.2.0.tgz#669661f3a02535ef900f360c74e48c3f5483c786"
   integrity sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==
 
-"@cdktf/hcl2json@0.20.3":
-  version "0.20.3"
-  resolved "https://registry.yarnpkg.com/@cdktf/hcl2json/-/hcl2json-0.20.3.tgz#92ab64bc65aa28f2dcfaf62169d84a834b3e610e"
-  integrity sha512-GCq/GrVRXI0nR5gQM0LW7pxEA/tZav0dGQZGowHif/vXsMlOZjTh/F1ISVmDUCkNHV7pgbFmy6tDg7RtsiavXw==
+"@cdktf/hcl2json@0.20.4":
+  version "0.20.4"
+  resolved "https://registry.yarnpkg.com/@cdktf/hcl2json/-/hcl2json-0.20.4.tgz#c5429f018de21df976a4c189d4ecc6a3e2b96829"
+  integrity sha512-j9rQckF5lm8+9NB6kXqUc/YFKbo5SzZVp96xa2uYe3+1cmjum4SsA3P4M1du6Vuw6GRUh6mtYY6e3JQbZVQ05g==
   dependencies:
     fs-extra "11.2.0"
 
@@ -3719,10 +3719,10 @@ json5@2.2.3, json5@^2.2.1:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
-jsonata@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-2.0.3.tgz#f8971c2891cb1d6ebfeecbfe657ecc38c1b843a5"
-  integrity sha512-Up2H81MUtjqI/dWwWX7p4+bUMfMrQJVMN/jW6clFMTiYP528fBOBNtRu944QhKTs3+IsVWbgMeUTny5fw2VMUA==
+jsonata@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-2.0.4.tgz#d8575d4c7695a2086162a2baebce0f0ee4e84fdb"
+  integrity sha512-vfavX4/G/yrYxE+UrmT/oUJ3ph7KqUrb0R7b0LVRcntQwxw+Z5kA1pNUIQzX5hF04Oe1eKxyoIPsmXtc2LgJTQ==
 
 jsonfile@^6.0.1:
   version "6.1.0"
@@ -4736,10 +4736,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.224.4:
-  version "37.224.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.224.4.tgz#14e3be83e9e43bf9b3145d67b59c5fb5f9d607e1"
-  integrity sha512-ZWUltC8tzPHnMjUsNjQdLMtmA3Hn/dJvRBEmii93lwoStJnSRjec5X86mNosfThyPaZnpG1eo2teEBHiAYs7DQ==
+renovate@37.227.1:
+  version "37.227.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.227.1.tgz#512ce682a5c55dbbc7aa5cd6353d996c2279ea55"
+  integrity sha512-tWIH77p4BTAJdIQrW5mzXpiKJSBUY9H1pVQ48hiWixcR74IbwP0ApJLIEtt0Chz06QUL1g/SgquBeAgGM7lB5g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4748,7 +4748,7 @@ renovate@37.224.4:
     "@aws-sdk/client-s3" "3.363.0"
     "@aws-sdk/credential-providers" "3.363.0"
     "@breejs/later" "4.2.0"
-    "@cdktf/hcl2json" "0.20.3"
+    "@cdktf/hcl2json" "0.20.4"
     "@opentelemetry/api" "1.7.0"
     "@opentelemetry/context-async-hooks" "1.21.0"
     "@opentelemetry/exporter-trace-otlp-http" "0.48.0"
@@ -4811,7 +4811,7 @@ renovate@37.224.4:
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
     json5 "2.2.3"
-    jsonata "2.0.3"
+    jsonata "2.0.4"
     klona "2.0.6"
     lru-cache "10.2.0"
     luxon "3.4.4"
