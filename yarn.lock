@@ -4612,10 +4612,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.20.9:
-  version "1.20.9"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.20.9.tgz#3e6e5b73cdd911cdbdfe5133cc6670600e33871b"
-  integrity sha512-ZYcPTFr5ha2xq3WQjBDTF9CWPSDK1z28MLh5UFRxc//7X8BNQ3A7yR7ITnP0jO346661ertdKVFqw1qoL3FMEQ==
+re2@1.20.10:
+  version "1.20.10"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.20.10.tgz#08c44001c6ed646a84e75ec86af87a552d54c460"
+  integrity sha512-/5JjSPXobSDaKFL6rD5Gb4qD4CVBITQb7NAxfQ/NA7o0HER3SJAPV3lPO2kvzw0/PN1pVJNVATEUk4y9j7oIIA==
   dependencies:
     install-artifact-from-github "^1.3.5"
     nan "^2.18.0"
@@ -4736,10 +4736,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.233.1:
-  version "37.233.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.233.1.tgz#bcf08932561f95188d0f760c5aee5c8527d4fb74"
-  integrity sha512-kQ/vsCsEL3dcwBzly1KAhiLiXduzfcpdlF4m7GkQvv3Ua6+MR5GdiZvIJ/9QM2HmvcdsurIbGy8yLjkwpOcUdw==
+renovate@37.234.1:
+  version "37.234.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.234.1.tgz#b44b6c9e3c7a3871b24c4eb20eb6beadeada5fed"
+  integrity sha512-8GUVqCbzvJrFIDHc6bZX9Tuy/mQJpqu3pZvN2MKtx8edesnUXYwouVLVvT9D7IyfrXmJMgbec6hRIsys9HTJTw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4850,7 +4850,7 @@ renovate@37.233.1:
     xmldoc "1.3.0"
     zod "3.22.4"
   optionalDependencies:
-    re2 "1.20.9"
+    re2 "1.20.10"
 
 repeat-string@^1.0.0:
   version "1.6.1"
@@ -5155,8 +5155,16 @@ ssri@^10.0.0:
   dependencies:
     minipass "^3.1.1"
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
-  name string-width-cjs
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.1.0:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -5204,8 +5212,14 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  name strip-ansi-cjs
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
