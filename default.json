@@ -13,7 +13,7 @@
     },
     {
       "groupName": "node fetch",
-      "matchPackagePatterns": ["@types/node-fetch", "node-fetch"],
+      "matchPackagePatterns": ["@types/node-fetch", "node-fetch", "eslint"],
       "matchUpdateTypes": ["major"],
       "enabled": false
     },
