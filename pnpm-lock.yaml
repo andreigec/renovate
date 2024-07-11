@@ -15,8 +15,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
       renovate:
-        specifier: 37.427.0
-        version: 37.427.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1)
+        specifier: 37.429.0
+        version: 37.429.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1)
 
 packages:
 
@@ -374,8 +374,8 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.0.0
 
-  '@opentelemetry/instrumentation-bunyan@0.39.0':
-    resolution: {integrity: sha512-AQ845Wh5Yhd7S0argkCd1vrThNo4q/p6LJePC4OlFifPa9i5O2MzfLNh4mo8YWa0rYvcc+jbhodkGNa+1YJk/A==}
+  '@opentelemetry/instrumentation-bunyan@0.40.0':
+    resolution: {integrity: sha512-aZ4cXaGWwj79ZXSYrgFVsrDlE4mmf2wfvP9bViwRc0j75A6eN6GaHYHqufFGMTCqASQn5pIjjP+Bx+PWTGiofw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
@@ -2439,8 +2439,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.427.0:
-    resolution: {integrity: sha512-tL9inWESvBfkt90HDG8sZxaADNDYOQudSlM+TXSrC24nICl5RWFzNdPKvmuC4agQ3vLO5q5eykcWLoby7+OQaA==}
+  renovate@37.429.0:
+    resolution: {integrity: sha512-0VdnrcN7gKbzAuTqufM/+t4NGafmw7RmMVEvqOcfwXLqUTKf+tAm7IHqUrItafWWkvsrnzIKNPX7eq5WI8K88Q==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -3935,7 +3935,7 @@ snapshots:
       '@opentelemetry/resources': 1.25.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.25.1(@opentelemetry/api@1.9.0)
 
-  '@opentelemetry/instrumentation-bunyan@0.39.0(@opentelemetry/api@1.9.0)':
+  '@opentelemetry/instrumentation-bunyan@0.40.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/api-logs': 0.52.1
@@ -6424,7 +6424,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.427.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1):
+  renovate@37.429.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1):
     dependencies:
       '@aws-sdk/client-codecommit': 3.606.0
       '@aws-sdk/client-ec2': 3.606.0
@@ -6438,7 +6438,7 @@ snapshots:
       '@opentelemetry/context-async-hooks': 1.25.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/exporter-trace-otlp-http': 0.52.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation': 0.52.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/instrumentation-bunyan': 0.39.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/instrumentation-bunyan': 0.40.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation-http': 0.52.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 1.25.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.25.1(@opentelemetry/api@1.9.0)

@@ -1188,10 +1188,10 @@
     "@opentelemetry/resources" "1.25.1"
     "@opentelemetry/sdk-trace-base" "1.25.1"
 
-"@opentelemetry/instrumentation-bunyan@0.39.0":
-  version "0.39.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.39.0.tgz#191f69f42d87cc5f00b2e115fa721801f0586c1a"
-  integrity sha512-AQ845Wh5Yhd7S0argkCd1vrThNo4q/p6LJePC4OlFifPa9i5O2MzfLNh4mo8YWa0rYvcc+jbhodkGNa+1YJk/A==
+"@opentelemetry/instrumentation-bunyan@0.40.0":
+  version "0.40.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.40.0.tgz#9e67a37e0254173b6f6dd0a56dc55fb83e254857"
+  integrity sha512-aZ4cXaGWwj79ZXSYrgFVsrDlE4mmf2wfvP9bViwRc0j75A6eN6GaHYHqufFGMTCqASQn5pIjjP+Bx+PWTGiofw==
   dependencies:
     "@opentelemetry/api-logs" "^0.52.0"
     "@opentelemetry/instrumentation" "^0.52.0"
@@ -5556,10 +5556,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.427.0:
-  version "37.427.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.427.0.tgz#e7fea0c4b48be19c6a421e9cf837f02ce09008f2"
-  integrity sha512-tL9inWESvBfkt90HDG8sZxaADNDYOQudSlM+TXSrC24nICl5RWFzNdPKvmuC4agQ3vLO5q5eykcWLoby7+OQaA==
+renovate@37.429.0:
+  version "37.429.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.429.0.tgz#59d24679948ad855548b7d52befb0b04df8e121e"
+  integrity sha512-0VdnrcN7gKbzAuTqufM/+t4NGafmw7RmMVEvqOcfwXLqUTKf+tAm7IHqUrItafWWkvsrnzIKNPX7eq5WI8K88Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5573,7 +5573,7 @@ renovate@37.427.0:
     "@opentelemetry/context-async-hooks" "1.25.1"
     "@opentelemetry/exporter-trace-otlp-http" "0.52.1"
     "@opentelemetry/instrumentation" "0.52.1"
-    "@opentelemetry/instrumentation-bunyan" "0.39.0"
+    "@opentelemetry/instrumentation-bunyan" "0.40.0"
     "@opentelemetry/instrumentation-http" "0.52.1"
     "@opentelemetry/resources" "1.25.1"
     "@opentelemetry/sdk-trace-base" "1.25.1"
