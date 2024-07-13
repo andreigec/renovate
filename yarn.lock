@@ -3609,10 +3609,10 @@ glob-parent@^5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@10.4.2:
-  version "10.4.2"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-10.4.2.tgz#bed6b95dade5c1f80b4434daced233aee76160e5"
-  integrity sha512-GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==
+glob@10.4.5:
+  version "10.4.5"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.4.5.tgz#f4d9f0b90ffdbab09c9d77f5f29b4262517b0956"
+  integrity sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==
   dependencies:
     foreground-child "^3.1.0"
     jackspeak "^3.1.2"
@@ -4523,10 +4523,10 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
-lru-cache@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.3.0.tgz#4a4aaf10c84658ab70f79a85a9a3f1e1fb11196b"
-  integrity sha512-CQl19J/g+Hbjbv4Y3mFNNXFEL/5t/KCg8POCuUqd4rMKjGG+j1ybER83hxV58zL+dFI1PTkt3GNFSHRt+d8qEQ==
+lru-cache@10.4.3:
+  version "10.4.3"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
+  integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
 
 lru-cache@^10.0.1:
   version "10.0.1"
@@ -5326,6 +5326,11 @@ prettier@3.3.2:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.2.tgz#03ff86dc7c835f2d2559ee76876a3914cec4a90a"
   integrity sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==
 
+prettier@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.3.3.tgz#30c54fe0be0d8d12e6ae61dbb10109ea00d53105"
+  integrity sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
+
 proc-log@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/proc-log/-/proc-log-3.0.0.tgz#fb05ef83ccd64fd7b20bbe9c8c1070fc08338dd8"
@@ -5556,10 +5561,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.429.1:
-  version "37.429.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.429.1.tgz#669f412ee6c332f9702e36de91802747ebe03199"
-  integrity sha512-Zwh4DxmMjK9CBPAu49Yddcgymx6cTP9z82zT067/5j7YZe+VTzFwkzAyuuP9ckExtwi7mto+5KCQLEGWGonhYw==
+renovate@37.431.4:
+  version "37.431.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.431.4.tgz#4a4b42ace1bdf5b235e666ab77a1c480b257240d"
+  integrity sha512-sOHR+or7DLPWGvN0CwqTg9t9qPY5sQ/oCYD9PKxbkej12vJDu1+MFD6ONPndENa8PTtcbPAHHED1IC6sAUPOzQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5616,7 +5621,7 @@ renovate@37.429.1:
     fs-extra "11.2.0"
     git-url-parse "14.0.0"
     github-url-from-git "1.5.0"
-    glob "10.4.2"
+    glob "10.4.5"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
     google-auth-library "9.11.0"
@@ -5632,7 +5637,7 @@ renovate@37.429.1:
     jsonata "2.0.5"
     jsonc-parser "3.3.1"
     klona "2.0.6"
-    lru-cache "10.3.0"
+    lru-cache "10.4.3"
     luxon "3.4.4"
     markdown-it "14.1.0"
     markdown-table "2.0.0"
