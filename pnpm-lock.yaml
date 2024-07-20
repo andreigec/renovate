@@ -15,8 +15,8 @@ importers:
         specifier: 3.3.3
         version: 3.3.3
       renovate:
-        specifier: 37.434.2
-        version: 37.434.2(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1)
+        specifier: 37.437.3
+        version: 37.437.3(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1)
 
 packages:
 
@@ -2332,11 +2332,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  prettier@3.3.2:
-    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
-    engines: {node: '>=14'}
-    hasBin: true
-
   prettier@3.3.3:
     resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
@@ -2442,8 +2437,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.434.2:
-    resolution: {integrity: sha512-yF4BvwRvyLtpG4825aixBQ0Kr/QbQ6+WUt3HkCeKpDcVnQzPVTuzwccLTY5YXriIMJbiLuQ5IMb5lbs+t1I65Q==}
+  renovate@37.437.3:
+    resolution: {integrity: sha512-pz9Zz/ThwxwzaJUqcDQyY8PSE4giuUOUJPrUh+/GXuhXUS/1BhgJ054m2P3awvFws7d5nT0LEcO71/YiZJEytw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -6278,8 +6273,6 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
-  prettier@3.3.2: {}
-
   prettier@3.3.3: {}
 
   proc-log@3.0.0:
@@ -6429,7 +6422,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.434.2(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1):
+  renovate@37.437.3(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.12.1):
     dependencies:
       '@aws-sdk/client-codecommit': 3.606.0
       '@aws-sdk/client-ec2': 3.606.0
@@ -6516,7 +6509,7 @@ snapshots:
       p-queue: 6.6.2
       p-throttle: 4.1.1
       parse-link-header: 2.0.0
-      prettier: 3.3.2
+      prettier: 3.3.3
       redis: 4.6.15
       remark: 13.0.0
       remark-github: 10.1.0
