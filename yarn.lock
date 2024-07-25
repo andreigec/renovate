@@ -2613,7 +2613,7 @@ cacache@^18.0.0:
     tar "^6.1.11"
     unique-filename "^3.0.0"
 
-cacheable-lookup@5.0.4, cacheable-lookup@^5.0.3:
+cacheable-lookup@^5.0.3:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/cacheable-lookup/-/cacheable-lookup-5.0.4.tgz#5a6b865b2c44357be3d5ebc2a467b032719a7005"
   integrity sha512-2/kNscPhpcxrOigMZzbiWF7dz8ilhb/nIHU3EyZiXWXpeq/au8qJ8VhdftMkty3n7Gj6HIGalQG8oiBNB3AJgA==
@@ -4523,11 +4523,6 @@ lowercase-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
   integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
 
-lru-cache@10.4.3:
-  version "10.4.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
-  integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
-
 lru-cache@^10.0.1:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.1.tgz#0a3be479df549cca0e5d693ac402ff19537a6b7a"
@@ -5556,10 +5551,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.440.7:
-  version "37.440.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.440.7.tgz#07da2eee899f693be3f8151dba47869850037a1b"
-  integrity sha512-y6/JW4uUTgY9J2CZE993DwwdYqeyLeUn+cepT0w+5XJmbOHoY+XInZB46Ens0E+OHPu6qxOXv5Wai3gdIDnDXw==
+renovate@38.4.0:
+  version "38.4.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.4.0.tgz#90edb160e0a09a520eed43d38d75997b4719c3cb"
+  integrity sha512-pxKtcYwYtRM5CF99UZbr2oEc/zNJctn9FfDx2Qe4IytjUi8UAYxC0hbqoDdXeaA3n7AVhIIo51O2vSs27nha3A==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5594,7 +5589,6 @@ renovate@37.440.7:
     azure-devops-node-api "14.0.1"
     bunyan "1.8.15"
     cacache "18.0.4"
-    cacheable-lookup "5.0.4"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
@@ -5632,7 +5626,6 @@ renovate@37.440.7:
     jsonata "2.0.5"
     jsonc-parser "3.3.1"
     klona "2.0.6"
-    lru-cache "10.4.3"
     luxon "3.4.4"
     markdown-it "14.1.0"
     markdown-table "2.0.0"
