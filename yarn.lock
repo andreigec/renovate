@@ -2824,6 +2824,11 @@ cron-parser@4.9.0:
   dependencies:
     luxon "^3.2.1"
 
+cronstrue@2.50.0:
+  version "2.50.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.50.0.tgz#eabba0f915f186765258b707b7a3950c663b5573"
+  integrity sha512-ULYhWIonJzlScCCQrPUG5uMXzXxSixty4djud9SS37DoNxDdkeRocxzHuAo4ImRBUK+mAuU5X9TSwEDccnnuPg==
+
 cross-env@7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-7.0.3.tgz#865264b29677dc015ba8418918965dd232fc54cf"
@@ -5551,10 +5556,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@38.12.0:
-  version "38.12.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.12.0.tgz#10bd0a6a1ebc831a6207390a376f7a25b9579799"
-  integrity sha512-L2Hyl78NCDIV/MqLkSpXlAjvQpDMLKH6E/9qHW0w9zGvO94FME4YMVWoJyJTq2R81jvTDnhaLC2dmCk+0RlqwQ==
+renovate@38.17.1:
+  version "38.17.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.17.1.tgz#5e910526d6121083e360d7269925601fe71e4b11"
+  integrity sha512-fdJ0yCAZXFXdkxm/LHihrwDATDkEKU4qpMh/tcq+IS4zfnz3KfZLcFLH3+4siDcGb+HYlvqNrvDonNtmA45xOA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.606.0"
     "@aws-sdk/client-ec2" "3.606.0"
@@ -5595,6 +5600,7 @@ renovate@38.12.0:
     commander "12.1.0"
     conventional-commits-detector "1.0.3"
     cron-parser "4.9.0"
+    cronstrue "2.50.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
