@@ -3550,10 +3550,10 @@ good-enough-parser@1.1.23:
     klona "2.0.6"
     moo "0.5.2"
 
-google-auth-library@9.14.1:
-  version "9.14.1"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.14.1.tgz#4c6f535f474b01847ea1a60ef1d56dbd6a0aad2f"
-  integrity sha512-Rj+PMjoNFGFTmtItH7gHfbHpGVSb3vmnGK3nwNBqxQF9NoBpttSZI/rc0WiM63ma2uGDQtYEkMHkK9U6937NiA==
+google-auth-library@9.14.2:
+  version "9.14.2"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-9.14.2.tgz#92a53ba32b3a9ff9ced8ed34129edb5a7fa7fb52"
+  integrity sha512-R+FRIfk1GBo3RdlRYWPdwk8nmtVUOn6+BkDomAC46KoU8kzXzE1HLmOasSCbWUByMMAGkknVF0G5kQ69Vj7dlA==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -5363,10 +5363,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@38.126.1:
-  version "38.126.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.126.1.tgz#a66ed0eb7426f97765ebf41cfba3d37b95acb383"
-  integrity sha512-Z7IDMJKNZ1ib+06gPv34uUk6lDp5/cLNl7LvCo/S9SjS23RXV/n0Gji+RxYh4w1T3DJo4onF6QpYHwPXVqRVrQ==
+renovate@38.127.0:
+  version "38.127.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.127.0.tgz#0e00b6e3843d9ce306d4ce97ef17d3cdb16e9f6e"
+  integrity sha512-wQreDGlMGl+8QZCMG1GiU0JdxFbOpfpNxxC8+qP26ijxtmcQrds/dEMk8xrtbSQOg62W3251i0TvD2ESDBJYgw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.658.1"
     "@aws-sdk/client-ec2" "3.658.1"
@@ -5428,7 +5428,7 @@ renovate@38.126.1:
     glob "11.0.0"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
-    google-auth-library "9.14.1"
+    google-auth-library "9.14.2"
     got "11.8.6"
     graph-data-structure "3.5.0"
     handlebars "4.7.8"
