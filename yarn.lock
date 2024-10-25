@@ -2439,10 +2439,10 @@ before-after-hook@^2.2.0:
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.2.2.tgz#a6e8ca41028d90ee2c24222f201c90956091613e"
   integrity sha512-3pZEU3NT5BFUo/AD5ERPWOgQOCZITni6iavr5AUw5AUwQjMlI0kzu5btnyD39AF0gUEsDPwJT+oY1ORBJijPjQ==
 
-better-sqlite3@11.3.0:
-  version "11.3.0"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-11.3.0.tgz#f10b32ddff665c33176d148e707bd1e57dfd0284"
-  integrity sha512-iHt9j8NPYF3oKCNOO5ZI4JwThjt3Z6J6XrcwG85VNMVzv1ByqrHWv5VILEbCMFWDsoHhXvQ7oC8vgRXFAKgl9w==
+better-sqlite3@11.4.0:
+  version "11.4.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-11.4.0.tgz#1821eca4257ea4b49ab1caf0e936421749f11d8a"
+  integrity sha512-B7C9y2aSvtTwDJIz34iUxMjQWmbAYFmpq0Rwf9weYTtx6jUYsUKVt5ePPYlGyLVBoySppPa41PBrzl1ipMhG7A==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -5363,10 +5363,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@38.130.3:
-  version "38.130.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.130.3.tgz#067937e76028fe826561c8669880aa5202ad528b"
-  integrity sha512-c0H+3aE0wTcAYxQb6hOOaedTl9XseXBtnDE/qWJimSgSDaWx2I8kpry7sV+DCwGO91zbx9BmQExyjqZN+kRAmA==
+renovate@38.131.0:
+  version "38.131.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.131.0.tgz#61306d4d0bb4e149ac141db085a7bbfb7612c4f1"
+  integrity sha512-qIFFQSuns3bOxEddFB+kixGQ/G688SgF6+F5cHWK2+CQGFjA8rJWdEmCCnx0mymJWwY2ziCa6CZNA+9M+Vin0g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.658.1"
     "@aws-sdk/client-ec2" "3.658.1"
@@ -5476,7 +5476,7 @@ renovate@38.130.3:
     yaml "2.6.0"
     zod "3.23.8"
   optionalDependencies:
-    better-sqlite3 "11.3.0"
+    better-sqlite3 "11.4.0"
     openpgp "5.11.2"
     re2 "1.21.4"
 
