@@ -1168,10 +1168,17 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@opentelemetry/api-logs@0.55.0", "@opentelemetry/api-logs@^0.55.0":
+"@opentelemetry/api-logs@0.55.0":
   version "0.55.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.55.0.tgz#5cd7461820d864600250deb3803c32367a6bb2d2"
   integrity sha512-3cpa+qI45VHYcA5c0bHM6VHo9gicv3p5mlLHNG3rLyjQU8b7e0st1rWtrUn3JbZ3DwwCfhKop4eQ9UuYlC6Pkg==
+  dependencies:
+    "@opentelemetry/api" "^1.3.0"
+
+"@opentelemetry/api-logs@0.56.0", "@opentelemetry/api-logs@^0.56.0":
+  version "0.56.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/api-logs/-/api-logs-0.56.0.tgz#68f8c51ca905c260b610c8a3c67d3f9fa3d59a45"
+  integrity sha512-Wr39+94UNNG3Ei9nv3pHd4AJ63gq5nSemMRpCd8fPwDL9rN3vK26lzxfH27mw16XzOSO+TpyQwBAMaLxaPWG0g==
   dependencies:
     "@opentelemetry/api" "^1.3.0"
 
@@ -1203,13 +1210,13 @@
     "@opentelemetry/resources" "1.28.0"
     "@opentelemetry/sdk-trace-base" "1.28.0"
 
-"@opentelemetry/instrumentation-bunyan@0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.43.0.tgz#ed38960c80c24a67077663619ffe545576b210ea"
-  integrity sha512-nAAXMx63tXXWwuPiTLWTxDRBqXDRvcfE4H3IrXZbrls3BO7P7SkTZ9dvwPCuTku4rRUhEEDpV8vq9Ng4Pk/Uzw==
+"@opentelemetry/instrumentation-bunyan@0.44.0":
+  version "0.44.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.44.0.tgz#64ed1069bc5e8847f304361ddc5f92ee6a17fcec"
+  integrity sha512-9JHcfUPejOx5ULuxrH5K5qOZ9GJSTisuMSZZFVkDigZJ42pMn26Zgmb1HhuiZXd/ZcFgOeLZcwQNpBmF1whftg==
   dependencies:
-    "@opentelemetry/api-logs" "^0.55.0"
-    "@opentelemetry/instrumentation" "^0.55.0"
+    "@opentelemetry/api-logs" "^0.56.0"
+    "@opentelemetry/instrumentation" "^0.56.0"
     "@types/bunyan" "1.8.9"
 
 "@opentelemetry/instrumentation-http@0.55.0":
@@ -1223,12 +1230,24 @@
     forwarded-parse "2.1.2"
     semver "^7.5.2"
 
-"@opentelemetry/instrumentation@0.55.0", "@opentelemetry/instrumentation@^0.55.0":
+"@opentelemetry/instrumentation@0.55.0":
   version "0.55.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.55.0.tgz#ecac8afd8706f6e99b3bb6951b9e07c4c81533f0"
   integrity sha512-YDCMlaQRZkziLL3t6TONRgmmGxDx6MyQDXRD0dknkkgUZtOK5+8MWft1OXzmNu6XfBOdT12MKN5rz+jHUkafKQ==
   dependencies:
     "@opentelemetry/api-logs" "0.55.0"
+    "@types/shimmer" "^1.2.0"
+    import-in-the-middle "^1.8.1"
+    require-in-the-middle "^7.1.1"
+    semver "^7.5.2"
+    shimmer "^1.2.1"
+
+"@opentelemetry/instrumentation@^0.56.0":
+  version "0.56.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.56.0.tgz#3330ce16d9235a548efa1019a4a7f01414edd44a"
+  integrity sha512-2KkGBKE+FPXU1F0zKww+stnlUxUTlBvLCiWdP63Z9sqXYeNI/ziNzsxAp4LAdUcTQmXjw1IWgvm5CAb/BHy99w==
+  dependencies:
+    "@opentelemetry/api-logs" "0.56.0"
     "@types/shimmer" "^1.2.0"
     import-in-the-middle "^1.8.1"
     require-in-the-middle "^7.1.1"
@@ -5323,10 +5342,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.62.6:
-  version "39.62.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.62.6.tgz#0306f50abebc61ffa993325d394cf0fd8f15f35e"
-  integrity sha512-OuT7a8XUf8FJ4H0nmAbKiPP3h0JZRqYORDTSJsisLkYdYd2VgwvwMAbJJBdRzJfB6nHroQJyCtqcEOTeno89Rg==
+renovate@39.66.0:
+  version "39.66.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.66.0.tgz#cc97c4e3e97458f8ca32cd66052a0a048aa489ed"
+  integrity sha512-jz5JKtXOrUNq1YIg/whET3wocXN+swCrnpQdy5AGf8+dxSpcw8zCwe3ZhvpvhIBflBwVu0LA47eetLoxv99aVg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.699.0"
     "@aws-sdk/client-ec2" "3.701.0"
@@ -5340,7 +5359,7 @@ renovate@39.62.6:
     "@opentelemetry/context-async-hooks" "1.28.0"
     "@opentelemetry/exporter-trace-otlp-http" "0.55.0"
     "@opentelemetry/instrumentation" "0.55.0"
-    "@opentelemetry/instrumentation-bunyan" "0.43.0"
+    "@opentelemetry/instrumentation-bunyan" "0.44.0"
     "@opentelemetry/instrumentation-http" "0.55.0"
     "@opentelemetry/resources" "1.28.0"
     "@opentelemetry/sdk-trace-base" "1.28.0"
