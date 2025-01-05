@@ -2236,10 +2236,10 @@
   dependencies:
     "@types/node" "*"
 
-"@yarnpkg/core@4.1.6":
-  version "4.1.6"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.1.6.tgz#1f4a9690b5a8ce5bb03c82075634a0c4d340617d"
-  integrity sha512-iF8LOSd4K0RVSB56c4IMYcXp6aiCT3wyWfMmiYSAiLm8tepwEtBOcrL9gzTzrT09NnDRz1CV/YB7iwfnUOMsAg==
+"@yarnpkg/core@4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/core/-/core-4.2.0.tgz#24bce83ab53bfee74cfee087252108e87861ad7e"
+  integrity sha512-h+cjnATkpO0ya6I5U4RYvOet/IsswOje3eBq9CsFM4XJZ2nS4WBBeFwYe0tqLD87IwKsoyuIdUwZjPHcn2DM8g==
   dependencies:
     "@arcanis/slice-ansi" "^1.1.1"
     "@types/semver" "^7.1.0"
@@ -2340,10 +2340,10 @@ agent-base@^7.0.2, agent-base@^7.1.0:
   dependencies:
     debug "^4.3.4"
 
-agentkeepalive@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-4.5.0.tgz#2673ad1389b3c418c5a20c5d7364f93ca04be923"
-  integrity sha512-5GG/5IbQQpC9FpkRGsSvZI5QYeSCzlJHdpBQntCsuTOxhKD8lqKhrleg2Yi7yvMIf82Ycmmqln9U8V9qwEiJew==
+agentkeepalive@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-4.6.0.tgz#35f73e94b3f40bf65f105219c623ad19c136ea6a"
+  integrity sha512-kja8j7PjmncONqaTsB8fQ+wE2mSU2DJ9D4XKoJ5PFWIdRMa6SLSN1ff4mOr4jCbfRSsxR4keIiySJU0N9T5hIQ==
   dependencies:
     humanize-ms "^1.2.1"
 
@@ -5318,10 +5318,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.90.4:
-  version "39.90.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.90.4.tgz#e5dc1d196508ffb6e140604cd929397920b62c70"
-  integrity sha512-JADQmZuLKfCRZ6LnOegImmRfW3vrlHvu45Y3nT3rVTdQJ3KGF3TD7cPnxzwKiaVlu4YsZc4Ng6MLp4I2jONleA==
+renovate@39.91.0:
+  version "39.91.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.91.0.tgz#bfec1c5fde093e411970e62139f5fc3ec83b0634"
+  integrity sha512-XgZVTMntSjVdPp4qkgbyBnoajH+qMdDLmaXUFeqtpSwouqbSheuKt8Cz57x/t+mYJJzNY4VtxXHpFGXgKzDaog==
   dependencies:
     "@aws-sdk/client-codecommit" "3.716.0"
     "@aws-sdk/client-ec2" "3.716.0"
@@ -5348,9 +5348,9 @@ renovate@39.90.4:
     "@renovatebot/pep440" "4.0.1"
     "@renovatebot/ruby-semver" "4.0.0"
     "@sindresorhus/is" "4.6.0"
-    "@yarnpkg/core" "4.1.6"
+    "@yarnpkg/core" "4.2.0"
     "@yarnpkg/parsers" "3.0.2"
-    agentkeepalive "4.5.0"
+    agentkeepalive "4.6.0"
     aggregate-error "3.1.0"
     async-mutex "0.5.0"
     auth-header "1.0.0"
