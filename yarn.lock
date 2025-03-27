@@ -1207,10 +1207,10 @@
     core-js-pure "^3.25.1"
     regenerator-runtime "^0.13.11"
 
-"@baszalmstra/rattler@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@baszalmstra/rattler/-/rattler-0.2.0.tgz#94452354cf72475a1f1d0d7d50264ea5af09e2c5"
-  integrity sha512-Dkcy5TXmlNvU8LAvagfBHYOFnBHlKYeBiMljG8Iln6ZmQSkeHgO3yo69A4Rs3Lv6DSH3pSrun7LHdaxv99l4tg==
+"@baszalmstra/rattler@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@baszalmstra/rattler/-/rattler-0.2.1.tgz#a3db765b65ff657c69ba8344b6ff67dfa0f6564a"
+  integrity sha512-HZ2xu6Nk+XzAeateyzDKYM47ySkjkuKtTNpKRAy+Y+YcRH1qHM2le4iLlG32wDddaHCLUsBsyBxirClOj1TLjw==
 
 "@breejs/later@4.2.0":
   version "4.2.0"
@@ -4972,10 +4972,10 @@ nan@^2.20.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.20.0.tgz#08c5ea813dd54ed16e5bd6505bf42af4f7838ca3"
   integrity sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==
 
-nanoid@3.3.10:
-  version "3.3.10"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.10.tgz#7bc882237698ef787d5cbba109e3b0168ba6e7b1"
-  integrity sha512-vSJJTG+t/dIKAUhUDw/dLdZ9s//5OxcHqLaDWWrW4Cdq7o6tdLIczUkMXt2MBNmk6sJRZBZRXVixs7URY1CmIg==
+nanoid@3.3.11:
+  version "3.3.11"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
+  integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
 
 napi-build-utils@^1.0.1:
   version "1.0.2"
@@ -5587,10 +5587,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.216.0:
-  version "39.216.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.216.0.tgz#4bbf9d44130c598d06960b5f4788b5c25d1c3e64"
-  integrity sha512-Sq1A93knvRALM3v6UTrHeLskywRLU9xy848LTStCYKn6SWrKOwhqAck7ISRES9xfcUTihuOu4kNX8cbckaq3hw==
+renovate@39.219.2:
+  version "39.219.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.219.2.tgz#2e98cdec92fd94335c36abb13ea347c0f42bc676"
+  integrity sha512-rq652g7cGfm3admuY6a+yEKcqwT4arZfMsk2E/6XNwX7+xa+xvFjCLna2sBPesi8EB1S/8XsS/bLf1M32YZ+5A==
   dependencies:
     "@aws-sdk/client-codecommit" "3.738.0"
     "@aws-sdk/client-ec2" "3.738.0"
@@ -5599,7 +5599,7 @@ renovate@39.216.0:
     "@aws-sdk/client-rds" "3.740.0"
     "@aws-sdk/client-s3" "3.740.0"
     "@aws-sdk/credential-providers" "3.738.0"
-    "@baszalmstra/rattler" "0.2.0"
+    "@baszalmstra/rattler" "0.2.1"
     "@breejs/later" "4.2.0"
     "@cdktf/hcl2json" "0.20.11"
     "@opentelemetry/api" "1.9.0"
@@ -5673,7 +5673,7 @@ renovate@39.216.0:
     minimatch "10.0.1"
     moo "0.5.2"
     ms "2.1.3"
-    nanoid "3.3.10"
+    nanoid "3.3.11"
     neotraverse "0.6.18"
     node-html-parser "7.0.1"
     p-all "3.0.0"
