@@ -1441,16 +1441,16 @@
   dependencies:
     "@seald-io/nedb" "^4.1.1"
 
-"@renovatebot/osv-offline@1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.6.3.tgz#ecf73a1347a755c200e99f8d3c3c6e8521c98947"
-  integrity sha512-2BlfQCmui/ptqRWKOeQsfnrp1svwu/Yu0Jvjvlof97gTY9Ooxe1JCToFn7K7z+21dUqT4aTh75nJBpxqc7TVKg==
+"@renovatebot/osv-offline@1.6.4":
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.6.4.tgz#eeddd60f4e4d35fdd8e823dfcaa11d7e2f403e09"
+  integrity sha512-/zKTvQNX9/P3fy6/7f0TJd8W/WywD837xCLrvptbuXx0RjgOn5wOs+eFmeEOTmMyxfM5YhvTPdrLzC+jO3toJA==
   dependencies:
     "@renovatebot/osv-offline-db" "1.7.3"
     adm-zip "~0.5.16"
     fs-extra "^11.3.0"
     got "^11.8.6"
-    luxon "^3.5.0"
+    luxon "^3.6.0"
 
 "@renovatebot/pep440@4.1.0":
   version "4.1.0"
@@ -2723,10 +2723,10 @@ croner@9.0.0:
   resolved "https://registry.yarnpkg.com/croner/-/croner-9.0.0.tgz#1db62160142cf32eb22622e9ae27ba29156883f7"
   integrity sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==
 
-cronstrue@2.56.0:
-  version "2.56.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.56.0.tgz#70b406106e6059bf9c494c788255d671d8ecc361"
-  integrity sha512-/YC3b4D/E/S8ToQ7f676A2fqoC3vVpXKjJ4SMsP0jYsvRYJdZ6h9+Fq/Y7FoFDEUFCqLTca+G2qTV227lyyFZg==
+cronstrue@2.57.0:
+  version "2.57.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.57.0.tgz#6144c140d9bc8cdc52cc8bc3712328c54fbdb9fb"
+  integrity sha512-gQOfxJa1RA9uDT4hx37NshhX4dW9t9zTCtIYu15LUziH+mkpuLXYcSEyM8ZewMJ2p8UVuHGjI3n4hGpu3HtCbg==
 
 cross-env@7.0.3:
   version "7.0.3"
@@ -4209,10 +4209,15 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.0.tgz#b9e2a6a72a129d81ab317202d93c7691df727e61"
   integrity sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==
 
-luxon@3.5.0, luxon@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.5.0.tgz#6b6f65c5cd1d61d1fd19dbf07ee87a50bf4b8e20"
-  integrity sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==
+luxon@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.6.0.tgz#e84453dbdbd716b5eac95bee702b379863059f83"
+  integrity sha512-WE7p0p7W1xji9qxkLYsvcIxZyfP48GuFrWIBQZIsbjCyf65dG1rv4n83HcOyEyhvzxJCrUoObCRNFgRNIQ5KNA==
+
+luxon@^3.6.0:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.6.1.tgz#d283ffc4c0076cb0db7885ec6da1c49ba97e47b0"
+  integrity sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ==
 
 make-fetch-happen@^13.0.0:
   version "13.0.0"
@@ -5223,10 +5228,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.229.0:
-  version "39.229.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.229.0.tgz#5fe5c3d0d33325d1e548fc540f3696a41e0390f1"
-  integrity sha512-KqApAxwUHPuEWWfAbmmi4n6rh60TevlDVkknBHNF+CFXnkb8QfFFm8pJExa8d6iw12Q52ryBDgdmaaK3D2Zmsw==
+renovate@39.232.2:
+  version "39.232.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.232.2.tgz#55eeff18ae5225d82c83e623f0de189732b741a7"
+  integrity sha512-3KHFOhXEwtZWY0v9ZAHhrUO/NUnMFPG0nzNantBW29USI6y0O7Exf3H/4ZT1j+r3Vx3ilB/5k9UvgEARruyRJQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.777.0"
     "@aws-sdk/client-ec2" "3.779.0"
@@ -5252,7 +5257,7 @@ renovate@39.229.0:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.1.0"
     "@renovatebot/kbpgp" "4.0.1"
-    "@renovatebot/osv-offline" "1.6.3"
+    "@renovatebot/osv-offline" "1.6.4"
     "@renovatebot/pep440" "4.1.0"
     "@renovatebot/ruby-semver" "4.0.0"
     "@sindresorhus/is" "4.6.0"
@@ -5272,7 +5277,7 @@ renovate@39.229.0:
     commander "13.1.0"
     conventional-commits-detector "1.0.3"
     croner "9.0.0"
-    cronstrue "2.56.0"
+    cronstrue "2.57.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -5303,7 +5308,7 @@ renovate@39.229.0:
     jsonata "2.0.6"
     jsonc-parser "3.3.1"
     klona "2.0.6"
-    luxon "3.5.0"
+    luxon "3.6.0"
     markdown-it "14.1.0"
     markdown-table "2.0.0"
     minimatch "10.0.1"
