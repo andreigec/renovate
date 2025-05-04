@@ -5282,10 +5282,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@40.1.1:
-  version "40.1.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.1.1.tgz#503b99d0bef90ea164c9646a03b7e8800cfe3976"
-  integrity sha512-drmSFAiN0EUs3ImdImr9kdkESnzhX19ZQ2QdqBCn96mft0Y9rimpjjs+Gs0k9EqS/DC3Gkr75l0zfE33vklsag==
+renovate@40.2.0:
+  version "40.2.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.2.0.tgz#0fa171d30b78815592b8d6ad8df075cb01492336"
+  integrity sha512-q7lFNSZUhTGfJWsusOkXs4AY3kLQWdGFtNPbaoc6EsVTPtMF4WMJjPbVk/ZC7vCsH2WPWS1FlPr+BHsB2giqlw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.799.0"
     "@aws-sdk/client-ec2" "3.800.0"
@@ -5397,7 +5397,7 @@ renovate@40.1.1:
     toml-eslint-parser "0.10.0"
     tslib "2.8.1"
     upath "2.0.1"
-    url-join "4.0.1"
+    url-join "5.0.0"
     validate-npm-package-name "6.0.0"
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
@@ -6210,10 +6210,10 @@ upath@2.0.1, upath@^2.0.0:
   resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
-url-join@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
-  integrity sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
+url-join@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-5.0.0.tgz#c2f1e5cbd95fa91082a93b58a1f42fecb4bdbcf1"
+  integrity sha512-n2huDr9h9yzd6exQVnH/jU5mr+Pfx08LRXXZhkLLetAMESRj+anQsTAh940iMrIetKAmry9coFuZQ2jY8/p3WA==
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
