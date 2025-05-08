@@ -15,8 +15,8 @@ importers:
         specifier: 3.5.3
         version: 3.5.3
       renovate:
-        specifier: 40.8.1
-        version: 40.8.1(encoding@0.1.13)(typanion@3.12.1)
+        specifier: 40.10.4
+        version: 40.10.4(encoding@0.1.13)(typanion@3.12.1)
 
 packages:
 
@@ -1157,8 +1157,8 @@ packages:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
     engines: {node: '>=18.0'}
 
-  cronstrue@2.59.0:
-    resolution: {integrity: sha512-YKGmAy84hKH+hHIIER07VCAHf9u0Ldelx1uU6EBxsRPDXIA1m5fsKmJfyC3xBhw6cVC/1i83VdbL4PvepTrt8A==}
+  cronstrue@2.60.0:
+    resolution: {integrity: sha512-wyjlMlSaKyRjpDh1WP1Oqcy98zMT0OPJlBgffIr8Edx1/ZDpwkTb9IOzHL7CipyW5va7eJ9hC4D1X7gtq8Cuww==}
     hasBin: true
 
   cross-env@7.0.3:
@@ -2351,8 +2351,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.8.1:
-    resolution: {integrity: sha512-USBMsdTqHOi2QkweRsEMzGk9fGIDZb90o5NSXjtcheUMP8ifga95TJzog8ti6tuwkuWGFKkelBXC4fkDNM3dsQ==}
+  renovate@40.10.4:
+    resolution: {integrity: sha512-rKMMWteLOYMalDQELOn9Ig+ANhhoob8KTa0njf2f9krjYnBkILhOz1fNRRsC7mQ42PHCdmov0lzDHSjmHJqeKg==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4814,7 +4814,7 @@ snapshots:
 
   croner@9.0.0: {}
 
-  cronstrue@2.59.0: {}
+  cronstrue@2.60.0: {}
 
   cross-env@7.0.3:
     dependencies:
@@ -6115,7 +6115,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.8.1(encoding@0.1.13)(typanion@3.12.1):
+  renovate@40.10.4(encoding@0.1.13)(typanion@3.12.1):
     dependencies:
       '@aws-sdk/client-codecommit': 3.799.0
       '@aws-sdk/client-ec2': 3.800.0
@@ -6165,7 +6165,7 @@ snapshots:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.59.0
+      cronstrue: 2.60.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.1
