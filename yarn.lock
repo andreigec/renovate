@@ -5286,10 +5286,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@40.11.6:
-  version "40.11.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.11.6.tgz#46ffe09386655ecd03b425a5c497de5bb53106c3"
-  integrity sha512-VOJw6Z5aT7xHVOQeWYxgTiLQknXP9uTBkHR+08eex/fT+YOW5Zy5cO/tUdn8nxMGyyzLRWY5vB0fRtw6mkqSMA==
+renovate@40.11.8:
+  version "40.11.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.11.8.tgz#83445fa6b6e267799769f06c6691b2152e0bb653"
+  integrity sha512-yIoPlNJmORM9KpSTD9BZyNLT1hwBEKUVN7xRDMfYD+67RzRUsm7TrGPwEMiH9Bt4EZAZgZrktRJAjq61gZhMAw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.799.0"
     "@aws-sdk/client-ec2" "3.800.0"
@@ -5406,7 +5406,7 @@ renovate@40.11.6:
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
     yaml "2.7.1"
-    zod "3.24.3"
+    zod "3.24.4"
   optionalDependencies:
     better-sqlite3 "11.9.1"
     openpgp "6.1.0"
@@ -6446,10 +6446,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@3.24.3:
-  version "3.24.3"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.3.tgz#1f40f750a05e477396da64438e0e1c0995dafd87"
-  integrity sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==
+zod@3.24.4:
+  version "3.24.4"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.4.tgz#e2e2cca5faaa012d76e527d0d36622e0a90c315f"
+  integrity sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==
 
 zod@^3.23.0:
   version "3.23.8"
