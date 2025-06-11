@@ -967,10 +967,10 @@
   resolved "https://registry.yarnpkg.com/@breejs/later/-/later-4.2.0.tgz#669661f3a02535ef900f360c74e48c3f5483c786"
   integrity sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==
 
-"@cdktf/hcl2json@0.20.12":
-  version "0.20.12"
-  resolved "https://registry.yarnpkg.com/@cdktf/hcl2json/-/hcl2json-0.20.12.tgz#998d95994c03143671a36b86defb0278268c1dfb"
-  integrity sha512-0kisly/cb4UK/cFhMAWMMEq+/FNFwPmDVoZ9ZphvDlXH62eytQcY5gaCxUrztKhncj2EYKovsTPbRq9C8GlRwg==
+"@cdktf/hcl2json@0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@cdktf/hcl2json/-/hcl2json-0.21.0.tgz#b54488e53cbba777d72265c3d44b9db10d70f21b"
+  integrity sha512-cwX3i/mSJI/cRrtqwEPRfawB7pXgNioriSlkvou8LWiCrrcDe9ZtTbAbu8W1tEJQpe1pnX9VEgpzf/BbM7xF8Q==
   dependencies:
     fs-extra "11.3.0"
 
@@ -1528,10 +1528,10 @@
     localforage "^1.9.0"
     util "^0.12.4"
 
-"@sindresorhus/is@7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-7.0.1.tgz#693cd0bfa7fdc71a3386b72088b660fb70851927"
-  integrity sha512-QWLl2P+rsCJeofkDNIT3WFmb6NrRud1SUYW8dIhXK/46XFV8Q/g7Bsvib0Askb0reRLe+WYPeeE+l5cH7SlkuQ==
+"@sindresorhus/is@7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-7.0.2.tgz#a0df078a8d29f9741503c5a9c302de474ec8564a"
+  integrity sha512-d9xRovfKNz1SKieM0qJdO+PQonjnnIfSNWfHYnBSJ9hkjm0ZPw6HlxscDXYstp3z+7V2GOFHc+J0CYrYTjqCJw==
 
 "@sindresorhus/is@^4.0.0":
   version "4.6.0"
@@ -2598,13 +2598,10 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-chalk@4.1.2, chalk@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
-  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
+chalk@5.4.1:
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.4.1.tgz#1b48bf0963ec158dce2aacf69c093ae2dd2092d8"
+  integrity sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -2614,6 +2611,14 @@ chalk@^2.0.0:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+chalk@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
 
 changelog-filename-regex@2.0.1:
   version "2.0.1"
@@ -5248,10 +5253,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@40.49.8:
-  version "40.49.8"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.49.8.tgz#3ab26e6212139c5db50e8cd70c4fd1f8ba27d934"
-  integrity sha512-6ayKlzND3FNtGvw8AJJD3KMB46w1bSUWP5qU6STxScPpBwydp0d6hGCloBEk5TmwxGGvkqtyWUWEg3kkkD8r7w==
+renovate@40.49.12:
+  version "40.49.12"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.49.12.tgz#dd1c21fae894c435a004d038b5e6548adb99f6f2"
+  integrity sha512-gEflxB91z5Ja5k/Qg+IFbiH/eT5DWmhTpErbRRtr7pEuGQxdGODrtjMprQke0hWNStetlPmC0YAVdrRdb4mR+g==
   dependencies:
     "@aws-sdk/client-codecommit" "3.821.0"
     "@aws-sdk/client-ec2" "3.821.0"
@@ -5262,7 +5267,7 @@ renovate@40.49.8:
     "@aws-sdk/credential-providers" "3.821.0"
     "@baszalmstra/rattler" "0.2.1"
     "@breejs/later" "4.2.0"
-    "@cdktf/hcl2json" "0.20.12"
+    "@cdktf/hcl2json" "0.21.0"
     "@opentelemetry/api" "1.9.0"
     "@opentelemetry/context-async-hooks" "2.0.1"
     "@opentelemetry/exporter-trace-otlp-http" "0.202.0"
@@ -5284,7 +5289,7 @@ renovate@40.49.8:
     "@renovatebot/osv-offline" "1.6.5"
     "@renovatebot/pep440" "4.1.0"
     "@renovatebot/ruby-semver" "4.0.0"
-    "@sindresorhus/is" "7.0.1"
+    "@sindresorhus/is" "7.0.2"
     "@yarnpkg/core" "4.4.2"
     "@yarnpkg/parsers" "3.0.3"
     agentkeepalive "4.6.0"
@@ -5294,7 +5299,7 @@ renovate@40.49.8:
     azure-devops-node-api "15.1.0"
     bunyan "1.8.15"
     cacache "19.0.1"
-    chalk "4.1.2"
+    chalk "5.4.1"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "14.0.0"
@@ -5367,7 +5372,7 @@ renovate@40.49.8:
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
     yaml "2.8.0"
-    zod "3.25.50"
+    zod "3.25.51"
   optionalDependencies:
     better-sqlite3 "11.10.0"
     openpgp "6.1.1"
@@ -6387,10 +6392,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@3.25.50:
-  version "3.25.50"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.50.tgz#9de9ca02ae702fd37ed87b28f8f17099f2402aa9"
-  integrity sha512-VstOnRxf4tlSq0raIwbn0n+LA34SxVoZ8r3pkwSUM0jqNiA/HCMQEVjTuS5FZmHsge+9MDGTiAuHyml5T0um6A==
+zod@3.25.51:
+  version "3.25.51"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.51.tgz#aa2cf648e54f6f060f139cf77b694819f63c9f3a"
+  integrity sha512-TQSnBldh+XSGL+opiSIq0575wvDPqu09AqWe1F7JhUMKY+M91/aGlK4MhpVNO7MgYfHcVCB1ffwAUTJzllKJqg==
 
 zod@^3.23.0:
   version "3.23.8"
