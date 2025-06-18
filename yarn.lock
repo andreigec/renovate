@@ -2425,6 +2425,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
+balanced-match@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-3.0.1.tgz#e854b098724b15076384266497392a271f4a26a0"
+  integrity sha512-vjtV3hiLqYDNRoiAv0zC4QaGAMPomEoq83PRmYIofPswwZurCeWR5LByXm7SyoL0Zh5+2z0+HC7jG8gSZJUh0w==
+
 base64-js@^1.3.0, base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
@@ -2493,6 +2498,13 @@ brace-expansion@^2.0.1:
   integrity sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==
   dependencies:
     balanced-match "^1.0.0"
+
+brace-expansion@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-4.0.1.tgz#3387e13eaa2992025d05ea47308f77e4a8dedd1e"
+  integrity sha512-YClrbvTCXGe70pU2JiEiPLYXO9gQkyxYeKpJIQHVS/gOs6EWMQP2RYBwjFLNT322Ji8TOC3IMPfsYCedNpzKfA==
+  dependencies:
+    balanced-match "^3.0.0"
 
 braces@^3.0.1:
   version "3.0.2"
@@ -4637,6 +4649,13 @@ minimatch@10.0.1, minimatch@^10.0.0:
   dependencies:
     brace-expansion "^2.0.1"
 
+minimatch@10.0.2:
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.0.2.tgz#99c15b4e4f7e71b354e086e20b7f6c4d65dd15f3"
+  integrity sha512-+9TJCIYXgZ2Dm5LxVCFsa8jOm+evMwXHFI0JM1XROmkfkpz8/iLLDh+TwSmyIBrs6C6Xu9294/fq8cBA+P6AqA==
+  dependencies:
+    brace-expansion "^4.0.1"
+
 "minimatch@2 || 3":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
@@ -5455,10 +5474,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@40.60.1:
-  version "40.60.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.60.1.tgz#74c669f5b7320bf7e7fdfa98bcb73a396dd1547a"
-  integrity sha512-o8hCn7kpY9ZI1jY3l1r7w/KdA24TzF4X4vTrtHMvlREo/rvOpM8KkJe26k2eUZ43j+QTuuyQaekfEmcxAj+7oA==
+renovate@40.61.2:
+  version "40.61.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.61.2.tgz#b0ee37d7068ea8628085d3d5325e9f32bd52bcd6"
+  integrity sha512-2uCG6Db1m93PJZ3egO2Dh1NHEeuGfm2CuboCyry99v3QJCA7S+/1YQaLj19MDrSAd82vfw0rixh3+MdZ6DQNVw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.821.0"
     "@aws-sdk/client-ec2" "3.821.0"
@@ -5541,7 +5560,7 @@ renovate@40.60.1:
     luxon "3.6.1"
     markdown-it "14.1.0"
     markdown-table "3.0.4"
-    minimatch "10.0.1"
+    minimatch "10.0.2"
     moo "0.5.2"
     ms "2.1.3"
     nanoid "5.1.5"
@@ -5575,7 +5594,7 @@ renovate@40.60.1:
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
     yaml "2.8.0"
-    zod "3.25.58"
+    zod "3.25.62"
   optionalDependencies:
     better-sqlite3 "11.10.0"
     openpgp "6.1.1"
@@ -6603,10 +6622,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@3.25.58:
-  version "3.25.58"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.58.tgz#7cd680cbbf01d0994cd2e943a08dc7e77c6d2b7a"
-  integrity sha512-DVLmMQzSZwNYzQoMaM3MQWnxr2eq+AtM9Hx3w1/Yl0pH8sLTSjN4jGP7w6f7uand6Hw44tsnSu1hz1AOA6qI2Q==
+zod@3.25.62:
+  version "3.25.62"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.62.tgz#e959ff299b9e7a4f92d800bf476243ca13a7f6c5"
+  integrity sha512-YCxsr4DmhPcrKPC9R1oBHQNlQzlJEyPAId//qTau/vBee9uO8K6prmRq4eMkOyxvBfH4wDPIPdLx9HVMWIY3xA==
 
 zod@^3.23.0:
   version "3.23.8"
