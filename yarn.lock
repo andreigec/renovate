@@ -5531,10 +5531,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.24.0:
-  version "41.24.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.24.0.tgz#fe4270bcfe11c687af561f7763f07ae605ae6dd5"
-  integrity sha512-0o51g3RiIsvI/N0JTblTL02xdL6SodqtqjLEn27C71R4P6BmeDHYXGfCICPxNnxjZrZgCQPaZNfcpmXKMZ7plw==
+renovate@41.26.0:
+  version "41.26.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.26.0.tgz#bfcb98a6f7a49e5e5672a8673dc67f60a135d52c"
+  integrity sha512-9VjcY07czA143mMI0vmUIZKCFaqkGMD1iBT3By/BTHmFkk/kssRlbesMAUQaShV7SfZE6EGia17GYvmmAX52fA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.840.0"
     "@aws-sdk/client-ec2" "3.840.0"
@@ -5643,6 +5643,7 @@ renovate@41.24.0:
     simple-git "3.28.0"
     slugify "1.6.6"
     source-map-support "0.5.21"
+    strip-json-comments "5.0.2"
     toml-eslint-parser "0.10.0"
     tslib "2.8.1"
     upath "2.0.1"
@@ -6093,6 +6094,11 @@ strip-indent@^3.0.0:
   integrity sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==
   dependencies:
     min-indent "^1.0.0"
+
+strip-json-comments@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-5.0.2.tgz#14a76abd63b84a6d2419d14f26a0281d0cf6ea46"
+  integrity sha512-4X2FR3UwhNUE9G49aIsJW5hRRR3GXGTBTZRMfv568O60ojM8HcWjV/VxAxCDW3SUND33O6ZY66ZuRcdkj73q2g==
 
 strip-json-comments@~2.0.1:
   version "2.0.1"
