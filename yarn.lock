@@ -3000,10 +3000,10 @@ ecdsa-sig-formatter@1.0.11, ecdsa-sig-formatter@^1.0.11:
   dependencies:
     safe-buffer "^5.0.1"
 
-editorconfig@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-3.0.0.tgz#d7307395be40abf04d0748093e78d0515d74c90e"
-  integrity sha512-cU9vLVQ1YmDmLL047KkgQ3Yv9jSI6ZlqW4XjEdG0RrFhz7kYQ5lxD7SfhQci8g1TQu9iMA+54rRLe6yvWxXxcA==
+editorconfig@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-3.0.1.tgz#f82b241268f355a2d7bf515715d755f16a3313ed"
+  integrity sha512-k5NZM2XNIJfH/omUv0SRYaiLae4VRwg1ILW6xLOjuP4AQGAGcvzNij5imJ+m1rbzDIH0ov6EbH53BW96amFXpQ==
   dependencies:
     "@one-ini/wasm" "0.2.0"
     commander "^14.0.0"
@@ -5531,10 +5531,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.31.1:
-  version "41.31.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.31.1.tgz#67ecac9060540080b467b54bcaf37932e6e0b88a"
-  integrity sha512-jPVVTFL+6D1TOQM0mLwRco2B9HjaicbLR0chOTIllf4k/BlnbvJr9gGz4SjZs3Flga9e9/aLur+pEiaJhj/KWA==
+renovate@41.32.1:
+  version "41.32.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.32.1.tgz#d7008fc2f60e282910a0d0b95ef17d9b70c978cc"
+  integrity sha512-qZf4l9wPGg/5Of+/TuD0oX2tSA+2JHx7OhF4A+Z5zSY0FmRzjwKyOizlpk2UU9aMyRk2chgMTDo9DQT8GS0U7Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.840.0"
     "@aws-sdk/client-ec2" "3.840.0"
@@ -5588,7 +5588,7 @@ renovate@41.31.1:
     dequal "2.0.3"
     detect-indent "7.0.1"
     diff "8.0.2"
-    editorconfig "3.0.0"
+    editorconfig "3.0.1"
     email-addresses "5.0.0"
     emoji-regex "10.4.0"
     emojibase "16.0.0"
