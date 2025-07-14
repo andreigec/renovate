@@ -1504,19 +1504,19 @@
     triplesec "^4.0.3"
     tweetnacl "^1.0.3"
 
-"@renovatebot/osv-offline-db@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-1.7.3.tgz#df80fdf4808ab3a3e7e15c2b302965b3216262af"
-  integrity sha512-xhFTlmZhP60n44d3voXM0WF09cJM59Ua1WhcfSYh1AiafKbTqiXQcfbDLoneLAGjYn5ZsSaN1/uIDJbGULTDfw==
+"@renovatebot/osv-offline-db@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-1.7.4.tgz#da4a730e6dfe0cd514905daf50ab479c70e052e2"
+  integrity sha512-TyrARTT/m1NK/5Ir3eC9U6iL0XMkKYkivuO8kFCVEGUdrTXvVHwn74K5V7ZPNtC1Ye0qRbKN3fVz+b4uTtlhLQ==
   dependencies:
-    "@seald-io/nedb" "^4.1.1"
+    "@seald-io/nedb" "^4.1.2"
 
-"@renovatebot/osv-offline@1.6.5":
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.6.5.tgz#0bef977ff67da077720ba6913c16f0e4ead503e0"
-  integrity sha512-WtGzUvr1QgQZCxoeSqDcLI16otvaPzIUq/Mn+LkZZtX4pRxJ5SIiL0/Eiirc2ngAIWi2ihvnG9DHvRBK8trK2g==
+"@renovatebot/osv-offline@1.6.6":
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.6.6.tgz#5d439659d423018b8d04dd52d36bffb33febb639"
+  integrity sha512-xyhxVMGTk95b9nJte9Br1iu2mrkbPVnc7XXE1Klpnjc3hy0B7j9YXlhZzEgvWlVQ21/WmNuMft0/QCaLgFABrQ==
   dependencies:
-    "@renovatebot/osv-offline-db" "1.7.3"
+    "@renovatebot/osv-offline-db" "1.7.4"
     adm-zip "~0.5.16"
     fs-extra "^11.3.0"
     got "^11.8.6"
@@ -1537,14 +1537,14 @@
   resolved "https://registry.yarnpkg.com/@seald-io/binary-search-tree/-/binary-search-tree-1.0.3.tgz#165a9a456eaa30d15885b25db83861bcce2c6a74"
   integrity sha512-qv3jnwoakeax2razYaMsGI/luWdliBLHTdC6jU55hQt1hcFqzauH/HsBollQ7IR4ySTtYhT+xyHoijpA16C+tA==
 
-"@seald-io/nedb@^4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@seald-io/nedb/-/nedb-4.1.1.tgz#7b2a54ad614d5921af9dc25b9bf9d8f80ac67ac4"
-  integrity sha512-u7fVfzKQ/3ZaIOnYQONf2lPZtGUeQtMPjfcaQkCw/GZv5dzn20qKW6sfN0NkVbr0ksJMlWcFXNGcXYsQSb1a1g==
+"@seald-io/nedb@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@seald-io/nedb/-/nedb-4.1.2.tgz#cacd7253d9826b51495d024ca768dea3fe63e853"
+  integrity sha512-bDr6TqjBVS2rDyYM9CPxAnotj5FuNL9NF8o7h7YyFXM7yruqT4ddr+PkSb2mJvvw991bqdftazkEo38gykvaww==
   dependencies:
     "@seald-io/binary-search-tree" "^1.0.3"
-    localforage "^1.9.0"
-    util "^0.12.4"
+    localforage "^1.10.0"
+    util "^0.12.5"
 
 "@sindresorhus/is@7.0.2":
   version "7.0.2"
@@ -4237,7 +4237,7 @@ linkify-it@^5.0.0:
   dependencies:
     uc.micro "^2.0.0"
 
-localforage@^1.9.0:
+localforage@^1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.10.0.tgz#5c465dc5f62b2807c3a84c0c6a1b1b3212781dd4"
   integrity sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==
@@ -5531,10 +5531,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.32.1:
-  version "41.32.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.32.1.tgz#d7008fc2f60e282910a0d0b95ef17d9b70c978cc"
-  integrity sha512-qZf4l9wPGg/5Of+/TuD0oX2tSA+2JHx7OhF4A+Z5zSY0FmRzjwKyOizlpk2UU9aMyRk2chgMTDo9DQT8GS0U7Q==
+renovate@41.34.1:
+  version "41.34.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.34.1.tgz#792b00c88148723dd88bc9071e50e06aeb179382"
+  integrity sha512-ZnPbu/JvJ3ljCASQ8PNGS4XY7OcQFqOvfMk/g9aBKe5O6cyZqWb674KoAOnCqzsiNnYPZheYoIJ7rfWyho925Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.840.0"
     "@aws-sdk/client-ec2" "3.840.0"
@@ -5564,7 +5564,7 @@ renovate@41.32.1:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.1.0"
     "@renovatebot/kbpgp" "4.0.1"
-    "@renovatebot/osv-offline" "1.6.5"
+    "@renovatebot/osv-offline" "1.6.6"
     "@renovatebot/pep440" "4.1.0"
     "@renovatebot/ruby-semver" "4.0.0"
     "@sindresorhus/is" "7.0.2"
@@ -5652,7 +5652,7 @@ renovate@41.32.1:
     vuln-vects "1.1.0"
     xmldoc "2.0.2"
     yaml "2.8.0"
-    zod "3.25.74"
+    zod "3.25.75"
   optionalDependencies:
     better-sqlite3 "12.2.0"
     openpgp "6.1.1"
@@ -5731,7 +5731,7 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.2.0:
+safe-buffer@^5.0.1, safe-buffer@~5.2.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
@@ -6465,16 +6465,15 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-util@^0.12.4:
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/util/-/util-0.12.4.tgz#66121a31420df8f01ca0c464be15dfa1d1850253"
-  integrity sha512-bxZ9qtSlGUWSOy9Qa9Xgk11kSslpuZwaxCg4sNIDj6FLucDab2JxnHwyNTCpHMtK1MjoQiWQ6DiUMZYbSrO+Sw==
+util@^0.12.5:
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/util/-/util-0.12.5.tgz#5f17a6059b73db61a875668781a1c2b136bd6fbc"
+  integrity sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==
   dependencies:
     inherits "^2.0.3"
     is-arguments "^1.0.4"
     is-generator-function "^1.0.7"
     is-typed-array "^1.1.3"
-    safe-buffer "^5.1.2"
     which-typed-array "^1.1.2"
 
 uuid@^9.0.1:
@@ -6685,10 +6684,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@3.25.74:
-  version "3.25.74"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.74.tgz#9368a3986fe756bd94b9a5baad9919660ff3f250"
-  integrity sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==
+zod@3.25.75:
+  version "3.25.75"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.75.tgz#8ff9be2fbbcb381a9236f9f74a8879ca29dcc504"
+  integrity sha512-OhpzAmVzabPOL6C3A3gpAifqr9MqihV/Msx3gor2b2kviCgcb+HM9SEOpMWwwNp9MRunWnhtAKUoo0AHhjyPPg==
 
 zod@^3.23.0:
   version "3.23.8"
