@@ -1122,10 +1122,10 @@
     "@opentelemetry/resources" "2.1.0"
     "@opentelemetry/sdk-trace-base" "2.1.0"
 
-"@opentelemetry/instrumentation-bunyan@0.51.0":
-  version "0.51.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.51.0.tgz#10c6c8b11123038d6d608077b8b2647e7faf0720"
-  integrity sha512-N84VeifmawRyTrGkIhHRzzpHyaWkbD8fnVHg4LpbbFW1nQJcQphDE62kvuqKrzezIUbaYeS7Ue+tHV2WveTe9w==
+"@opentelemetry/instrumentation-bunyan@0.51.4":
+  version "0.51.4"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-bunyan/-/instrumentation-bunyan-0.51.4.tgz#3549b1391780c95482fd6ef9e1e9d8024b6f3081"
+  integrity sha512-SObxTjC8l/FcxNitNy/+NT1xBEwCXIZkg8CPRMu3f1Q3a095ee89Z3dHInSj/DWZnxH8hUxAhMU+rG3dIuYgkA==
   dependencies:
     "@opentelemetry/api-logs" "^0.205.0"
     "@opentelemetry/instrumentation" "^0.205.0"
@@ -1171,38 +1171,37 @@
     "@opentelemetry/sdk-trace-base" "2.1.0"
     protobufjs "^7.3.0"
 
-"@opentelemetry/resource-detector-aws@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-aws/-/resource-detector-aws-2.5.0.tgz#508521dfcafdd1e3bcd89b6dcc8fe78d50c98558"
-  integrity sha512-NI7by8oi4G03yQA/igYZLZhbKkEy9tn/9JOQsHCPaRTDjzW+VHNcP5BLJH0FEM0NJZm7Ue/59J1a1aTSNJSDuA==
+"@opentelemetry/resource-detector-aws@2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-aws/-/resource-detector-aws-2.5.3.tgz#8ad4e676ada5c7d5235dad06d515e18581489e28"
+  integrity sha512-PpaQBwa0cDi4nHYxgVbmDJWNyBN7WOXH41XfInWN/kAHqVw8nO4L/s4IoN9pEnJSSin3Z9oA1CyIiy2rxj5R3A==
   dependencies:
     "@opentelemetry/core" "^2.0.0"
     "@opentelemetry/resources" "^2.0.0"
     "@opentelemetry/semantic-conventions" "^1.27.0"
 
-"@opentelemetry/resource-detector-azure@0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-azure/-/resource-detector-azure-0.12.0.tgz#7af750807b35376c15534b0163c23def6fe09160"
-  integrity sha512-U87/nRFthxoPxPJVOeqytf+M0X43Es1al7+K3+fAYQN4kEenahhA3TUZESl6MweEW8tejUxp7A0AjxWrydAWQg==
+"@opentelemetry/resource-detector-azure@0.13.2":
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-azure/-/resource-detector-azure-0.13.2.tgz#882940105ac2020ddda1a875db546987a6caa021"
+  integrity sha512-YdRHZHdyDh6QcCkMK3eL/Nf0erN7xrz2TFRhN/DUAPaAzg0fECmq555B4lcxPsK9NeZajVOBvHu3z95ZAKYFdw==
   dependencies:
     "@opentelemetry/core" "^2.0.0"
     "@opentelemetry/resources" "^2.0.0"
-    "@opentelemetry/semantic-conventions" "^1.27.0"
+    "@opentelemetry/semantic-conventions" "^1.37.0"
 
-"@opentelemetry/resource-detector-gcp@0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-gcp/-/resource-detector-gcp-0.40.0.tgz#b4958488fe5abfebfab6aa2fdf8847f799680215"
-  integrity sha512-uAsUV8K4R9OJ3cgPUGYDqQByxOMTz4StmzJyofIv7+W+c1dTSEc1WVjWpTS2PAmywik++JlSmd8O4rMRJZpO8Q==
+"@opentelemetry/resource-detector-gcp@0.40.3":
+  version "0.40.3"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-gcp/-/resource-detector-gcp-0.40.3.tgz#247b489d9ea4e71df52cc8fbdfa88df95c8eeaf5"
+  integrity sha512-C796YjBA5P1JQldovApYfFA/8bQwFfpxjUbOtGhn1YZkVTLoNQN+kvBwgALfTPWzug6fWsd0xhn9dzeiUcndag==
   dependencies:
     "@opentelemetry/core" "^2.0.0"
     "@opentelemetry/resources" "^2.0.0"
-    "@opentelemetry/semantic-conventions" "^1.27.0"
     gcp-metadata "^6.0.0"
 
-"@opentelemetry/resource-detector-github@0.31.0":
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-github/-/resource-detector-github-0.31.0.tgz#cf306c770d331d5763de1de39832bb704d79dd75"
-  integrity sha512-m4lbj4/vZ/ylBCtID0zO4bkuN1nPoaXEPCSn7DdiPmLgcS2eE0OWPx8TGO/Rw1HceXf8/qH4KQT94bsu3usVPg==
+"@opentelemetry/resource-detector-github@0.31.2":
+  version "0.31.2"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/resource-detector-github/-/resource-detector-github-0.31.2.tgz#f4a8837149e30b60470c1a188c9e108ba5a050d1"
+  integrity sha512-zMvhcGHNdO6Mjz3o83EbR/2n2FSfxnnyAYXZk++aITmI0dIYBxoGfzULf3+oSa3PXeYr0gFaNb6bpffVC2EIAQ==
   dependencies:
     "@opentelemetry/resources" "^2.0.0"
 
@@ -1257,7 +1256,7 @@
     "@opentelemetry/core" "2.1.0"
     "@opentelemetry/sdk-trace-base" "2.1.0"
 
-"@opentelemetry/semantic-conventions@1.37.0":
+"@opentelemetry/semantic-conventions@1.37.0", "@opentelemetry/semantic-conventions@^1.37.0":
   version "1.37.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.37.0.tgz#aa2b4fa0b910b66a050c5ddfcac1d262e91a321a"
   integrity sha512-JD6DerIKdJGmRp4jQyX5FlrQjA4tjOw1cvfsPAZXfOOEErMUHjPcPSICS+6WnM0nB0efSFARh0KAZss+bvExOA==
@@ -3622,10 +3621,10 @@ good-enough-parser@1.1.23:
     klona "2.0.6"
     moo "0.5.2"
 
-google-auth-library@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-10.3.0.tgz#d44d005d546bf6b8956529caf0f9e70a07960c04"
-  integrity sha512-ylSE3RlCRZfZB56PFJSfUCuiuPq83Fx8hqu1KPWGK8FVdSaxlp/qkeMMX/DT/18xkwXIHvXEXkZsljRwfrdEfQ==
+google-auth-library@10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-10.4.0.tgz#2d5e36f3e0b0f33b1c5466a2f25617ff2c258c91"
+  integrity sha512-CmIrSy1bqMQUsPmA9+hcSbAXL80cFhu40cGMUjCaLpNKVzzvi+0uAHq8GNZxkoGYIsTX4ZQ7e4aInAqWxgn4fg==
   dependencies:
     base64-js "^1.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -5760,10 +5759,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.135.5:
-  version "41.135.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.135.5.tgz#a630c7946e50d14b8d46d85d884af7ab8f143c2e"
-  integrity sha512-W4/tHlH8c8TMkFIBVjqjAMTBOBOVEuVj6Cmc/VL7V7RVa1/r++aGeBUqziIhyQycLuQ4UT3Dn7m1Rj/oY+DGQQ==
+renovate@41.142.0:
+  version "41.142.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.142.0.tgz#8b7d8681a27990d78e50de97fc9f5f5b3c09dc64"
+  integrity sha512-RBClRCGF3IUPvFdkq2Zz0QPO6Kt9PkZiOw1SuS/anqBaPIMQEnKvBGFrfdZ5sTVXuPa4MX793I1dyTcaHGS9Fw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.899.0"
     "@aws-sdk/client-ec2" "3.899.0"
@@ -5779,12 +5778,12 @@ renovate@41.135.5:
     "@opentelemetry/context-async-hooks" "2.1.0"
     "@opentelemetry/exporter-trace-otlp-http" "0.205.0"
     "@opentelemetry/instrumentation" "0.205.0"
-    "@opentelemetry/instrumentation-bunyan" "0.51.0"
+    "@opentelemetry/instrumentation-bunyan" "0.51.4"
     "@opentelemetry/instrumentation-http" "0.205.0"
-    "@opentelemetry/resource-detector-aws" "2.5.0"
-    "@opentelemetry/resource-detector-azure" "0.12.0"
-    "@opentelemetry/resource-detector-gcp" "0.40.0"
-    "@opentelemetry/resource-detector-github" "0.31.0"
+    "@opentelemetry/resource-detector-aws" "2.5.3"
+    "@opentelemetry/resource-detector-azure" "0.13.2"
+    "@opentelemetry/resource-detector-gcp" "0.40.3"
+    "@opentelemetry/resource-detector-github" "0.31.2"
     "@opentelemetry/resources" "2.1.0"
     "@opentelemetry/sdk-trace-base" "2.1.0"
     "@opentelemetry/sdk-trace-node" "2.1.0"
@@ -5832,7 +5831,7 @@ renovate@41.135.5:
     glob "11.0.3"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
-    google-auth-library "10.3.0"
+    google-auth-library "10.4.0"
     got "11.8.6"
     graph-data-structure "4.5.0"
     handlebars "4.7.8"
