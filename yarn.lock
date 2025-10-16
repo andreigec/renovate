@@ -1523,19 +1523,19 @@
     triplesec "^4.0.3"
     tweetnacl "^1.0.3"
 
-"@renovatebot/osv-offline-db@1.7.8":
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-1.7.8.tgz#53495a90e9b752a50993c7785864c2a8c9f846c3"
-  integrity sha512-I7YaUfxVJ64GOdMHAWgPSU4RDhTnEdMQ+uXbOnfpPnkf2yHe0rRs9JbP/BsS7uJbGoJzQjBbGwqZVkg4uXrDKA==
+"@renovatebot/osv-offline-db@1.7.9":
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-1.7.9.tgz#398e6fad132b92ae211e21d5a00e4fae990c01a8"
+  integrity sha512-4mHlGm6MvWcCmf7y34Uu6CgfLcAcdABEaplhbAJc1ZluvOsHh3ymQ4AN1MaBxK7iOFmSusnla7ch7/zEfo63aA==
   dependencies:
     "@seald-io/nedb" "^4.1.2"
 
-"@renovatebot/osv-offline@1.7.8":
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.7.8.tgz#faf2cd3f236794446001f2d5d3246248bea6465a"
-  integrity sha512-E3qvKHRAhs2js6vrRKD38+XdjKZ735fyUVq/8oBZQPJphPVQep7TZg+dvEhYCuzQAU5CxDcLr1Esr7cx+O9lww==
+"@renovatebot/osv-offline@1.7.9":
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.7.9.tgz#fc5cf77e118fa8b464e6241f51efd9a260dc4f64"
+  integrity sha512-Bft5w/JkyoviN9tbeWxVYv87Dl37kzTbxtlc60aDbxHQV/YjJplK1x/85buMwvqlrLQJB1DPx3Qd8Aa0R1EXmg==
   dependencies:
-    "@renovatebot/osv-offline-db" "1.7.8"
+    "@renovatebot/osv-offline-db" "1.7.9"
     adm-zip "~0.5.16"
     fs-extra "^11.3.2"
     got "^11.8.6"
@@ -5766,10 +5766,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.149.2:
-  version "41.149.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.149.2.tgz#e236b115fa2706ad976915a61bf9f22a90070323"
-  integrity sha512-5fmwS0xjMGROphMiRiioFTJe3q1ayQgkt7O1zWT9LdyfRlR+tXmakT3SNybiwpexirXtJNjJA5ctL3ie3eExCw==
+renovate@41.151.1:
+  version "41.151.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.151.1.tgz#1c02d11d2ddd42bc6b266858304995f1b4103134"
+  integrity sha512-taIcCrfWwgdAXsQ3ilDRtOHtFZbY8NgxI012LfntVhy2q2MoYKAriyJfniJm4IAZtDn70ICyXJa2tLJw+jjWHg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.899.0"
     "@aws-sdk/client-ec2" "3.899.0"
@@ -5799,7 +5799,7 @@ renovate@41.149.2:
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.2.4"
     "@renovatebot/kbpgp" "4.0.3"
-    "@renovatebot/osv-offline" "1.7.8"
+    "@renovatebot/osv-offline" "1.7.9"
     "@renovatebot/pep440" "4.2.1"
     "@renovatebot/ruby-semver" "4.1.2"
     "@sindresorhus/is" "7.1.0"
