@@ -1140,6 +1140,15 @@
     "@opentelemetry/semantic-conventions" "^1.29.0"
     forwarded-parse "2.1.2"
 
+"@opentelemetry/instrumentation-redis@0.57.0":
+  version "0.57.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-redis/-/instrumentation-redis-0.57.0.tgz#c6996eb8ace9cb16cf5be3db3a6b0fb599f47fab"
+  integrity sha512-bCxTHQFXzrU3eU1LZnOZQ3s5LURxQPDlU3/upBzlWY77qOI1GZuGofazj3jtzjctMJeBEJhNwIFEgRPBX1kp/Q==
+  dependencies:
+    "@opentelemetry/instrumentation" "^0.208.0"
+    "@opentelemetry/redis-common" "^0.38.2"
+    "@opentelemetry/semantic-conventions" "^1.27.0"
+
 "@opentelemetry/instrumentation@0.208.0", "@opentelemetry/instrumentation@^0.208.0":
   version "0.208.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.208.0.tgz#d764f8e4329dad50804e2e98f010170c14c4ce8f"
@@ -1169,6 +1178,11 @@
     "@opentelemetry/sdk-metrics" "2.2.0"
     "@opentelemetry/sdk-trace-base" "2.2.0"
     protobufjs "^7.3.0"
+
+"@opentelemetry/redis-common@^0.38.2":
+  version "0.38.2"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/redis-common/-/redis-common-0.38.2.tgz#cefa4f3e79db1cd54f19e233b7dfb56621143955"
+  integrity sha512-1BCcU93iwSRZvDAgwUxC/DV4T/406SkMfxGqu5ojc3AvNI+I9GhV7v0J1HljsczuuhcnFLYqD5VmwVXfCGHzxA==
 
 "@opentelemetry/resource-detector-aws@2.8.0":
   version "2.8.0"
@@ -5691,10 +5705,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.17.0:
-  version "42.17.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.17.0.tgz#12dee9ef9d3c9952c4028c2c618c42b6e80c235e"
-  integrity sha512-ZGDkpVFWR44xB4Piy4/oA4hfh2guKE3GS/e3WFmXaJ3I3P2L9v84rRC4l/qndWVLbQ5Ysm225Mi4WzqsTbhFXg==
+renovate@42.18.0:
+  version "42.18.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.18.0.tgz#80ed04e59e72dd8fe5b3fd8a7d81bb69b3f112d2"
+  integrity sha512-IJx0p5X/kW//QrXL9ZuYSPwgcobZdd6F7PF0JlMM8TGgbOUw1SxKaAqfFsNDyBZRdaMU13HopjFVgKRcn6cUPg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.922.0"
     "@aws-sdk/client-ec2" "3.922.0"
@@ -5712,6 +5726,7 @@ renovate@42.17.0:
     "@opentelemetry/instrumentation" "0.208.0"
     "@opentelemetry/instrumentation-bunyan" "0.54.0"
     "@opentelemetry/instrumentation-http" "0.208.0"
+    "@opentelemetry/instrumentation-redis" "0.57.0"
     "@opentelemetry/resource-detector-aws" "2.8.0"
     "@opentelemetry/resource-detector-azure" "0.16.0"
     "@opentelemetry/resource-detector-gcp" "0.43.0"
