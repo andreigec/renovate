@@ -1540,10 +1540,10 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-4.2.1.tgz#41182c943be779687b9daddb4f16294f61009001"
   integrity sha512-2FK1hF93Fuf1laSdfiEmJvSJPVIDHEUTz68D3Fi9s0IZrrpaEcj6pTFBTbYvsgC5du4ogrtf5re7yMMvrKNgkw==
 
-"@renovatebot/pgp@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-1.1.1.tgz#0c944ef18d53d8f778798bafca916d38ed313d09"
-  integrity sha512-KDXMOeO/jCWBUawIynvTL2YKXjuJ8QjWF16soH9YQOEVRnoly6e6R0m3vrdlZgKuR+fxDoWSw1OXcqTyWapObQ==
+"@renovatebot/pgp@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-1.2.0.tgz#eeaaabe1aebdcd345491c27c585af8229f6b7414"
+  integrity sha512-RCmU57Elj5sVpfLeo5Y3l7mKzEvqoRyPTpGu12Va0GAPNUd56GcuotiLw2EimeWF24cBVj7eWr89U6Pksv+jlw==
 
 "@renovatebot/ruby-semver@4.1.2":
   version "4.1.2"
@@ -2594,10 +2594,10 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@20.0.1:
-  version "20.0.1"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-20.0.1.tgz#eb516a95b88bf7e90ce7f3bb38ac4f4c33b2b3fa"
-  integrity sha512-+7LYcYGBYoNqTp1Rv7Ny1YjUo5E0/ftkQtraH3vkfAGgVHc+ouWdC8okAwQgQR7EVIdW6JTzTmhKFwzb+4okAQ==
+cacache@20.0.2:
+  version "20.0.2"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-20.0.2.tgz#d1c09e41ae2cb67233238d0e6618c029e1e2f4e8"
+  integrity sha512-rVWvqtWcgSzB22wImrVto+7PmE+lUqv5dYzRHD0QJsfpSwTkW+GIqA4ykSt/CCjQlQle8USn8CO8vcWNrIqktg==
   dependencies:
     "@npmcli/fs" "^4.0.0"
     fs-minipass "^3.0.0"
@@ -2608,7 +2608,7 @@ cacache@20.0.1:
     minipass-flush "^1.0.5"
     minipass-pipeline "^1.2.4"
     p-map "^7.0.2"
-    ssri "^12.0.0"
+    ssri "^13.0.0"
     unique-filename "^4.0.0"
 
 cacache@^19.0.1:
@@ -5705,10 +5705,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.19.3:
-  version "42.19.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.19.3.tgz#f96b093347162b45b5212ab8748573470186365b"
-  integrity sha512-xDMJXEMYS+mMQlN9CamwygTG4+qVH+jq3Ivj4TymK01sThcCDCVvRJ9sXZsenrYuCpCKdsXeM+xrkQUaqX3HtA==
+renovate@42.19.7:
+  version "42.19.7"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.19.7.tgz#9984d34ad20ca58808304b2de8e5586cef843e6a"
+  integrity sha512-pSxiMnhBbwpiOjxe18dQqrKlhIF3FguqA7dweEgicigQlzeoBov9hTku75gs0XpVMApjfL8H/OQCj8iMDbu/mw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.922.0"
     "@aws-sdk/client-ec2" "3.922.0"
@@ -5740,7 +5740,7 @@ renovate@42.19.3:
     "@renovatebot/detect-tools" "1.2.4"
     "@renovatebot/osv-offline" "1.8.0"
     "@renovatebot/pep440" "4.2.1"
-    "@renovatebot/pgp" "1.1.1"
+    "@renovatebot/pgp" "1.2.0"
     "@renovatebot/ruby-semver" "4.1.2"
     "@sindresorhus/is" "7.1.1"
     "@yarnpkg/core" "4.5.0"
@@ -5752,7 +5752,7 @@ renovate@42.19.3:
     aws4 "1.13.2"
     azure-devops-node-api "15.1.1"
     bunyan "1.8.15"
-    cacache "20.0.1"
+    cacache "20.0.2"
     chalk "5.6.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
@@ -6172,6 +6172,13 @@ ssri@^12.0.0:
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/ssri/-/ssri-12.0.0.tgz#bcb4258417c702472f8191981d3c8a771fee6832"
   integrity sha512-S7iGNosepx9RadX82oimUkvr0Ct7IjJbEbs4mJcTxst8um95J3sDYU1RBEOvdu6oL1Wek2ODI5i4MAw+dZ6cAQ==
+  dependencies:
+    minipass "^7.0.3"
+
+ssri@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-13.0.0.tgz#4226b303dc474003d88905f9098cb03361106c74"
+  integrity sha512-yizwGBpbCn4YomB2lzhZqrHLJoqFGXihNbib3ozhqF/cIp5ue+xSmOQrjNasEE62hFxsCcg/V/z23t4n8jMEng==
   dependencies:
     minipass "^7.0.3"
 
