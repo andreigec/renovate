@@ -2488,10 +2488,10 @@ base64-js@^1.3.0, base64-js@^1.3.1:
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
-better-sqlite3@12.4.1:
-  version "12.4.1"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-12.4.1.tgz#f78df6c80530d1a0b750b538033e6199b7d30d26"
-  integrity sha512-3yVdyZhklTiNrtg+4WqHpJpFDd+WHTg2oM7UcR80GqL05AOV0xEJzc6qNvFYoEtE+hRp1n9MpN6/+4yhlGkDXQ==
+better-sqlite3@12.4.5:
+  version "12.4.5"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-12.4.5.tgz#0da33e67e7e284b2ae573bb00f141bbd55a76806"
+  integrity sha512-4NejwX2llfdKYK7Tzwwre/qKzTXiqcbycIagtqMH9oE7Es3LCUGGGXvhw8rWbZ2alx1C/Nh0MeJyYEZKUFs4sw==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -5452,10 +5452,10 @@ prettier@3.6.2:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.2.tgz#ccda02a1003ebbb2bfda6f83a074978f608b9393"
   integrity sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==
 
-prettier@3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.1.tgz#8dfbf54c98e85a113962d3d8414ae82ff3722991"
-  integrity sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==
+prettier@3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.2.tgz#7b393a865f9dd97bc244215db9aac8e04dc1841b"
+  integrity sha512-n3HV2J6QhItCXndGa3oMWvWFAgN1ibnS7R9mt6iokScBOC0Ul9/iZORmU2IWUMcyAQaMPjTlY3uT34TqocUxMA==
 
 proc-log@^5.0.0:
   version "5.0.0"
@@ -5710,10 +5710,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.26.2:
-  version "42.26.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.26.2.tgz#53b7ce061a268a84c1129fa674f28fc689a28fc7"
-  integrity sha512-deEBVRj3gggZ/LqWT3cJXqWktu2nAJ89z3H1Gj4azs50vziSA28AHkDpjL2zJI0V+ifiM4EM1SFg1a8W3IHhXw==
+renovate@42.26.11:
+  version "42.26.11"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.26.11.tgz#5f245794b420900c3429d61f9ae7aa3755caf3fd"
+  integrity sha512-jl1pVlYsLfQfpSYktEAMNxyZdhZ6wqdCGJSULIvOxeyJ27m+Q+ii+u3uZYkAT4Qo3NfgybhNQc5o4o1OzLZWQQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.922.0"
     "@aws-sdk/client-ec2" "3.922.0"
@@ -5835,7 +5835,7 @@ renovate@42.26.2:
     yaml "2.8.1"
     zod "3.25.76"
   optionalDependencies:
-    better-sqlite3 "12.4.1"
+    better-sqlite3 "12.4.5"
     openpgp "6.2.2"
     re2 "1.22.3"
 
