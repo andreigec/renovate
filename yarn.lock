@@ -5718,10 +5718,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.39.1:
-  version "42.39.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.39.1.tgz#56635aee2cd213065243f5b6083e1bab9d8d0226"
-  integrity sha512-ZZea0T03xwiuUvghLzEfj4306VkCJMiWz5iUwuCz5YhPRJCWLVadmtCwywmAJ1N9byOi3SXwqGhg6fbOgNmdPw==
+renovate@42.39.2:
+  version "42.39.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.39.2.tgz#1d7d8c82cedd3f5bc1a5b160fd48fc800c6a04d2"
+  integrity sha512-BgbuRWjCsgCgNVJV/NIEHIDUV0oz+Zodc0ZJggptGyxqY4KJkdJxX1KFbU6LhWD99BZXQR8GbazHrQYkAt8vEg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.940.0"
     "@aws-sdk/client-ec2" "3.940.0"
@@ -5840,7 +5840,7 @@ renovate@42.39.1:
     url-join "5.0.0"
     validate-npm-package-name "7.0.0"
     xmldoc "2.0.2"
-    yaml "2.8.1"
+    yaml "2.8.2"
     zod "3.25.76"
   optionalDependencies:
     better-sqlite3 "12.5.0"
@@ -6820,10 +6820,10 @@ yallist@^5.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-5.0.0.tgz#00e2de443639ed0d78fd87de0d27469fbcffb533"
   integrity sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==
 
-yaml@2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.1.tgz#1870aa02b631f7e8328b93f8bc574fac5d6c4d79"
-  integrity sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==
+yaml@2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.2.tgz#5694f25eca0ce9c3e7a9d9e00ce0ddabbd9e35c5"
+  integrity sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==
 
 yargs-parser@^18.1.3:
   version "18.1.3"
