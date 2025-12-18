@@ -5718,10 +5718,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.59.1:
-  version "42.59.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.59.1.tgz#ca490a81142e3d3f81f6c96f13821538d7c78bdc"
-  integrity sha512-J4K8jkHuM+mqooq/2ZL/OOQieRseCnaL9SwZ5DVD21h6/JdLXd3IqI18goVfgK3lpLcEiY0mamtT3MB7xg9mcA==
+renovate@42.64.1:
+  version "42.64.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.64.1.tgz#9e85273fb01a5c21a5a9172714af275b739d4baf"
+  integrity sha512-5KU+VlbDnVAHjarpr/+Up1mF3JMoyiuo97iCmwJdsLZRqM2PABatg3uAfHlu82m5nufXySW9C6CaaXA1ZKhMDg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.940.0"
     "@aws-sdk/client-ec2" "3.940.0"
@@ -5839,7 +5839,7 @@ renovate@42.59.1:
     upath "2.0.1"
     url-join "5.0.0"
     validate-npm-package-name "7.0.0"
-    xmldoc "2.0.2"
+    xmldoc "2.0.3"
     yaml "2.8.2"
     zod "3.25.76"
   optionalDependencies:
@@ -5944,15 +5944,10 @@ safe-stable-stringify@2.5.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sax@1.4.3:
+sax@1.4.3, sax@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.4.3.tgz#fcebae3b756cdc8428321805f4b70f16ec0ab5db"
   integrity sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ==
-
-sax@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
-  integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 semver-compare@^1.0.0:
   version "1.0.0"
@@ -6798,12 +6793,12 @@ write-yaml-file@^4.2.0:
     js-yaml "^4.0.0"
     write-file-atomic "^3.0.3"
 
-xmldoc@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/xmldoc/-/xmldoc-2.0.2.tgz#1ad89f9054cc8b1c500135e746da2a608b7bca6b"
-  integrity sha512-UiRwoSStEXS3R+YE8OqYv3jebza8cBBAI2y8g3B15XFkn3SbEOyyLnmPHjLBPZANrPJKEzxxB7A3XwcLikQVlQ==
+xmldoc@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/xmldoc/-/xmldoc-2.0.3.tgz#65b4226b753ea6cd4601f3f56d52338941d38380"
+  integrity sha512-6gRk4NY/Jvg67xn7OzJuxLRsGgiXBaPUQplVJ/9l99uIugxh4FTOewYz5ic8WScj7Xx/2WvhENiQKwkK9RpE4w==
   dependencies:
-    sax "^1.2.4"
+    sax "^1.4.3"
 
 xtend@~4.0.1:
   version "4.0.2"
