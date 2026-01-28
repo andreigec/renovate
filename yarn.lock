@@ -1536,6 +1536,16 @@
     upath "^2.0.1"
     zod "^3.25.76"
 
+"@renovatebot/good-enough-parser@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/good-enough-parser/-/good-enough-parser-1.2.0.tgz#edd6dbec8927e528f9c0fc0882352324048ed36e"
+  integrity sha512-5HrZJqZJzjzhghtJ85nNG8/dE97MQ1LOvo+T4dMGZg1s56HnZEZkm5KENNhQ+dwqC6vk5DdOcZ8J0oQOcn8gng==
+  dependencies:
+    "@thi.ng/zipper" "1.0.3"
+    "@types/moo" "0.5.10"
+    klona "2.0.6"
+    moo "0.5.2"
+
 "@renovatebot/osv-offline-db@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-2.0.1.tgz#ae60079ee317b1d5b3abdcbf9a38c53a61ea162f"
@@ -2218,10 +2228,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/moo@0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@types/moo/-/moo-0.5.5.tgz#83220b7349c59fd4bb1bc14b1d4ea0041899dc15"
-  integrity sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==
+"@types/moo@0.5.10":
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@types/moo/-/moo-0.5.10.tgz#ad04e32e7cd730c44e8e184297528cbc2a5060b2"
+  integrity sha512-W6KzyZjXUYpwQfLK1O1UDzqcqYlul+lO7Bt71luyIIyNlOZwJaNeWWdqFs1C/f2hohZvUFHMk6oFNe9Rg48DbA==
 
 "@types/ms@*":
   version "2.1.0"
@@ -3603,16 +3613,6 @@ globalthis@^1.0.1:
   integrity sha512-ZQnSFO1la8P7auIOQECnm0sSuoMeaSq0EEdXMBFF2QJO4uNcwbyhSgG3MruWNbFTqCLmxVwGOl7LZ9kASvHdeQ==
   dependencies:
     define-properties "^1.1.3"
-
-good-enough-parser@1.1.23:
-  version "1.1.23"
-  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.23.tgz#f80441698261d6d1722ca52cf1184bb504ac5d76"
-  integrity sha512-QUcQZutczESpdo2w9BMG6VpLFoq9ix7ER5HLM1mAdZdri2F3eISkCb8ep84W6YOo0grYWJdyT/8JkYqGjQfSSQ==
-  dependencies:
-    "@thi.ng/zipper" "1.0.3"
-    "@types/moo" "0.5.5"
-    klona "2.0.6"
-    moo "0.5.2"
 
 google-auth-library@10.5.0:
   version "10.5.0"
@@ -5050,11 +5050,6 @@ nan@^2.24.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.24.0.tgz#a8919b36e692aa5b260831910e4f81419fc0a283"
   integrity sha512-Vpf9qnVW1RaDkoNKFUvfxqAbtI8ncb8OJlqZ9wwpXzWPEsvsB1nvdUi6oYrHIkQ1Y/tMDnr1h4nczS0VB9Xykg==
 
-nanoid@5.1.6:
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.1.6.tgz#30363f664797e7d40429f6c16946d6bd7a3f26c9"
-  integrity sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==
-
 napi-build-utils@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/napi-build-utils/-/napi-build-utils-1.0.2.tgz#b1fddc0b2c46e380a0b7a76f984dd47c41a13806"
@@ -5691,10 +5686,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@42.92.4:
-  version "42.92.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.92.4.tgz#c5dd338744fee3d59ad27747a12946280028d2a2"
-  integrity sha512-ACJN2KDZx2TmV36gIRJHCDmZdmvhTM1L6PS6wPJe9SN9IA0ipJIp6+GIo2FgBSspPITzycBH5O513X8z8ySYdg==
+renovate@42.93.1:
+  version "42.93.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.93.1.tgz#fcb3aaeb00f8678c92340174dabc1c054248061c"
+  integrity sha512-WKhfVls7SEEOg5L80cqDcaHxULjZg9/C4ZEK6kUHvkqoW+vmlpKa4AL02KpNM6QVIEa8bFzyMjoz+qwS0mlQsQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.958.0"
     "@aws-sdk/client-ec2" "3.958.0"
@@ -5724,6 +5719,7 @@ renovate@42.92.4:
     "@pnpm/parse-overrides" "1001.0.3"
     "@qnighy/marshal" "0.1.3"
     "@renovatebot/detect-tools" "1.2.8"
+    "@renovatebot/good-enough-parser" "1.2.0"
     "@renovatebot/osv-offline" "2.0.1"
     "@renovatebot/pep440" "4.2.1"
     "@renovatebot/pgp" "1.2.3"
@@ -5763,7 +5759,6 @@ renovate@42.92.4:
     github-url-from-git "1.5.0"
     glob "13.0.0"
     global-agent "3.0.0"
-    good-enough-parser "1.1.23"
     google-auth-library "10.5.0"
     got "11.8.6"
     graph-data-structure "4.5.0"
@@ -5782,7 +5777,6 @@ renovate@42.92.4:
     minimatch "10.1.1"
     moo "0.5.2"
     ms "2.1.3"
-    nanoid "5.1.6"
     neotraverse "0.6.18"
     node-html-parser "7.0.2"
     p-all "5.0.1"
