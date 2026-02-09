@@ -1570,10 +1570,10 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-4.2.1.tgz#41182c943be779687b9daddb4f16294f61009001"
   integrity sha512-2FK1hF93Fuf1laSdfiEmJvSJPVIDHEUTz68D3Fi9s0IZrrpaEcj6pTFBTbYvsgC5du4ogrtf5re7yMMvrKNgkw==
 
-"@renovatebot/pgp@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-1.2.3.tgz#eefe6538da41b5c0541cceebd7b446ec375c86f1"
-  integrity sha512-ApTZ0N38B2TYgs0N+Ye1c3v+frOVJeW6ldnO9TXnYHcBvt7zwSTglAMmXoxrW4dA05pdX81URmNjUfUeY96hUw==
+"@renovatebot/pgp@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-1.3.0.tgz#925ca88078ae379884d3f8e289df7e1b7e4b2db0"
+  integrity sha512-LUOenNu1wPJxHp0T4x71A2asCPYX6ROlEwHNETU8rPqqL2IVRE70GG52U0XIkcI7hl025EJLUK1oXHgV0Cjx2Q==
 
 "@renovatebot/ruby-semver@4.1.2":
   version "4.1.2"
@@ -5662,10 +5662,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.4.3:
-  version "43.4.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.4.3.tgz#c9c89bc2ea2b163d24c6492f499790a115e81c69"
-  integrity sha512-8LySYzdU0XQphZBRx/kWv61Vtk8WriNe6QsTLJeNLHrr5OCjwZ17kzU3Wa3FVTA22FUc/5uR//eDrF7H5blycA==
+renovate@43.5.4:
+  version "43.5.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.5.4.tgz#c949b44b4dcbbe315906a685fc3710cbce3eb2a7"
+  integrity sha512-QWkB66hbN0qX0vv0QsPnPEnIl5Kt5PPExmAq3OauNoEm30cTpsO4qi+aeabsFOt/Nx2Z9yxVySFPbeIOr6GUQw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.980.0"
     "@aws-sdk/client-ec2" "3.980.0"
@@ -5698,7 +5698,7 @@ renovate@43.4.3:
     "@renovatebot/good-enough-parser" "1.2.0"
     "@renovatebot/osv-offline" "2.0.1"
     "@renovatebot/pep440" "4.2.1"
-    "@renovatebot/pgp" "1.2.3"
+    "@renovatebot/pgp" "1.3.0"
     "@renovatebot/ruby-semver" "4.1.2"
     "@sindresorhus/is" "7.2.0"
     "@yarnpkg/core" "4.5.0"
