@@ -1024,6 +1024,13 @@
   dependencies:
     "@isaacs/balanced-match" "^4.0.1"
 
+"@isaacs/brace-expansion@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@isaacs/brace-expansion/-/brace-expansion-5.0.1.tgz#0ef5a92d91f2fff2a37646ce54da9e5f599f6eff"
+  integrity sha512-WMz71T1JS624nWj2n2fnYAuPovhv7EUhk69R6i9dsVyzxt5eM3bjwvgk9L+APE1TRscGysAVMANkB0jh0LQZrQ==
+  dependencies:
+    "@isaacs/balanced-match" "^4.0.1"
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
@@ -3562,12 +3569,12 @@ glob-parent@^5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@13.0.0, glob@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.0.tgz#9d9233a4a274fc28ef7adce5508b7ef6237a1be3"
-  integrity sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==
+glob@13.0.1:
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.1.tgz#c59a2500c9a5f1ab9cdd370217ced63c2aa81e60"
+  integrity sha512-B7U/vJpE3DkJ5WXTgTpTRN63uV42DseiXXKMwG14LQBXmsdeIoHAPbU/MEo6II0k5ED74uc2ZGTC6MwHFQhF6w==
   dependencies:
-    minimatch "^10.1.1"
+    minimatch "^10.1.2"
     minipass "^7.1.2"
     path-scurry "^2.0.0"
 
@@ -3582,6 +3589,15 @@ glob@^10.3.7:
     minipass "^7.1.2"
     package-json-from-dist "^1.0.0"
     path-scurry "^1.11.1"
+
+glob@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-13.0.0.tgz#9d9233a4a274fc28ef7adce5508b7ef6237a1be3"
+  integrity sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==
+  dependencies:
+    minimatch "^10.1.1"
+    minipass "^7.1.2"
+    path-scurry "^2.0.0"
 
 glob@^6.0.1:
   version "6.0.4"
@@ -4868,6 +4884,13 @@ minimatch@10.1.1, minimatch@^10.1.1:
   dependencies:
     brace-expansion "^1.1.7"
 
+minimatch@^10.1.2:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.1.2.tgz#6c3f289f9de66d628fa3feb1842804396a43d81c"
+  integrity sha512-fu656aJ0n2kcXwsnwnv9g24tkU5uSmOlTjd6WyyaKm2Z+h1qmY6bAjrcaIxF/BslFqbZ8UBtbJi7KgQOZD2PTw==
+  dependencies:
+    "@isaacs/brace-expansion" "^5.0.1"
+
 minimatch@^9.0.4:
   version "9.0.5"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.5.tgz#d74f9dd6b57d83d8e98cfb82133b03978bc929e5"
@@ -5662,10 +5685,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.5.4:
-  version "43.5.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.5.4.tgz#c949b44b4dcbbe315906a685fc3710cbce3eb2a7"
-  integrity sha512-QWkB66hbN0qX0vv0QsPnPEnIl5Kt5PPExmAq3OauNoEm30cTpsO4qi+aeabsFOt/Nx2Z9yxVySFPbeIOr6GUQw==
+renovate@43.8.1:
+  version "43.8.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.8.1.tgz#da3b94301518db305e2b5ea36f1bf33569306b37"
+  integrity sha512-wwviM5t/5UCJ0JQ48FzStJUWFZvvDzhvodjzOigaRjIXhQ/Jhed6DYmKOLL9NKGZ64HmAR3+QmDzd1dZJ7zWOA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.980.0"
     "@aws-sdk/client-ec2" "3.980.0"
@@ -5733,7 +5756,7 @@ renovate@43.5.4:
     fs-extra "11.3.3"
     git-url-parse "16.1.0"
     github-url-from-git "1.5.0"
-    glob "13.0.0"
+    glob "13.0.1"
     global-agent "3.0.0"
     google-auth-library "10.5.0"
     got "11.8.6"
