@@ -38,6 +38,6 @@
   "schedule": "before 7am on sunday",
   "recreateWhen": "always",
   "automerge": true,
-  "automergeType": "branch",
+  "automergeType": "pr",
   "assignees": ["andreigec@hotmail.com"]
 }
