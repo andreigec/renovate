@@ -8,36 +8,40 @@
   "packageRules": [
     {
       "groupName": "all",
-      "matchPackagePatterns": ["*"],
+      "matchPackagePatterns": [
+        "*"
+      ],
       "automerge": true
     },
     {
-      "groupName": "node fetch",
-      "matchPackagePatterns": ["@types/node-fetch", "node-fetch", "eslint"],
-      "matchUpdateTypes": ["major"],
-      "enabled": false
-    },
-    {
-      "groupName": "emotion",
-      "matchPackagePatterns": ["@emotion/react"],
-      "matchCurrentVersion": "11.11.4",
-      "enabled": false
-    },
-    {
       "groupName": "in house",
-      "matchPackagePatterns": ["^ag-", "^analytica.click"],
-      "matchPackageNames": ["eslint-config-e7npm", "surveyfoundry.com"],
+      "matchPackagePatterns": [
+        "^ag-",
+        "^analytica.click"
+      ],
+      "matchPackageNames": [
+        "eslint-config-e7npm",
+        "surveyfoundry.com"
+      ],
       "schedule": "before 7am"
     }
   ],
-  "postUpdateOptions": ["pnpmDedupe"],
+  "postUpdateOptions": [
+    "pnpmDedupe"
+  ],
   "prConcurrentLimit": 1,
   "prNotPendingHours": 1,
-  "minimumReleaseAge": "0 days",
+  "minimumReleaseAge": "3 days",
   "semanticCommitType": "deps",
-  "schedule": "before 7am on sunday",
-  "recreateWhen": "always",
-  "automerge": true,
+  "schedule": "before 7am on monday and thursday",
+  "platformAutomerge": true,
   "automergeType": "pr",
-  "assignees": ["andreigec@hotmail.com"]
+  "rangeStrategy": "pin",
+  "assignees": [
+    "andreigec"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": "before 7am on sunday"
+  }
 }
