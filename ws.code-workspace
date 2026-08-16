@@ -5,39 +5,18 @@
     },
   ],
   "settings": {
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-      {
-        "language": "javascript",
-        "autoFix": true,
-      },
-      {
-        "language": "javascriptreact",
-        "autoFix": true,
-      },
-      {
-        "language": "typescript",
-        "autoFix": true,
-      },
-      {
-        "language": "typescriptreact",
-        "autoFix": true,
-      },
-    ],
+    "search.exclude": {
+      "**/.pnpm": true,
+      "**/.pnp.*": true,
+    },
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
+      "source.fixAll.oxc": "explicit",
     },
-    "typescript.tsdk": "node_modules\\typescript\\lib",
-    "files.exclude": {
-      "**/.git": true, // this is a default value
-      "**/.DS_Store": true, // this is a default value
-      "**/node_modules": true, // this excludes all folders
-      // named "node_modules" from
-      // the explore tree
-      // alternative version
-      "node_modules": true, // this excludes the folder
-      // only from the root of
-      // your workspace
-    },
+    "oxc.fmt.configPath": "./node_modules/eslint-config-e7npm/oxfmt.json",
+  },
+  "extensions": {
+    "recommendations": ["oxc.oxc-vscode"],
   },
 }

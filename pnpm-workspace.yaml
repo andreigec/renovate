@@ -1,3 +1,13 @@
+allowBuilds:
+  core-js-pure: false
+  dtrace-provider: false
+  eslint-config-e7npm: true
+  protobufjs: false
+  re2: false
+  unrs-resolver: false
+minimumReleaseAgeExclude:
+  - eslint-config-e7npm@0.1.57
+  - renovate@44.30.3
 onlyBuiltDependencies:
   - better-sqlite3
   - core-js-pure

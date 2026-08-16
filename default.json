@@ -1,34 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    ":timezone(Australia/Melbourne)",
-    ":dependencyDashboard",
-    ":rebaseStalePrs"
-  ],
+  "extends": [":timezone(Australia/Melbourne)", ":dependencyDashboard", ":rebaseStalePrs"],
   "packageRules": [
     {
       "groupName": "all",
-      "matchPackagePatterns": [
-        "*"
-      ],
+      "matchPackagePatterns": ["*"],
       "automerge": true
     },
     {
       "groupName": "in house",
-      "matchPackagePatterns": [
-        "^ag-",
-        "^analytica.click"
-      ],
-      "matchPackageNames": [
-        "eslint-config-e7npm",
-        "surveyfoundry.com"
-      ],
+      "matchPackagePatterns": ["^ag-", "^analytica.click"],
+      "matchPackageNames": ["eslint-config-e7npm", "surveyfoundry.com"],
       "schedule": "before 7am"
     }
   ],
-  "postUpdateOptions": [
-    "pnpmDedupe"
-  ],
+  "postUpdateOptions": ["pnpmDedupe"],
   "prConcurrentLimit": 1,
   "prNotPendingHours": 1,
   "minimumReleaseAge": "3 days",
@@ -37,9 +23,7 @@
   "platformAutomerge": true,
   "automergeType": "pr",
   "rangeStrategy": "pin",
-  "assignees": [
-    "andreigec"
-  ],
+  "assignees": ["andreigec"],
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": "before 7am on sunday"
