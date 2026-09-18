@@ -1,26 +1,54 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [":timezone(Australia/Melbourne)", ":dependencyDashboard", ":rebaseStalePrs"],
+  "extends": [
+    ":timezone(Australia/Melbourne)",
+    ":dependencyDashboard",
+    ":rebaseStalePrs"
+  ],
   "packageRules": [
     {
+      "description": "ag, renovate and e7npm tooling: Monday",
+      "matchRepositories": [
+        "andreigec/ag-*",
+        "andreigec/renovate",
+        "andreigec/eslint-config-e7npm"
+      ],
+      "schedule": "before 7am on monday"
+    },
+    {
+      "description": "Analytica and Survey Foundry: Wednesday",
+      "matchRepositories": [
+        "andreigecanalytica/analytica.click",
+        "andreigecanalytica/analytica.click.gh",
+        "andreigecanalytica/surveyfoundry.com"
+      ],
+      "schedule": "before 7am on wednesday"
+    },
+    {
+      "description": "Group all third party updates into a single automerged PR",
       "groupName": "all",
-      "matchPackagePatterns": ["*"],
+      "matchPackageNames": ["*"],
       "automerge": true
     },
     {
+      "description": "Keep in-house package updates in their own automerged PR",
       "groupName": "in house",
-      "matchPackagePatterns": ["^ag-", "^analytica.click"],
-      "matchPackageNames": ["eslint-config-e7npm", "surveyfoundry.com"],
-      "schedule": "before 7am"
+      "matchPackageNames": [
+        "ag-*",
+        "analytica.click*",
+        "eslint-config-e7npm",
+        "surveyfoundry.com"
+      ],
+      "automerge": true
     }
   ],
   "postUpdateOptions": ["pnpmDedupe"],
-  "prConcurrentLimit": 1,
+  "prConcurrentLimit": 2,
   "prNotPendingHours": 1,
   "minimumReleaseAge": "3 days",
   "semanticCommitType": "deps",
-  "schedule": "before 7am on monday and thursday",
-  "platformAutomerge": true,
+  "schedule": "before 7am on friday",
+  "platformAutomerge": false,
   "automergeType": "pr",
   "rangeStrategy": "pin",
   "assignees": ["andreigec"],
