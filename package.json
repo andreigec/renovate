@@ -10,9 +10,9 @@
   "devDependencies": {
     "cross-env": "10.1.0",
     "eslint-config-e7npm": "0.1.57",
-    "oxfmt": "0.63.0",
-    "oxlint": "1.78.0",
-    "renovate": "44.30.3"
+    "oxfmt": "0.68.0",
+    "oxlint": "1.83.0",
+    "renovate": "44.94.0"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@11.27.0"
 }
