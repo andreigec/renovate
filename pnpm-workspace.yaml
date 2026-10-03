@@ -6,8 +6,8 @@ allowBuilds:
   re2: false
   unrs-resolver: false
 minimumReleaseAgeExclude:
-  - eslint-config-e7npm@0.1.57
-  - renovate@44.30.3
+  - eslint-config-e7npm@0.1.57 || 0.1.69
+  - renovate@44.30.3 || 44.132.5
 onlyBuiltDependencies:
   - better-sqlite3
   - core-js-pure

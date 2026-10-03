@@ -1,10 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    ":timezone(Australia/Melbourne)",
-    ":dependencyDashboard",
-    ":rebaseStalePrs"
-  ],
+  "extends": [":timezone(Australia/Melbourne)", ":dependencyDashboard", ":rebaseStalePrs"],
   "packageRules": [
     {
       "description": "ag, renovate and e7npm tooling: Monday",
@@ -33,12 +29,7 @@
     {
       "description": "Keep in-house package updates in their own automerged PR",
       "groupName": "in house",
-      "matchPackageNames": [
-        "ag-*",
-        "analytica.click*",
-        "eslint-config-e7npm",
-        "surveyfoundry.com"
-      ],
+      "matchPackageNames": ["ag-*", "analytica.click*", "eslint-config-e7npm", "surveyfoundry.com"],
       "automerge": true
     }
   ],
