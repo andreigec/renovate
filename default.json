@@ -36,6 +36,7 @@
   "postUpdateOptions": ["pnpmDedupe"],
   "prConcurrentLimit": 2,
   "prNotPendingHours": 1,
+  "updateNotScheduled": false,
   "minimumReleaseAge": "3 days",
   "semanticCommitType": "deps",
   "schedule": "before 7am on friday",
@@ -45,6 +46,8 @@
   "assignees": ["andreigec"],
   "lockFileMaintenance": {
     "enabled": true,
+    "automerge": true,
+    "minimumReleaseAge": null,
     "schedule": "before 7am on sunday"
   }
 }
