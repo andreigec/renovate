@@ -1,4 +1,4 @@
-on: [pull_request]
+on: [pull_request, workflow_dispatch]
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   PR:
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'home-cluster' }}
     name: lint
     steps:
       - name: Checkout
