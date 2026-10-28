@@ -31,6 +31,11 @@
       "groupName": "in house",
       "matchPackageNames": ["ag-*", "analytica.click*", "eslint-config-e7npm", "surveyfoundry.com"],
       "automerge": true
+    },
+    {
+      "description": "pnpm 11.28.8 and 11.28.9 segfault on the 16K-page arm64 CI runners (rpi0); 12.x works. Re-test newer 11.x before widening.",
+      "matchPackageNames": ["pnpm"],
+      "allowedVersions": "<11.28.8 || >=12"
     }
   ],
   "postUpdateOptions": ["pnpmDedupe"],
