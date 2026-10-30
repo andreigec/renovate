@@ -33,6 +33,14 @@
       "automerge": true
     }
   ],
+  "hostRules": [
+    {
+      "description": "Private @andreigec packages on GitHub Packages, read with the read-only PAT",
+      "matchHost": "npm.pkg.github.com",
+      "hostType": "npm",
+      "token": "{{ secrets.PACKAGES_READ_TOKEN }}"
+    }
+  ],
   "postUpdateOptions": ["pnpmDedupe"],
   "prConcurrentLimit": 2,
   "prNotPendingHours": 1,

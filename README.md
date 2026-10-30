@@ -41,3 +41,12 @@ Renovate treats them as green and merges immediately. Add a PR check or disable
 automerge for those repos if you want a gate.
 
 Run the validator locally with `pnpm -w run lint`.
+
+## Private packages
+
+The `@andreigec/*` packages live on GitHub Packages (`npm.pkg.github.com`), which a GitHub
+App token cannot read for user-owned packages. `default.json` authenticates that host with
+the `PACKAGES_READ_TOKEN` Renovate secret: the same read-only classic PAT as SSM
+`/rpi-mega/prod/github/packages-read-token`, set as an organization secret in the Mend
+developer portal (developer.mend.io) for every account (`andreigec`, `andreigecanalytica`,
+`boltgarden`). Each repo's `.npmrc` maps the `@andreigec` scope to that registry.
