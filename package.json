@@ -14,5 +14,5 @@
     "oxlint": "1.90.0",
     "renovate": "44.198.3"
   },
-  "packageManager": "pnpm@12.9.1"
+  "packageManager": "pnpm@12.16.1"
 }
