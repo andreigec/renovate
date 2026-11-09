@@ -8,11 +8,11 @@
     "lint": "cross-env RENOVATE_CONFIG_FILE=default.json renovate-config-validator"
   },
   "devDependencies": {
-    "cross-env": "10.1.0",
-    "eslint-config-e7npm": "0.1.74",
-    "oxfmt": "0.75.0",
-    "oxlint": "1.90.0",
-    "renovate": "44.198.3"
+    "cross-env": "catalog:",
+    "eslint-config-e7npm": "catalog:",
+    "oxfmt": "catalog:",
+    "oxlint": "catalog:",
+    "renovate": "catalog:"
   },
-  "packageManager": "pnpm@12.9.1"
+  "packageManager": "pnpm@12.18.0"
 }
